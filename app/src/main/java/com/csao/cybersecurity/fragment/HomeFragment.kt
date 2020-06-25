@@ -25,8 +25,8 @@ class HomeFragment : Fragment() {
         "Preventive Tips",
         "Helpline Numbers"
     )
-
     val homeInfoList = arrayListOf<Home>(
+
 
         Home("Security check",R.drawable.user),
         Home("Learn to Cyber Crime",R.drawable.user),

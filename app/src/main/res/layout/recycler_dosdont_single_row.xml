@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout"
+    android:layout_margin="10dp"
+    android:padding="3dp"
+    android:weightSum="6">
+
+
+    <TextView
+        android:id="@+id/txtDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:drawablePadding="4dp"
+        android:padding="4dp"
+        android:text="@string/info"
+        android:textAlignment="gravity"
+        android:textColor="#070707"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imgDoAndDont"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/dos_and_dont_image"
+        />
+
+</LinearLayout>

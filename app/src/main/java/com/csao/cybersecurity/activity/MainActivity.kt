@@ -10,7 +10,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import com.csao.cybersecurity.DosDontFragment
+import com.csao.cybersecurity.fragment.DosDontFragment
 import com.csao.cybersecurity.R
 import com.csao.cybersecurity.fragment.AboutAppFragment
 import com.csao.cybersecurity.fragment.CaseStudyFragment

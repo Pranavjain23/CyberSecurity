@@ -12,7 +12,6 @@
         <activity android:name=".activity.HelplineActivity"></activity>
         <activity android:name=".activity.PreventiveActivity" />
         <activity android:name=".activity.CyberComplaintActivity" />
-        <activity android:name=".activity.LearnCyberCrimeActivity" />
         <activity android:name=".activity.SecurityCheckActivity" />
         <activity android:name=".activity.MainActivity">
             <intent-filter>

@@ -2,6 +2,7 @@ package com.csao.cybersecurity.adapter
 
 import android.content.Context
 import android.content.Intent
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,10 +10,13 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.csao.cybersecurity.R
 import com.csao.cybersecurity.activity.*
+import com.csao.cybersecurity.fragment.LearnCyberCrimeFragment
 import com.csao.cybersecurity.model.Home
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.recycler_home_single_row.view.*
 
 class HomeRecyclerAdapter (val context: Context, val itemList: ArrayList<Home>): RecyclerView.Adapter<HomeRecyclerAdapter.HomeViewHolder>() {
@@ -41,8 +45,15 @@ class HomeRecyclerAdapter (val context: Context, val itemList: ArrayList<Home>):
                 context.startActivity(intent)
             }
             else if(position==1){
-                val intent = Intent(context , LearnCyberCrimeActivity::class.java)
-                context.startActivity(intent)
+                val fragment = LearnCyberCrimeFragment()
+                val args = Bundle()
+                fragment.arguments = args
+                (context as MainActivity).supportFragmentManager.beginTransaction()
+                    .replace(
+                        R.id.frame,
+                        fragment
+                    ).commit()
+
             }
             else if(position==2){
                 val intent = Intent(context , CyberComplaintActivity::class.java)
@@ -67,4 +78,5 @@ class HomeRecyclerAdapter (val context: Context, val itemList: ArrayList<Home>):
         val imgHomeHeader: ImageView = view.findViewById(R.id.imgHomeHeader)
         val llContent : LinearLayout = view.findViewById(R.id.llContent)
     }
+
 }

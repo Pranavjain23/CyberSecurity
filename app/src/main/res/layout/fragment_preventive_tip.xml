@@ -3,18 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment.HomeFragment"
-    >
+    tools:context=".fragment.PreventiveTipFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerHome"
+        android:id="@+id/recyclerPreventiveTip"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="7dp"
         android:layout_marginEnd="1dp"
         android:padding="10dp"/>
 
-    </RelativeLayout>
+</RelativeLayout>

@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.AboutAppFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/AboutAppHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:textColor="#32CD32"/>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium tellus maximus, condimentum ante in, porta lectus. Morbi egestas orci ac erat dignissim"
+        android:layout_below="@id/AboutAppHeader"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/creatorTeam"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#bdbdbd"
+        android:textAlignment="textStart"
+        android:text="APP CREATOR TEAM"
+        android:drawableLeft="@drawable/ic_creator"
+        android:drawablePadding="15dp"
+        android:layout_below="@id/txtAboutApp"/>
+</RelativeLayout>

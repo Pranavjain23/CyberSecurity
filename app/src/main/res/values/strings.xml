@@ -8,4 +8,14 @@
     <string name="info">info</string>
     <string name="dos_and_dont_image">Dos and Dont Image</string>
     <string name="learn_cyber_crime_headings">Learn Cyber Crime Headings</string>
+    <string name="linkFAQ">
+            <a href="https://cybercrime.gov.in/Webform/FAQ.aspx">FAQ link </a>
+    </string>
+
+    <string name="do_string">
+        DO
+    </string>
+    <string name="dont_string">
+        DONT
+    </string>
 </resources>

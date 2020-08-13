@@ -1,6 +1,7 @@
 package com.csao.cybersecurity.activity
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,12 +11,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import com.csao.cybersecurity.fragment.DosDontFragment
 import com.csao.cybersecurity.R
-import com.csao.cybersecurity.fragment.AboutAppFragment
-import com.csao.cybersecurity.fragment.CaseStudyFragment
-import com.csao.cybersecurity.fragment.HomeFragment
-import com.csao.cybersecurity.fragment.ShareFragment
+import com.csao.cybersecurity.fragment.*
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -74,7 +71,7 @@ class MainActivity : AppCompatActivity() {
                     openHome()
                     drawerLayout.closeDrawers()
                 }
-                R.id.dos ->{
+                R.id.dosDonts ->{
                     supportFragmentManager.beginTransaction()
                         .replace(
                             R.id.frame,
@@ -86,29 +83,38 @@ class MainActivity : AppCompatActivity() {
                     drawerLayout.closeDrawers()
                 }
 
-                R.id.caseStudy ->{
+                R.id.impResources ->{
                     supportFragmentManager.beginTransaction()
                         .replace(
                             R.id.frame,
-                            CaseStudyFragment()
+                            ImportantResourcesFragment()
                         )                                                                                        // dashboard fragment is replacing the blank frame
                         .commit()
 
-                    supportActionBar?.title = "Case Study"                                                     //giving the title
+                    supportActionBar?.title = "Important Resources"                                                     //giving the title
+                    drawerLayout.closeDrawers()
+                }
+
+                R.id.expertsPanel ->{
+                    supportFragmentManager.beginTransaction()
+                        .replace(
+                            R.id.frame,
+                            ExpertsPanelFragment()
+                        )                                                                                        // dashboard fragment is replacing the blank frame
+                        .commit()
+
+                    supportActionBar?.title = "Experts Panel"                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
 
                 R.id.share -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(
-                            R.id.frame,
-                            ShareFragment()
-                        )                                                                                     // dashboard fragment is replacing the blank frame
-                        .commit()
-
-                    supportActionBar?.title = "Share"
-                    drawerLayout.closeDrawers()
-
+                    val myIntent = Intent(Intent.ACTION_SEND)
+                    myIntent.type = "type/plain"
+                    val shareBody = "Your Body Here"
+                    val shareSub = "Your Subject Here"
+                    myIntent.putExtra(Intent.EXTRA_SUBJECT, shareBody)
+                    myIntent.putExtra(Intent.EXTRA_TEXT, shareSub)
+                    startActivity(Intent.createChooser(myIntent,"Share Your App"))
                 }
 
                 R.id.about_app ->{
@@ -122,8 +128,6 @@ class MainActivity : AppCompatActivity() {
                     supportActionBar?.title = "About App"
                     drawerLayout.closeDrawers()
                 }
-
-
 
 
 

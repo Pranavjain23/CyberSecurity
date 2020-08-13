@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.csao.cybersecurity.R
@@ -20,19 +21,18 @@ class HomeFragment : Fragment() {
 
     val homeList = arrayListOf(
         "Security check",
-        "Learn to Cyber Crime",
+        "Learn about Cyber Crime",
         "Cyber complaint",
         "Preventive Tips",
         "Helpline Numbers"
     )
     val homeInfoList = arrayListOf<Home>(
 
-
-        Home("Security check",R.drawable.user),
-        Home("Learn to Cyber Crime",R.drawable.user),
-        Home("Cyber complaint",R.drawable.user),
-        Home("Preventive Tips",R.drawable.user),
-        Home("Helpline Numbers",R.drawable.user)
+        Home("Security check",R.drawable.securitycheck),
+        Home("Learn to Cyber Crime",R.drawable.learncybercrime),
+        Home("Cyber Complaint",R.drawable.cybercomplaint),
+        Home("Preventive Tips",R.drawable.preventivetips),
+        Home("Helpline Numbers",R.drawable.helplinenumber)
     )
 
     lateinit var recyclerAdapter: HomeRecyclerAdapter
@@ -45,12 +45,11 @@ class HomeFragment : Fragment() {
 
 
         recyclerHome = view.findViewById(R.id.recyclerHome)
-        layoutManager= LinearLayoutManager(activity)
+        layoutManager= GridLayoutManager(activity,2)
         recyclerAdapter = HomeRecyclerAdapter(activity as Context, homeInfoList)
 
         recyclerHome.adapter = recyclerAdapter
         recyclerHome.layoutManager = layoutManager
-
 
         return view
     }

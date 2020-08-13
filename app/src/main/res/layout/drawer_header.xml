@@ -7,22 +7,21 @@
 
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/user"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/logo"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:padding="10dp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CSAO"
+        android:text="WELCOME"
+        android:textAllCaps="true"
         android:textColor="#ffffff"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
-        android:textSize="45sp"
+        android:textSize="30sp"
         />
 
 </LinearLayout>

@@ -9,19 +9,13 @@ import android.widget.Button
 import com.csao.cybersecurity.R
 
 
-class AboutAppFragment : Fragment() {
-
-    lateinit var creatorTeam : Button
-
+class ExpertsPanelFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_about_app, container, false)
-
-        creatorTeam = view.findViewById(R.id.creatorTeam)
-
+        val view =  inflater.inflate(R.layout.fragment_experts_panel, container, false)
         return view
     }
 

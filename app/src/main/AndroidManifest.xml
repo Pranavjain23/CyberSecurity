@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.HelplineActivity"></activity>
+        <activity android:name=".activity.HelplineActivity" />
         <activity android:name=".activity.PreventiveActivity" />
         <activity android:name=".activity.CyberComplaintActivity" />
         <activity android:name=".activity.SecurityCheckActivity" />

@@ -6,11 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".activity.HelplineActivity">
 
-    <TextView
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Helpline"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="center"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:titleTextColor="#FFFFFF">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btnContactHeader"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Helpline Number"
-        android:textSize="40sp"
-        android:padding="20dp"/>
+        android:text="Contact Numbers"/>
+
+
 
 </RelativeLayout>

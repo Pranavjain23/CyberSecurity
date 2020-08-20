@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.SecurityCheckFragment"
+    android:background="@drawable/homebackground">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="Are you aware? Take this quiz to check your knowledge"
+            android:textSize="22sp"
+            android:padding="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@+id/top">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/heading1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Question 1"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    />
+
+                <TextView
+                    android:id="@+id/detail1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_below="@+id/heading1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Do you change your passwords frequently? "
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detail1"
+                    android:layout_marginTop="10dp">
+
+                    <RadioButton
+                        android:id="@+id/rb11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/rb12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="No" />
+
+
+                </RadioGroup>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv2"
+            android:layout_width="match_parent"
+            android:layout_below="@id/cv1"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/heading2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Question 2"
+                    android:textColor="@android:color/black"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="24sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/detail2"
+                    android:layout_below="@+id/heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:text="How do you use bank’s services?"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detail2"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="From the mails" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="From the text messages" />
+
+                    <RadioButton
+                        android:id="@+id/correct2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="From bank’s official website or app" />
+
+                </RadioGroup>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv3"
+            android:layout_width="match_parent"
+            android:layout_below="@id/cv2"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+                <TextView
+                    android:id="@+id/heading3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Question 3"
+                    android:textColor="@android:color/black"
+
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="24sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/detail3"
+                    android:layout_below="@+id/heading3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:text=" Do you connect your phone to the free, unsecured Wi-Fi for shopping or banking ?"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detail3"
+                    android:layout_marginTop="10dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="No" />
+
+                </RadioGroup>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv4"
+            android:layout_width="match_parent"
+            android:layout_below="@id/cv3"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/heading4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+
+                    android:text="Question 4"
+                    />
+
+                <TextView
+                    android:id="@+id/detail4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading4"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:text="Do you install the software that comes as an attachment in emails?"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detail4"
+                    android:layout_marginTop="10dp">
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:text="No" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="Yes" />
+
+
+                </RadioGroup>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv5"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@id/cv4"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+                <TextView
+                    android:id="@+id/heading5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="24sp"
+                    android:textColor="@android:color/black"
+
+                    android:text="Question 5"
+                    />
+
+                <TextView
+                    android:id="@+id/detail5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading5"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/colorPrimaryDark"
+
+                    android:layout_marginRight="40dp"
+                    android:text="Do you share your personal/bank details with the caller even if he seems genuine?"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/rg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/detail5"
+                    android:layout_marginTop="10dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="No" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="Sometimes" />
+
+                </RadioGroup>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textFontWeight="70"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/cv5"
+            android:text="Submit"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

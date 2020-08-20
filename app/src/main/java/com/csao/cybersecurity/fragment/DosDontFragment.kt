@@ -30,14 +30,14 @@ class DosDontFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view=inflater.inflate(R.layout.fragment_dos_dont, container, false)
+        val view= inflater.inflate(R.layout.fragment_dos_dont, container, false)
 
 
         tabLayout = view.findViewById(R.id.tabLayout);
         viewPager = view.findViewById(R.id.viewPager);
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-        val adapter= MyAdapter(context,myContext.getSupportFragmentManager())
+        val adapter= MyAdapter(context, childFragmentManager)
 
         viewPager.setAdapter(adapter)
 

@@ -14,8 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.csao.cybersecurity.R
 import com.csao.cybersecurity.activity.*
-import com.csao.cybersecurity.fragment.LearnCyberCrimeFragment
-import com.csao.cybersecurity.fragment.PreventiveTipFragment
+import com.csao.cybersecurity.fragment.*
 import com.csao.cybersecurity.model.Home
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.recycler_home_single_row.view.*
@@ -42,8 +41,14 @@ class HomeRecyclerAdapter (val context: Context, val itemList: ArrayList<Home>):
 
         holder.llContent.setOnClickListener {
             if(position==0){
-                val intent = Intent(context , SecurityCheckActivity::class.java)
-                context.startActivity(intent)
+                val fragment = SecurityCheckFragment()
+                val args = Bundle()
+                fragment.arguments = args
+                (context as MainActivity).supportFragmentManager.beginTransaction()
+                    .replace(
+                        R.id.frame,
+                        fragment
+                    ).commit()
             }
             else if(position==1){
                 val fragment = LearnCyberCrimeFragment()
@@ -57,8 +62,14 @@ class HomeRecyclerAdapter (val context: Context, val itemList: ArrayList<Home>):
 
             }
             else if(position==2){
-                val intent = Intent(context , CyberComplaintActivity::class.java)
-                context.startActivity(intent)
+                val fragment = CyberComplaintFragment()
+                val args = Bundle()
+                fragment.arguments = args
+                (context as MainActivity).supportFragmentManager.beginTransaction()
+                    .replace(
+                        R.id.frame,
+                        fragment
+                    ).commit()
             }
             else if(position==3){
                 val fragment = PreventiveTipFragment()
@@ -73,8 +84,24 @@ class HomeRecyclerAdapter (val context: Context, val itemList: ArrayList<Home>):
 
             }
             else if(position==4){
-                val intent = Intent(context , HelplineActivity::class.java)
-                context.startActivity(intent)
+                val fragment = HelplineNumberFragment()
+                val args = Bundle()
+                fragment.arguments = args
+                (context as MainActivity).supportFragmentManager.beginTransaction()
+                    .replace(
+                        R.id.frame,
+                        fragment
+                    ).commit()
+            }
+            else if(position==5){
+                val fragment = VideosAndWebinarFragment()
+                val args = Bundle()
+                fragment.arguments = args
+                (context as MainActivity).supportFragmentManager.beginTransaction()
+                    .replace(
+                        R.id.frame,
+                        fragment
+                    ).commit()
             }
 
         }

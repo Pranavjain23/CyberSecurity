@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Expert1NishaDuaFragment"
+    android:background="@drawable/homebackground">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="10dp"
+        android:orientation="vertical"
+        android:id="@+id/card1Expert">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:id="@+id/llContent1">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/expert1nishadua"
+                android:layout_weight="3"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <RelativeLayout
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtExpertName1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nisha Dua"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/txtExpertDesignation1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtExpertName1"
+                    android:paddingStart="8dp"
+                    android:text="Principal Consultant Cyber Peace Foundation"
+                    android:textSize="15sp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card1Expert"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/expertDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="Nisha Dua is a dynamic &amp; visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army &amp; Navy Schools across Delhi, Mumbai and Vizag.
+A staunch proponent of transformative power of Information &amp; Communication Technology in improving lives &amp; learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building &amp; policy reforms at  various levels.
+A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety &amp; Security Programs at Cyber Peace Foundation. "/>
+
+    <TextView
+        android:id="@+id/expertName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expertDescription"
+        android:text="Nisha Dua"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+        <TextView
+            android:id="@+id/expertTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:paddingBottom="5dp"
+            android:layout_below="@id/expertName"
+            android:textStyle="bold"
+            android:text="Mentor &amp; Coach e-Learning Models, Cyber Safety &amp; Wellness"/>
+
+        <TextView
+            android:id="@+id/expertTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Principal Consultant Cyber Peace Foundation"
+            android:layout_below="@id/expertTitle1"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="7dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="7dp"
+            android:layout_below="@id/expertTitle2"
+            android:textSize="17sp"
+            android:text="nishadua@yahoo.com"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -10,7 +10,7 @@
         <item
             android:id="@+id/dosDonts"
             android:icon="@drawable/ic_dodont"
-            android:title="Do's and Don'ts" />
+             android:title="Do's and Don'ts" />
         <item
             android:id="@+id/impResources"
             android:icon="@drawable/ic_impresources"
@@ -19,6 +19,10 @@
             android:id="@+id/expertsPanel"
             android:icon="@drawable/ic_expertspanel"
             android:title="Experts Panel" />
+        <item
+            android:id="@+id/credits"
+            android:icon="@drawable/ic_credits"
+            android:title="Credits" />
         <item
             android:id="@+id/about_app"
             android:icon="@drawable/ic_aboutapp"

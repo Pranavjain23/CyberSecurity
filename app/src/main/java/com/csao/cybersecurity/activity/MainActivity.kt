@@ -11,6 +11,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.csao.cybersecurity.BuildConfig
 import com.csao.cybersecurity.R
 import com.csao.cybersecurity.fragment.*
 import com.google.android.material.navigation.NavigationView
@@ -106,15 +107,25 @@ class MainActivity : AppCompatActivity() {
                     supportActionBar?.title = "Experts Panel"                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
+                R.id.credits ->{
+                    supportFragmentManager.beginTransaction()
+                        .replace(
+                            R.id.frame,
+                            CreditsFragment()
+                        )                                                                                        // dashboard fragment is replacing the blank frame
+                        .commit()
+
+                    supportActionBar?.title = "CreditsFragment"                                                     //giving the title
+                    drawerLayout.closeDrawers()
+                }
 
                 R.id.share -> {
-                    val myIntent = Intent(Intent.ACTION_SEND)
-                    myIntent.type = "type/plain"
-                    val shareBody = "Your Body Here"
-                    val shareSub = "Your Subject Here"
-                    myIntent.putExtra(Intent.EXTRA_SUBJECT, shareBody)
-                    myIntent.putExtra(Intent.EXTRA_TEXT, shareSub)
-                    startActivity(Intent.createChooser(myIntent,"Share Your App"))
+
+                    val shareIntent = Intent(Intent.ACTION_SEND)
+                    shareIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                    shareIntent.type = "text/plain"
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Hey check out my app at: https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID)
+                    startActivity(shareIntent)
                 }
 
                 R.id.about_app ->{

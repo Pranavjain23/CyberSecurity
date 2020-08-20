@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:text="@string/learn_cyber_crime_headings"
         android:textSize="16sp"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:padding="10dp"/>
 

@@ -24,15 +24,17 @@ class HomeFragment : Fragment() {
         "Learn about Cyber Crime",
         "Cyber complaint",
         "Preventive Tips",
-        "Helpline Numbers"
+        "Helpline Numbers",
+        "Videos and Webinars"
     )
     val homeInfoList = arrayListOf<Home>(
 
         Home("Security check",R.drawable.securitycheck),
-        Home("Learn to Cyber Crime",R.drawable.learncybercrime),
+        Home("Learn about Cyber Crime",R.drawable.learncybercrime),
         Home("Cyber Complaint",R.drawable.cybercomplaint),
         Home("Preventive Tips",R.drawable.preventivetips),
-        Home("Helpline Numbers",R.drawable.helplinenumber)
+        Home("Helpline Numbers",R.drawable.helplinenumber),
+        Home("Videos and Webinars",R.drawable.videosandwebinar)
     )
 
     lateinit var recyclerAdapter: HomeRecyclerAdapter

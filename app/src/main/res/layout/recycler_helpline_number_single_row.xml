@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:id="@+id/llContentHN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <TextView
+            android:id="@+id/txtStateName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="State Name"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_weight="5"/>
+
+        <Button
+            android:id="@+id/btnContactNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_call"
+            android:text="Contact Number"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

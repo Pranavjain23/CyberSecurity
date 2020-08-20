@@ -10,7 +10,7 @@
                 android:color="#efefef" />
 
 
-            <corners android:radius="6dp"/>
+            <corners android:radius="0dp"/>
         </shape>
     </item>
 
@@ -24,7 +24,7 @@
                 android:centerColor="#ff8a65"
                 android:startColor="#ff7043"
                 android:useLevel="false"/>
-            <corners android:radius="6dp"/>
+            <corners android:radius="0dp"/>
         </shape>
     </item>
 

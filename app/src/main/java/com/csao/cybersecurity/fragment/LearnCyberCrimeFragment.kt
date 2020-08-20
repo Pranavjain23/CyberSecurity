@@ -1,18 +1,18 @@
 package com.csao.cybersecurity.fragment
 
+import android.app.ActionBar
 import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.csao.cybersecurity.R
-import com.csao.cybersecurity.adapter.DosDontRecyclerAdapter
+import com.csao.cybersecurity.activity.MainActivity
 import com.csao.cybersecurity.adapter.LearnCyberCrimeRecyclerAdapter
 import com.csao.cybersecurity.model.LearnCyberCrime
-import kotlinx.android.synthetic.main.activity_main.*
 
 
 class LearnCyberCrimeFragment : Fragment() {
@@ -53,13 +53,11 @@ class LearnCyberCrimeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_learn_cyber_crime, container, false)
 
+        getActionBar()?.setTitle("Learn about Cyber Crime");
         recyclerLearnCyberCrime = view.findViewById(R.id.recyclerLearnCyberCrime)
         layoutManager = LinearLayoutManager(activity)
-
-
 
         recyclerAdapter = LearnCyberCrimeRecyclerAdapter(activity as Context, LearnCyberCrimeInfoList)
 
@@ -69,6 +67,8 @@ class LearnCyberCrimeFragment : Fragment() {
         return view
     }
 
-
+    private fun getActionBar(): androidx.appcompat.app.ActionBar? {
+        return (activity as MainActivity).supportActionBar
+    }
 
 }

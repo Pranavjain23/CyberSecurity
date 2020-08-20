@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import com.csao.cybersecurity.R
+import com.csao.cybersecurity.activity.MainActivity
 
 
 class AboutAppFragment : Fragment() {
@@ -22,7 +23,20 @@ class AboutAppFragment : Fragment() {
 
         creatorTeam = view.findViewById(R.id.creatorTeam)
 
+        creatorTeam.setOnClickListener {
+            val fragment = AppCreatorFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            (context as MainActivity).supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.frame,
+                    fragment
+                ).commit()
+        }
+
         return view
     }
+
+
 
 }

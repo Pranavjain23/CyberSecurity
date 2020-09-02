@@ -46,7 +46,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:padding="10dp">
+                android:padding="5dp">
 
                 <TextView
                     android:id="@+id/txtExpertName1"
@@ -59,12 +59,12 @@
 
                 <TextView
                     android:id="@+id/txtExpertDesignation1"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtExpertName1"
                     android:paddingStart="8dp"
                     android:text="Principal Consultant Cyber Peace Foundation"
-                    android:textSize="15sp"/>
+                    />
 
             </RelativeLayout>
 
@@ -106,7 +106,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:padding="10dp">
+                android:padding="5dp">
 
                 <TextView
                     android:id="@+id/txtExpertName2"
@@ -123,8 +123,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtExpertName2"
                     android:text="Designation"
-                    android:paddingStart="8dp"
-                    android:textSize="15sp"/>
+                    android:paddingStart="8dp"/>
 
             </RelativeLayout>
 
@@ -166,7 +165,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:padding="10dp">
+                android:padding="5dp">
 
                 <TextView
                     android:id="@+id/txtExpertName3"
@@ -183,8 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtExpertName3"
                     android:text="Designation"
-                    android:paddingStart="8dp"
-                    android:textSize="15sp"/>
+                    android:paddingStart="8dp"/>
 
             </RelativeLayout>
 

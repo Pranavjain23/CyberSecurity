@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp">
+        android:layout_marginBottom="120dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:padding="10dp">
+                android:padding="5dp">
 
                 <TextView
                     android:id="@+id/txtExpertName1"
@@ -64,7 +64,7 @@
                     android:layout_below="@id/txtExpertName1"
                     android:paddingStart="8dp"
                     android:text="Principal Consultant Cyber Peace Foundation"
-                    android:textSize="15sp"/>
+                    />
 
             </RelativeLayout>
 

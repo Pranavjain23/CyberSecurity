@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.HomeFragment"
     android:background="@drawable/homebackground"
     >
@@ -16,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="7dp"
         android:layout_marginEnd="1dp"
+        android:overScrollMode="never"
         android:padding="10dp"/>
 
 </RelativeLayout>

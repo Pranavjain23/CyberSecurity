@@ -36,7 +36,7 @@ class HelplineNumberRecyclerAdapter (val context: Context, val itemList: ArrayLi
         holder.btnContactNumber.text = helplineNumber.contactNumber
 
         holder.btnContactNumber.setOnClickListener {
-            var u : Uri = Uri.parse("tel: $holder.btnContactNumber.text")
+            var u : Uri = Uri.parse("tel: "+holder.btnContactNumber.text)
             val intent = Intent(Intent.ACTION_DIAL,u)
             try
             {

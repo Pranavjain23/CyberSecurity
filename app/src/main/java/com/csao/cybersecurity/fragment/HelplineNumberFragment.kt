@@ -22,6 +22,7 @@ class HelplineNumberFragment : Fragment() {
     lateinit var layoutManager: RecyclerView.LayoutManager
 
     val HelplineNumberInfoList = arrayListOf<HelplineNumber>(
+        HelplineNumber("helpline@cyberpeace.net","9570000066"),
         HelplineNumber("ANDAMAN & NICOBAR","03192230216"),
         HelplineNumber("ANDHRA PRADESH","08632340152"),
         HelplineNumber("Arunachal Pradesh","03602215518"),

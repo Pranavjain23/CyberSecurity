@@ -106,7 +106,7 @@
                     android:textSize="15sp" />
 
                 <TextView
-                    android:id="@+id/txtBookPrice"
+                    android:id="@+id/txtContactNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtMyId"
@@ -117,16 +117,6 @@
                     android:textColor="#357a38"
                     android:textSize="15sp"
                     android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/feedback"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/txtBookPrice"
-                    android:layout_marginLeft="4dp"
-                    android:drawablePadding="0dp"
-                    android:textColor="#000000"
-                    android:textSize="15sp" />
-
 
             </RelativeLayout>
 
@@ -178,7 +168,7 @@
                     android:textSize="15sp" />
 
                 <TextView
-                    android:id="@+id/txtBookPrice1"
+                    android:id="@+id/txtContactNumber1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtMyId1"
@@ -189,15 +179,7 @@
                     android:textColor="#357a38"
                     android:textSize="15sp"
                     android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/feedback1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/txtBookPrice1"
-                    android:layout_marginLeft="4dp"
-                    android:drawablePadding="0dp"
-                    android:textColor="#000000"
-                    android:textSize="15sp" />
+
 
 
             </RelativeLayout>

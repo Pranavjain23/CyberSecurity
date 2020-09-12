@@ -47,7 +47,7 @@ class HomeFragment : Fragment() {
 
 
         recyclerHome = view.findViewById(R.id.recyclerHome)
-        layoutManager= GridLayoutManager(activity,2)
+        layoutManager= LinearLayoutManager(activity)
         recyclerAdapter = HomeRecyclerAdapter(activity as Context, homeInfoList)
 
         recyclerHome.adapter = recyclerAdapter

@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:text="WELCOME"
         android:textAllCaps="true"
+        android:textStyle="bold"
         android:textColor="#ffffff"
         android:layout_marginLeft="30dp"
         android:textSize="30sp"

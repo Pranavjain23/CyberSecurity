@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.CreditsFragment">
+    tools:context=".fragment.CreditsFragment"
+    android:background="@drawable/homebackground">
+
      <RelativeLayout
          android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:background="@drawable/homebackground">
-
-
+         android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
     android:id="@+id/card1"
@@ -22,26 +21,16 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="20dp">
-
-        <TextView
-            android:id="@+id/h1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:layout_centerHorizontal="true"
-            android:textColor="@android:color/black"
-            android:text="Get Cyber Safe"/>
+        android:padding="15dp">
 
         <TextView
             android:id="@+id/linking1"
-            android:layout_below="@id/h1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:layout_marginTop="6dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
             android:text="@string/getcybersafe"/>
 
     </RelativeLayout>
@@ -58,28 +47,17 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="20dp">
+            android:padding="15dp">
 
             <TextView
-                android:id="@+id/h2"
+                android:id="@+id/linking2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:textColor="@android:color/black"
                 android:textAlignment="center"
                 android:layout_centerHorizontal="true"
-                android:textStyle="bold"
-                android:text="Indian Computer Emergency Response Team"/>
-
-            <TextView
-                android:id="@+id/linking2"
-                android:layout_below="@id/h2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:layout_marginTop="6dp"
                 android:text="@string/icert"/>
-
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
          <androidx.cardview.widget.CardView
@@ -93,28 +71,17 @@
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:padding="20dp">
+                 android:padding="15dp">
 
                  <TextView
-                     android:id="@+id/h3"
+                     android:id="@+id/linking3"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textSize="18sp"
                      android:textColor="@android:color/black"
                      android:layout_centerHorizontal="true"
-                     android:textStyle="bold"
                      android:textAlignment="center"
-                     android:text="Information Security Awareness"/>
-
-                 <TextView
-                     android:id="@+id/linking3"
-                     android:layout_below="@id/h3"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textSize="18sp"
-                     android:layout_marginTop="6dp"
                      android:text="@string/isa"/>
-
              </RelativeLayout>
          </androidx.cardview.widget.CardView>
 
@@ -129,26 +96,16 @@
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:padding="20dp">
+                 android:padding="15dp">
 
                  <TextView
-                     android:id="@+id/h4"
+                     android:id="@+id/linking4"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textSize="18sp"
                      android:textColor="@android:color/black"
                      android:layout_centerHorizontal="true"
-                     android:textStyle="bold"
                      android:textAlignment="center"
-                     android:text="Hyderabad City Police"/>
-
-                 <TextView
-                     android:id="@+id/linking4"
-                     android:layout_below="@id/h4"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textSize="18sp"
-                     android:layout_marginTop="6dp"
                      android:text="@string/hyderabad"/>
 
              </RelativeLayout>
@@ -165,27 +122,18 @@
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:padding="20dp">
+                 android:padding="15dp">
 
                  <TextView
-                     android:id="@+id/h5"
+                     android:id="@+id/linking5"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textSize="18sp"
                      android:layout_centerHorizontal="true"
-                     android:textStyle="bold"
                      android:textColor="@android:color/black"
                      android:textAlignment="center"
-                     android:text="Central Institue of Educational Technology"/>
-
-                 <TextView
-                     android:id="@+id/linking5"
-                     android:layout_below="@id/h5"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textSize="18sp"
-                     android:layout_marginTop="6dp"
                      android:text="@string/ciet"/>
+
 
              </RelativeLayout>
          </androidx.cardview.widget.CardView>
@@ -200,26 +148,16 @@
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:padding="20dp">
-
-                 <TextView
-                     android:id="@+id/h6"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textSize="18sp"
-                     android:textStyle="bold"
-                     android:textColor="@android:color/black"
-                     android:textAlignment="center"
-                     android:layout_centerHorizontal="true"
-                     android:text="Safety Net Kids"/>
+                 android:padding="15dp">
 
                  <TextView
                      android:id="@+id/linking6"
-                     android:layout_below="@id/h6"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textSize="18sp"
-                     android:layout_marginTop="6dp"
+                     android:textColor="@android:color/black"
+                     android:textAlignment="center"
+                     android:layout_centerHorizontal="true"
                      android:text="@string/safetyNetkids"/>
 
              </RelativeLayout>
@@ -232,32 +170,22 @@
              android:layout_marginTop="10dp"
              android:layout_marginRight="10dp"
              android:layout_marginLeft="10dp"
-             android:layout_marginBottom="120dp"
+             android:layout_marginBottom="80dp"
              >
 
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:padding="20dp">
+                 android:padding="15dp">
 
                  <TextView
-                     android:id="@+id/h7"
+                     android:id="@+id/linking7"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:textColor="@android:color/black"
                      android:layout_centerHorizontal="true"
                      android:textSize="18sp"
-                     android:textStyle="bold"
                      android:textAlignment="center"
-                     android:text="Cyber Peace Foundation"/>
-
-                 <TextView
-                     android:id="@+id/linking7"
-                     android:layout_below="@id/h7"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textSize="18sp"
-                     android:layout_marginTop="6dp"
                      android:text="@string/cyberpeacefoundation"/>
 
              </RelativeLayout>

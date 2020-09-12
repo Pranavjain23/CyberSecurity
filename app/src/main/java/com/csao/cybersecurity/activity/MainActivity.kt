@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
                         )                                                                                        // dashboard fragment is replacing the blank frame
                         .commit()
 
-                    supportActionBar?.title = "CreditsFragment"                                                     //giving the title
+                    supportActionBar?.title = "Credits"                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
 

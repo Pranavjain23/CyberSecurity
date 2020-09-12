@@ -12,48 +12,48 @@
         <a href="https://cybercrime.gov.in/Default.aspx">Click here to proceed </a>
     </string>
     <string name="getcybersafe">
-               <a href="https://www.getcybersafe.gc.ca/">https://www.getcybersafe.gc.ca/</a>
+               <a href="https://www.getcybersafe.gc.ca/">Get Cyber Safe</a>
     </string>
     <string name="icert">
-               <a href="https://www.cert-in.org.in/">https://www.cert-in.org.in/</a>
+               <a href="https://www.cert-in.org.in/">Indian Computer Emergency Response Team</a>
     </string>
     <string name="isa">
-               <a href="https://infosecawareness.in/">https://infosecawareness.in/</a>
+               <a href="https://infosecawareness.in/">Information Security Awareness</a>
     </string>
     <string name="hyderabad">
-               <a href="https://hyderabadpolice.gov.in/">https://hyderabadpolice.gov.in/</a>
+               <a href="https://hyderabadpolice.gov.in/">Hyderabad City Police</a>
     </string>
     <string name="safetyNetkids">
-               <a href="http://www.safetynetkids.org.uk/personal-safety/online-safety/">http://www.safetynetkids.org.uk/personal-safety/online-safety/</a>
+               <a href="http://www.safetynetkids.org.uk/personal-safety/online-safety/">Safety Net Kids</a>
     </string>
     <string name="cyberpeacefoundation">
-               <a href="https://www.cyberpeace.org/">https://www.cyberpeace.org/</a>
+               <a href="https://www.cyberpeace.org/">Cyber Peace Foundation</a>
     </string>
     <string name="ciet">
-               <a href="https://ciet.nic.in/">hhttps://ciet.nic.in/</a>
+               <a href="https://ciet.nic.in/">Central Institute of Educational Technology</a>
     </string>
 
 
     <string name="cyberswachhtakendra">
-        <a href="https://www.cyberswachhtakendra.gov.in/">https://www.cyberswachhtakendra.gov.in/</a>
+        <a href="https://www.cyberswachhtakendra.gov.in/">Cyber Swachhta Kendra</a>
     </string>
     <string name="cyberswachhtakendrasecuritytools">
-        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">https://www.cyberswachhtakendra.gov.in/security-tools.html</a>
+        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">Cyber Swachhta Kendra Security Tools</a>
     </string>
     <string name="cyberattacks">
-        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">https://www.infosecawareness.in/article/covid19-cyber-attacks</a>
+        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">Covid19 Cyber Attacks</a>
     </string>
     <string name="cyberthreats">
-        <a href="https://www.interpol.int/Crimes/Cybercrime/COVID-19-cyberthreats">https://www.interpol.int/Crimes/Cybercrime/COVID-19-cyberthreats</a>
+        <a href="https://www.interpol.int/Crimes/Cybercrime/COVID-19-cyberthreats">COVID-19 Cyber Threats</a>
     </string>
     <string name="cyberSandS">
-        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf</a>
+        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">Cyber Safety And Security</a>
     </string>
     <string name="studentsecurity">
-        <a href="https://ciet.nic.in/upload/Cyber%20Security%20for%20Students.pdf">https://ciet.nic.in/upload/Cyber%20Security%20for%20Students.pdf</a>
+        <a href="https://ciet.nic.in/upload/Cyber%20Security%20for%20Students.pdf">Cyber Security for Students</a>
     </string>
     <string name="teacherguidelines">
-        <a href="http://www.ncert.nic.in/pdf_files/Guidelines_Teachers.pdf">http://www.ncert.nic.in/pdf_files/Guidelines_Teachers.pdf</a>
+        <a href="http://www.ncert.nic.in/pdf_files/Guidelines_Teachers.pdf">Cyber Security Teacher Guidelines</a>
     </string>
 
     <string name="do_string">
@@ -61,5 +61,9 @@
     </string>
     <string name="dont_string">
         DONT
+    </string>
+    <string name="webinar">
+                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a>
+
     </string>
 </resources>

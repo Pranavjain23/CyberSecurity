@@ -3,7 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="240dp"
-    android:background="#EE6C00">
+    android:background="@color/colorPrimary"
+    >
 
 
     <ImageView
@@ -17,10 +18,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WELCOME"
+        android:text="@string/welcome"
         android:textAllCaps="true"
         android:textStyle="bold"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/white"
         android:layout_marginLeft="30dp"
         android:textSize="30sp"
         />

@@ -13,15 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
+
         <TextView
             android:id="@+id/txtCyberCrimeHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/lightBlue"
             android:text="@string/learn_cyber_crime_headings"
-            android:textSize="16sp"
-            android:textColor="@color/black"
             android:textAlignment="center"
-            android:padding="10dp"/>
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
     </LinearLayout>
 

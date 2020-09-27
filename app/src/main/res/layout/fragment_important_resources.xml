@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.ImportantResourcesFragment"
-    android:background="@drawable/homebackground">
+
+  >
 
     <RelativeLayout
         android:layout_width="match_parent"

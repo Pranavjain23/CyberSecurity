@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.CyberComplaintFragment"
-    android:background="@drawable/homebackground">
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
                     android:id="@+id/text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Register a cyber complaint"
+                    android:text="@string/complaint1"
                     android:layout_centerHorizontal="true"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
@@ -41,9 +41,9 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/text1"
                     android:layout_marginTop="3dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:textColor="@color/blue"
                     android:padding="10dp"
-                    android:text="1. This portal facilitates victims/complainants to report cyber crime complaints online.\n2. This portal caters to complaints pertaining to cyber crimes only with special focus on cyber crimes against women and children. \n3. Complaints reported on this portal are dealt by law enforcement agencies/ police based on the information available in the complaints.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action."
+                    android:text="@string/complaint2"
                     android:textSize="18sp" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -56,23 +56,33 @@
             android:padding="7dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:background="@color/blue"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:text="Prior to filing a complaint with this portal, we would request you to read the below information regarding terms and conditions. Should you have queries prior to filing your complaint, view Frequently Asked Questions on the website . Procedure to complete the process is specified below . "
+            android:text="@string/complaint3"
             android:textSize="12sp" />
+        <TextView
+            android:id="@+id/divider"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/text4"
+            android:background="@color/black">
 
+        </TextView>
         <TextView
             android:id="@+id/procedure"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Procedure"
+            android:text="@string/complaint4"
             android:textStyle="bold"
             android:layout_centerHorizontal="true"
-            android:textColor="@android:color/white"
-            android:layout_below="@id/text4"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@id/divider"
             android:textAllCaps="true"
             android:textSize="23sp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="10dp"
             />
 
@@ -96,11 +106,11 @@
             android:id="@+id/txtCyberComplaint1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:text="Filing a Complaint on National Cyber Crime Reporting Portal ! Click on File a Complaint to proceed to the next step"
+            android:textColor="@color/blue"
+            android:text="@string/complaint5"
             android:layout_below="@id/imgCyberComplaint1"
             android:layout_marginRight="15dp"
-            android:textSize="12sp"
+            android:textSize="15sp"
             android:layout_marginLeft="15dp"
             />
 
@@ -123,11 +133,11 @@
             android:id="@+id/txtCyberComplaint2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prior to filing a complaint with this portal , you should agree to the Terms and Conditions . Should you have queries prior to filing your complaint, view Frequently Asked Questions FAQ."
+            android:text="@string/complaint6"
             android:layout_below="@id/imgCyberComplaint2"
             android:layout_marginRight="15dp"
-            android:textColor="@android:color/white"
-            android:textSize="12sp"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
             android:layout_marginLeft="15dp"
             />
 
@@ -151,11 +161,11 @@
             android:id="@+id/txtCyberComplaint3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Next step is to choose between Report Cyber Crime Related to Women/Child and Report Other Cyber Crime . Choose appropriately "
+            android:text="@string/complaint7"
             android:layout_below="@id/imgCyberComplaint3"
-            android:textColor="@android:color/white"
+            android:textColor="@color/blue"
             android:layout_marginRight="15dp"
-            android:textSize="12sp"
+            android:textSize="15sp"
             android:layout_marginLeft="15dp"
             />
 
@@ -178,11 +188,11 @@
             android:id="@+id/txtCyberComplaint4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully"
+            android:text="@string/complaint8"
             android:layout_below="@id/imgCyberComplaint4"
-            android:textColor="@android:color/white"
+            android:textColor="@color/blue"
             android:layout_marginRight="15dp"
-            android:textSize="12sp"
+            android:textSize="15sp"
             android:layout_marginLeft="15dp"
             />
 
@@ -205,11 +215,11 @@
             android:id="@+id/txtCyberComplaint5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Citizen Login with the Complaint Name and the required field to track the status of your Complaint"
+            android:text="@string/complaint9"
             android:layout_below="@id/imgCyberComplaint5"
-            android:textColor="@android:color/white"
+            android:textColor="@color/blue"
             android:layout_marginRight="15dp"
-            android:textSize="12sp"
+            android:textSize="15sp"
             android:layout_marginLeft="15dp"
             android:layout_marginBottom="20dp"
             />
@@ -221,7 +231,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/txtCyberComplaint5"
             android:text="@string/linkFAQ"
-            android:textColor="@android:color/white"
+            android:textColor="@color/blue"
             android:textSize="22sp"
             android:layout_marginBottom="70dp"
             android:layout_centerHorizontal="true"/>

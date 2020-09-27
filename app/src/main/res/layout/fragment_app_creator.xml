@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.AppCreatorFragment"
-    android:background="@drawable/homebackground">
+   >
 
     <RelativeLayout
         android:id="@+id/llContent"
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/llContent"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@android:color/white"
@@ -63,8 +63,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="160dp"
-            android:layout_below="@+id/pranav"
+            android:layout_below="@+id/white"
             android:orientation="horizontal"
+            android:background="@color/lightBlue"
             android:weightSum="5">
 
             <ImageView
@@ -72,7 +73,6 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1.5"
-                android:padding="10dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/pic_bhoomika" />
 
@@ -122,10 +122,18 @@
 
 
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/white"
+            android:layout_below="@+id/pranav">
+
+        </TextView>
         <LinearLayout
             android:id="@+id/pranav"
             android:layout_width="match_parent"
             android:layout_height="160dp"
+            android:background="@color/lightBlue"
             android:orientation="horizontal"
             android:weightSum="5">
 
@@ -134,7 +142,6 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1.5"
-                android:padding="10dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/pranav" />
 

@@ -28,7 +28,7 @@
             android:textStyle="bold"
             android:text="Home Content"
             android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/blue"
             android:textSize="20sp"
             android:textAllCaps="true"/>
 

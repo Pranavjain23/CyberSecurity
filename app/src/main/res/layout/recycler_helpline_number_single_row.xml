@@ -19,19 +19,23 @@
         <TextView
             android:id="@+id/txtStateName"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="State Name"
             android:textSize="16sp"
             android:textColor="@color/black"
+            android:background="@color/lightBlue"
+            android:textAllCaps="true"
             android:textAlignment="center"
-            android:padding="10dp"
+            android:padding="5dp"
             android:layout_weight="5"/>
 
         <Button
             android:id="@+id/btnContactNumber"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
             android:drawableLeft="@drawable/ic_call"
+            android:padding="5sp"
             android:text="Contact Number"
             android:layout_weight="5"/>
 

@@ -21,7 +21,7 @@ class VideosAndWebinarFragment : Fragment() {
 
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_videos_and_webinar, container, false)
-        getActionBar()?.setTitle("Videos And Webinars");
+        getActionBar()?.setTitle(getString(R.string.videoandwebinar_heading));
 
         val link1 = view.findViewById<TextView>(R.id.clickHere)
         link1.movementMethod = LinkMovementMethod.getInstance()

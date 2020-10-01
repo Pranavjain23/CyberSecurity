@@ -8,6 +8,10 @@
     android:layout_margin="6dp"
     app:cardCornerRadius="4dp">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_box">
     <LinearLayout
         android:id="@+id/llContentHN"
         android:layout_width="match_parent"
@@ -40,6 +44,8 @@
             android:layout_weight="5"/>
 
     </LinearLayout>
+
+    </RelativeLayout>
 
 
 </androidx.cardview.widget.CardView>

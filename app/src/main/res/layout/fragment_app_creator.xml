@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
-            android:text="Welcome Users !"
+            android:text="@string/welcome_users"
             android:textColor="#090909"
             android:textStyle="bold" />
 
@@ -44,7 +44,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@android:color/white"
-        android:text="About the Developers"
+        android:text="@string/about_the_developers"
         android:textAlignment="center"
         android:textColor="#0E0E0E"
         android:textStyle="bold" />
@@ -86,7 +86,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="BHOOMIKA GARG"
+                    android:text="@string/bhoomika_garg"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -101,7 +101,7 @@
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
                     android:paddingLeft="8dp"
-                    android:text=" bhoomika.garg.9@gmail.com"
+                    android:text="@string/bhoomika_email"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -113,7 +113,7 @@
                     android:drawablePadding="5dp"
                     android:drawableLeft="@drawable/ic_call"
                     android:padding="8dp"
-                    android:text=" 9711380819"
+                    android:text="@string/bhoomika_phoneno"
                     android:textColor="#357a38"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -155,7 +155,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
-                    android:text="PRANAV JAIN"
+                    android:text="@string/pranav_jainname"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -170,7 +170,7 @@
                     android:drawablePadding="0dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:text="  Jaincoolpranav@gmail.com"
+                    android:text="@string/pranav_email"
                     android:textColor="#000000"
                     android:textSize="15sp" />
 
@@ -182,7 +182,7 @@
                     android:drawablePadding="5dp"
                     android:padding="8dp"
                     android:drawableLeft="@drawable/ic_call"
-                    android:text="9821596708"
+                    android:text="@string/pranav_phoneno"
                     android:textColor="#357a38"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -199,13 +199,26 @@
 
 
     <TextView
+        android:id="@+id/org"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_below="@id/llContent1"
         android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:text="@string/org" />
 
-        android:text=" © 2020 pranavjain - bhoomikaGarg . Privacy Policy " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/org"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:text="@string/privacy_policy" />
 
 
 

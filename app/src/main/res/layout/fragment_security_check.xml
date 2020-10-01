@@ -37,7 +37,7 @@
             android:layout_below="@+id/top">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:background="@color/lightBlue"
+                android:background="@drawable/securitycheck_border"
 
                 android:layout_height="wrap_content"
                 android:requiresFadingEdge="vertical"
@@ -106,7 +106,7 @@
             android:layout_marginLeft="10dp">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:background="@color/lightBlue"
+                android:background="@drawable/securitycheck_border"
 
                 android:layout_height="wrap_content"
                 android:padding="20dp">
@@ -188,7 +188,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/lightBlue"
+                android:background="@drawable/securitycheck_border"
 
                 android:padding="20dp">
                 <TextView
@@ -254,7 +254,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/lightBlue"
+                android:background="@drawable/securitycheck_border"
 
                 android:padding="20dp">
 
@@ -322,7 +322,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:background="@color/lightBlue"
+                android:background="@drawable/securitycheck_border"
 
                 android:layout_height="wrap_content"
                 android:padding="20dp">

@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.DontFragment"
-   >
+    >
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/dontRecycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-       >
+        >
 
     </androidx.recyclerview.widget.RecyclerView>
 

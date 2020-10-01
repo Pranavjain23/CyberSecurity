@@ -8,6 +8,9 @@
     android:layout_margin="6dp"
     app:cardCornerRadius="4dp">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:id="@+id/llContentLCC"
         android:layout_width="match_parent"
@@ -19,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:background="@color/lightBlue"
+            android:background="@drawable/securitycheck_border"
             android:text="@string/learn_cyber_crime_headings"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -27,5 +30,5 @@
 
     </LinearLayout>
 
-
+    </RelativeLayout>
 </androidx.cardview.widget.CardView>

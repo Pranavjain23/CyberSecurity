@@ -117,7 +117,7 @@
                         android:id="@+id/txtExpertName2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Nisha Dua"
+                        android:text="@string/chandni_agarwal"
                         android:paddingStart="8dp"
                         android:textSize="20sp"
                         android:textColor="#000000"/>
@@ -138,68 +138,7 @@
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:background="#ffffff"
-            app:cardCornerRadius="10dp"
-            android:orientation="vertical"
-            android:id="@+id/card3"
-            android:layout_below="@id/card2">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:weightSum="9"
-                android:id="@+id/llContent">
-
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/user"
-                    android:layout_weight="3"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="10dp"/>
-
-                <RelativeLayout
-                    android:layout_weight="6"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginBottom="20dp"
-                    >
-
-                    <TextView
-                        android:id="@+id/txtExpertName3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Nisha Dua"
-                        android:paddingStart="8dp"
-                        android:textSize="20sp"
-                        android:textColor="#000000"/>
-
-                    <TextView
-                        android:id="@+id/txtExpertDesignation3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/txtExpertName3"
-                        android:paddingStart="8dp"
-                        android:textColor="@color/colorPrimary"
-                        android:text="Principal Consultant Cyber Peace Foundation"
-                        android:textSize="15sp"/>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
 </ScrollView>

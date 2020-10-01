@@ -6,37 +6,37 @@
         <item
             android:id="@+id/home"
             android:icon="@drawable/ic_home"
-            android:title="Home" />
+            android:title="@string/home" />
         <item
             android:id="@+id/dosDonts"
             android:icon="@drawable/ic_dodont"
-             android:title="Do's and Don'ts" />
+             android:title="@string/do_s_and_don_ts" />
         <item
             android:id="@+id/impResources"
             android:icon="@drawable/ic_impresources"
-            android:title="Important Resources" />
+            android:title="@string/important_resources" />
         <item
             android:id="@+id/expertsPanel"
             android:icon="@drawable/ic_expertspanel"
-            android:title="Experts Panel" />
+            android:title="@string/experts_panel" />
         <item
             android:id="@+id/credits"
             android:icon="@drawable/ic_credits"
-            android:title="Credits" />
+            android:title="@string/credits" />
         <item
             android:id="@+id/about_app"
             android:icon="@drawable/ic_aboutapp"
-            android:title="About App" />
+            android:title="@string/about_app" />
 
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/share"
                 android:icon="@drawable/ic_share"
-                android:title="Share" />
+                android:title="@string/share" />
         </menu>
     </item>
 

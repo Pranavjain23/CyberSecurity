@@ -22,21 +22,21 @@ class PreventiveTipFragment : Fragment() {
     lateinit var layoutManager: RecyclerView.LayoutManager
 
     val PreventiveTipInfoList = arrayListOf<PreventiveTip>(
-        PreventiveTip("Clicking without Thinking Is Reckless"),
-        PreventiveTip("Stick to your own devices"),
-        PreventiveTip("Be aware of your surroundings"),
-        PreventiveTip("Keep track of your digital footprint"),
-        PreventiveTip("Keep up with Updates"),
-        PreventiveTip("Back Up Your Data"),
-        PreventiveTip("Keep Your Privacy Settings On"),
-        PreventiveTip("Be Careful What You Download"),
-        PreventiveTip("Make Online Purchases From Secure Sites"),
-        PreventiveTip("Use Strong Passwords"),
-        PreventiveTip("Secure your computer"),
-        PreventiveTip("Keep Your Antivirus Program Up To Date"),
-        PreventiveTip("Be Social-Media Savvy"),
-        PreventiveTip("Secure your Mobile Devices"),
-        PreventiveTip("Protect your Data")
+        PreventiveTip(getString(R.string.pt1)),
+        PreventiveTip(getString(R.string.pt2)),
+        PreventiveTip(getString(R.string.pt3)),
+        PreventiveTip(getString(R.string.pt4)),
+        PreventiveTip(getString(R.string.pt5)),
+        PreventiveTip(getString(R.string.pt6)),
+        PreventiveTip(getString(R.string.pt7)),
+        PreventiveTip(getString(R.string.pt8)),
+        PreventiveTip(getString(R.string.pt9)),
+        PreventiveTip(getString(R.string.pt10)),
+        PreventiveTip(getString(R.string.pt11)),
+        PreventiveTip(getString(R.string.pt12)),
+        PreventiveTip(getString(R.string.pt13)),
+        PreventiveTip(getString(R.string.pt14)),
+        PreventiveTip(getString(R.string.pt15))
     )
     lateinit var recyclerAdapter: PreventiveTipRecyclerAdapter
 

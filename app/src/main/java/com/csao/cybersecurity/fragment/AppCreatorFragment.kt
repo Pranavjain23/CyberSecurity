@@ -17,7 +17,7 @@ class AppCreatorFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_app_creator, container, false)
-        getActionBar()?.setTitle("App Creator Team");
+        getActionBar()?.setTitle(getString(R.string.app_creator_team));
         return view
     }
     private fun getActionBar(): androidx.appcompat.app.ActionBar? {

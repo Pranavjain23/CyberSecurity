@@ -29,7 +29,7 @@ class SecurityCheckFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_security_check, container, false)
 
 
-        getActionBar()?.setTitle("Security Check");
+        getActionBar()?.setTitle(getString(R.string.securitycheck_heading));
             correct = view.findViewById(R.id.submit)
 
             correct.setOnClickListener {

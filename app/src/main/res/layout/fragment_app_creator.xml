@@ -10,11 +10,10 @@
         android:id="@+id/llContent"
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+
         android:padding="5dp"
         android:layout_height="wrap_content"
-        android:background="@color/lightBlue"
+        android:background="@color/blue"
         android:textAlignment="center">
 
         <TextView
@@ -24,13 +23,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:text="@string/welcome_users"
-            android:textColor="#090909"
+            android:textColor="@color/white"
             android:textStyle="bold" />
-
-
-
-
-
 
     </RelativeLayout>
 
@@ -41,12 +35,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/llContent"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@color/lightBlue"
+
+        android:background="@color/blue"
         android:text="@string/about_the_developers"
         android:textAlignment="center"
-        android:textColor="#0E0E0E"
+        android:textColor="@color/lightGrey"
         android:textStyle="bold" />
 
 
@@ -62,7 +55,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="140dp"
             android:layout_below="@+id/white"
             android:orientation="horizontal"
             android:background="@color/lightBlue"
@@ -132,7 +125,7 @@
         <LinearLayout
             android:id="@+id/pranav"
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="140dp"
             android:background="@color/lightBlue"
             android:orientation="horizontal"
             android:weightSum="5">

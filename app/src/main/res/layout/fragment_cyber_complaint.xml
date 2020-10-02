@@ -62,12 +62,26 @@
             android:layout_marginBottom="10dp"
             android:text="@string/complaint3"
             android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/linkFAQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linkFAQ"
+            android:textColorLink="#ff3d00"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/text4"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"/>
+
         <TextView
             android:id="@+id/divider"
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:layout_below="@id/text4"
+            android:layout_below="@id/linkFAQ"
             android:background="@color/black">
 
         </TextView>
@@ -221,20 +235,7 @@
             android:layout_marginRight="15dp"
             android:textSize="15sp"
             android:layout_marginLeft="15dp"
-            android:layout_marginBottom="20dp"
-            />
-
-
-        <TextView
-            android:id="@+id/linkFAQ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/txtCyberComplaint5"
-            android:text="@string/linkFAQ"
-            android:textColor="@color/blue"
-            android:textSize="22sp"
             android:layout_marginBottom="70dp"
-            android:layout_centerHorizontal="true"/>
-
+            />
     </RelativeLayout>
 </ScrollView>

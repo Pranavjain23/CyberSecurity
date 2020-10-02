@@ -20,14 +20,14 @@ class DoFragment : Fragment() {
 
     val dosAndDontInfoList = arrayListOf<DosAndDont>(
 
-        DosAndDont(getString(R.string.do1), R.drawable.dos),
-        DosAndDont(getString(R.string.do2), R.drawable.dos),
-        DosAndDont(getString(R.string.do3), R.drawable.dos),
-        DosAndDont( getString(R.string.do4),R.drawable.dos),
-        DosAndDont(getString(R.string.do5), R.drawable.dos),
-        DosAndDont( getString(R.string.do6), R.drawable.dos),
-        DosAndDont(getString(R.string.do7), R.drawable.dos),
-        DosAndDont(getString(R.string.do8), R.drawable.dos)
+        DosAndDont("Set your browser security to high and add safe websites to trusted website zone..", R.drawable.dos),
+        DosAndDont("Disable the login and remembering passwords information...", R.drawable.dos),
+        DosAndDont("Block pop up window in your web browser...", R.drawable.dos),
+        DosAndDont( "Enable the option “warn me when sites try to install extensions/theme”  in your web browser..",R.drawable.dos),
+        DosAndDont("Try to have separate email id other than your official id to be  used in social website...", R.drawable.dos),
+        DosAndDont( "Be extremely careful about how you share personal information about yourself online", R.drawable.dos),
+        DosAndDont("Make sure that your ISP and Internet Relay Chart (IRC) network have an acceptable use policy that prohibits cyber-stalking.", R.drawable.dos),
+        DosAndDont("Always install recommended updates and install original antivirus and antispyware programs..", R.drawable.dos)
     )
     lateinit var recyclerAdapter: DosDontRecyclerAdapter
     override fun onCreateView(

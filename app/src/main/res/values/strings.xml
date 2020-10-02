@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CyberSecurity</string>
+    <string name="app_name">CSAO</string>
     <string name="welcome">WELCOME</string>
     <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
 CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber se ure society and worked with her team of students taking this step forward to aware all and solve the problems related to cyber world. It is our proud privilege to have Mrs Nisha Dua on our expert panel. </string>
@@ -208,4 +208,21 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="cyber_complaint_heading">Cyber Complaint</string>
     <string name="securitycheck_heading">Security Check</string>
     <string name="videoandwebinar_heading">Videos And Webinars</string>
+    <string name="check_your_awareness">Check your awareness..</string>
+    <string name="question_1">Question 1</string>
+    <string name="q1">Do you change your passwords frequently?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question_2">Question 2</string>
+    <string name="q2">How do you use bank’s services?</string>
+    <string name="from_the_mails">From the mails</string>
+    <string name="from_the_text_messages">From the text messages</string>
+    <string name="from_bank_s_official_website_or_app">From bank’s official website or app</string>
+    <string name="question_3">Question 3</string>
+    <string name="q3">Do you connect your phone to the free, unsecured Wi-Fi for shopping or banking ?</string>
+    <string name="question_4">Question 4</string>
+    <string name="q4">Do you install the software that comes as an attachment in emails?</string>
+    <string name="question_5">Question 5</string>
+    <string name="q5">Do you share your personal/bank details with the caller even if he seems genuine?</string>
+    <string name="submit">Submit</string>
 </resources>

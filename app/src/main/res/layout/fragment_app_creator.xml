@@ -14,7 +14,7 @@
         android:layout_marginRight="10dp"
         android:padding="5dp"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@color/lightBlue"
         android:textAlignment="center">
 
         <TextView
@@ -43,7 +43,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@android:color/white"
+        android:background="@color/lightBlue"
         android:text="@string/about_the_developers"
         android:textAlignment="center"
         android:textColor="#0E0E0E"

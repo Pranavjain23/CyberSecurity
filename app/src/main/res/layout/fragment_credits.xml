@@ -33,6 +33,7 @@
             android:textAlignment="center"
             android:layout_centerHorizontal="true"
             android:textColor="@android:color/black"
+            android:textColorLink="@color/black"
             android:text="@string/getcybersafe"/>
 
     </RelativeLayout>
@@ -60,6 +61,7 @@
                 android:textColor="@android:color/black"
                 android:textAlignment="center"
                 android:layout_centerHorizontal="true"
+                android:textColorLink="@color/black"
                 android:text="@string/icert"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
@@ -85,6 +87,7 @@
                      android:textColor="@android:color/black"
                      android:layout_centerHorizontal="true"
                      android:textAlignment="center"
+                     android:textColorLink="@color/black"
                      android:text="@string/isa"/>
              </RelativeLayout>
          </androidx.cardview.widget.CardView>
@@ -111,6 +114,7 @@
                      android:textColor="@android:color/black"
                      android:layout_centerHorizontal="true"
                      android:textAlignment="center"
+                     android:textColorLink="@color/black"
                      android:text="@string/hyderabad"/>
 
              </RelativeLayout>
@@ -138,6 +142,7 @@
                      android:layout_centerHorizontal="true"
                      android:textColor="@android:color/black"
                      android:textAlignment="center"
+                     android:textColorLink="@color/black"
                      android:text="@string/ciet"/>
 
 
@@ -165,6 +170,7 @@
                      android:textColor="@android:color/black"
                      android:textAlignment="center"
                      android:layout_centerHorizontal="true"
+                     android:textColorLink="@color/black"
                      android:text="@string/safetyNetkids"/>
 
              </RelativeLayout>
@@ -194,6 +200,7 @@
                      android:layout_centerHorizontal="true"
                      android:textSize="18sp"
                      android:textAlignment="center"
+                     android:textColorLink="@color/black"
                      android:text="@string/cyberpeacefoundation"/>
 
              </RelativeLayout>

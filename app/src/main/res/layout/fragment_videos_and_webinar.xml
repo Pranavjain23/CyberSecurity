@@ -40,7 +40,7 @@
                 android:id="@+id/img"
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
-                android:src="@drawable/playlistimpres"/>
+                android:src="@drawable/playlist"/>
 
             <TextView
                 android:id="@+id/clickHere"

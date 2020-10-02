@@ -40,7 +40,7 @@
         android:layout_gravity="center|center_vertical"
         android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/user"
         android:contentDescription="@string/dos_and_dont_image"
         />
 

@@ -51,12 +51,26 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:layout_marginBottom="70dp"
             android:background="@android:color/white"
             android:textAlignment="textStart"
             android:text="@string/appcreator"
             android:drawableLeft="@drawable/ic_creator"
             android:drawablePadding="15dp"
             android:layout_below="@id/Aboutapp"/>
+        <Button
+            android:id="@+id/contributor"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="70dp"
+            android:background="@android:color/white"
+            android:textAlignment="textStart"
+            android:text="@string/contributor"
+            android:drawableLeft="@drawable/ic_creator"
+            android:drawablePadding="15dp"
+            android:layout_below="@id/creatorTeam"/>
     </RelativeLayout>
 </ScrollView>

@@ -4,9 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment.ImportantResourcesFragment"
-
-  >
+    tools:context=".fragment.ImportantResourcesFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -118,7 +116,7 @@
                 android:textColor="@color/black"
                 android:layout_centerHorizontal="true"
                 android:textColorLink="@color/black"
-                android:text="@string/cyberthreats"/>
+                android:text="@string/ncpcr"/>
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
@@ -187,7 +185,6 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginBottom="120dp"
         app:cardCornerRadius="4dp">
 
         <RelativeLayout
@@ -209,5 +206,93 @@
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardImpLinks8"
+            android:layout_below="@id/cardImpLinks7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:background="@drawable/border_box">
+
+                <TextView
+                    android:id="@+id/link8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    android:textColorLink="@color/black"
+                    android:text="@string/ncpcr"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardImpLinks9"
+            android:layout_below="@id/cardImpLinks8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:background="@drawable/border_box">
+
+                <TextView
+                    android:id="@+id/link9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    android:textColorLink="@color/black"
+                    android:text="@string/cybersafetyManual"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardImpLinks10"
+            android:layout_below="@id/cardImpLinks9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:background="@drawable/border_box">
+
+                <TextView
+                    android:id="@+id/link10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true"
+                    android:textColorLink="@color/black"
+                    android:text="@string/infosecawareness"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
     </RelativeLayout>
 </ScrollView>

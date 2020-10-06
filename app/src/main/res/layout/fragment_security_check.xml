@@ -58,9 +58,8 @@
                     android:id="@+id/detail1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:textAlignment="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
                     android:layout_below="@+id/heading1"
                     android:textColor="@color/blue"
                     android:text="@string/q1"
@@ -132,9 +131,7 @@
                     android:layout_below="@+id/heading2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:textAlignment="center"
+                    android:layout_marginLeft="25dp"
                     android:textColor="@color/blue"
                     android:text="@string/q2"
                     android:textSize="18sp" />
@@ -213,10 +210,9 @@
                     android:layout_below="@+id/heading3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginRight="30dp"
                     android:textColor="@color/blue"
-                    android:textAlignment="center"
                     android:text="@string/q3"
                     android:textSize="18sp" />
 
@@ -280,10 +276,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/heading4"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="25dp"
                     android:layout_marginRight="30dp"
                     android:textColor="@color/blue"
-                    android:textAlignment="center"
                     android:text="@string/q4"
                     android:textSize="18sp" />
 
@@ -349,10 +344,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/heading5"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="25dp"
                     android:textColor="@color/blue"
                     android:layout_marginRight="30dp"
-                    android:textAlignment="center"
                     android:text="@string/q5"
                     android:textSize="18sp" />
 

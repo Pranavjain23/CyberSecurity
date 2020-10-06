@@ -17,7 +17,7 @@ class Expert2ChandniAggFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_expert2_chandni_agg, container, false)
-        getActionBar()?.setTitle("Nisha Dua");
+        getActionBar()?.setTitle("Chandni Agarwal");
         // Inflate the layout for this fragment
         return view
     }

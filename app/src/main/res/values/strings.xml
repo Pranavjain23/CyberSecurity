@@ -241,6 +241,7 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="dont7">Never leave your mobile device unattended.</string>
     <string name="dont8">Never keep sensitive information like user names/passwords on your devices.</string>
     <string name="dont9">Never connect to unknown networks or untrusted networks.</string>
-    <string name="idea_founder_desig">Idea Founder</string>
-    <string name="chandniag_desig"><![CDATA[Mentor & Coach, Cyber Safety & Wellness]]></string>
+    <string name="idea_founder_desig">Founder CSAO</string>
+    <string name="chandniag_desig">Educator, Cyber wellness coach</string>
+    <string name="chandni_agarwal">Chandni Agarwal</string>
 </resources>

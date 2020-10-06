@@ -95,15 +95,10 @@
                     android:textColor="@color/colorPrimary"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp"
-                    android:text="CSAO  is a dynamic &amp; visionary educationist with over 20 years of teaching Computer Science.\n
-She is National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador.  She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\n
-This ICT ambassador through her undiluted devotion , determination and focus has become the
+                    android:text="Chandni Agarwal is a dynamic &amp; visionary educationist with over 20 years experience of teaching Computer Science. \nShe is a National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador.  She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\nThis ICT ambassador through her undiluted devotion , determination and focus has become the
 torch bearer of her initiative CSAO – Cyber Security Awareness via Cyber Security Guide
-Android App.\n
-She is creating an ICT literate community of learners which can deploy, utilize and contribute to
-a constantly evolving digital nation. However, she has given a significant direction to ICT
-learning through her teaching, she believes in student’s engagement and collaborative and
-teaching and learning beyond the curriculum."/>
+Android App.\nShe is creating an ICT literate community of learners which can deploy, utilize and contribute to
+a constantly evolving digital nation."/>
 
                 <TextView
                     android:id="@+id/expertName"

@@ -17,7 +17,7 @@
         android:textColor="@color/lightBlue"
         android:textSize="20dp"
         android:layout_marginRight="10dp"
-        android:text="Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized palylist."/>
+        android:text="Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist."/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardPlaylist"

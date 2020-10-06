@@ -9,7 +9,7 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
 
 
     <string name="complaint1">Register a cyber complaint</string>
-    <string name="complaint2">1. This portal facilitates victims/complainants to report cyber crime complaints online.\n2. This portal caters to complaints pertaining to cyber crimes only with special focus on cyber crimes against women and children. \n3. Complaints reported on this portal are dealt by law enforcement agencies/ police based on the information available in the complaints.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
+    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is https://cybercrime.gov.in/ . This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="complaint9">Citizen Login with the Complaint Name and the required field to track the status of your Complaint</string>
     <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully

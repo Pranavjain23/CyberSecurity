@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
-    android:layout_margin="6dp"
-    app:cardCornerRadius="4dp">
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp">
 
     <LinearLayout
         android:id="@+id/llContentPT"
@@ -16,14 +16,14 @@
             android:id="@+id/txtPreventiveTip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Preventive tip"
+            android:text="Preventive tips"
             android:textColor="@color/blue"
             android:textSize="16sp"
-            android:background="@drawable/securitycheck_border"
+            android:background="@drawable/preventive_tips_background"
             android:textAlignment="center"
             android:padding="10dp"/>
 
     </LinearLayout>
 
 
-</androidx.cardview.widget.CardView>
+</RelativeLayout>

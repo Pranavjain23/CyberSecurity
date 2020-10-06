@@ -8,9 +8,19 @@
    >
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
         android:src="@drawable/logo"
         android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disclaimer"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
 
 </RelativeLayout>

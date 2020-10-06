@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CSAO</string>
     <string name="welcome">WELCOME</string>
-     <string name="preference_file_name">Cyber Security</string>
+    <string name="preference_file_name">Cyber Security</string>
     <string name="aboutus">About Us</string>
     <string name="appcreator">APP CREATOR TEAM</string>
 
@@ -235,4 +235,14 @@
     <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
 CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber secure society to aware all and solve the problems related to Cyber World.</string>
     <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
+    <string name="disclaimer">Disclaimer: This app is to provide information about cyber security and we are not responsible for any furthur communication between expert and the end user</string>
+    <string name="do9">Record the unique 15 digit IMEI number</string>
+    <string name="do10">Use auto lock to automatically lock the phone or keypad lock protected by passcode/security patterns to restrict access to your mobile phone</string>
+    <string name="do11">Report lost or stolen devices immediately to the nearest Police Station and concerned service provider</string>
+    <string name="dont7">Never leave your mobile device unattended.</string>
+    <string name="dont8">Never keep sensitive information like user names/passwords on your devices.</string>
+    <string name="dont9">Never connect to unknown networks or untrusted networks.</string>
+    <string name="chandni_agarwal">Chandni Agarwal</string>
+    <string name="idea_founder_desig">Idea Founder</string>
+    <string name="chandniag_desig"><![CDATA[Mentor & Coach, Cyber Safety & Wellness]]></string>
 </resources>

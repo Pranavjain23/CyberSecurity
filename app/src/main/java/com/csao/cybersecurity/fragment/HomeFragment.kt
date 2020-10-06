@@ -2,16 +2,15 @@ package com.csao.cybersecurity.fragment
 
 import android.content.Context
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.csao.cybersecurity.R
 import com.csao.cybersecurity.adapter.HomeRecyclerAdapter
 import com.csao.cybersecurity.model.Home
+import java.util.*
 
 
 class HomeFragment : Fragment() {
@@ -44,10 +43,11 @@ class HomeFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_home, container, false)
+        setHasOptionsMenu(true)
 
 
         recyclerHome = view.findViewById(R.id.recyclerHome)
-        layoutManager= LinearLayoutManager(activity)
+        layoutManager= GridLayoutManager(activity,2)
         recyclerAdapter = HomeRecyclerAdapter(activity as Context, homeInfoList)
 
         recyclerHome.adapter = recyclerAdapter
@@ -55,6 +55,16 @@ class HomeFragment : Fragment() {
 
         return view
     }
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater?.inflate(R.menu.menu_home,menu)
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == R.id.action_help){
 
+        }
+        recyclerAdapter.notifyDataSetChanged()
+
+        return super.onOptionsItemSelected(item)
+    }
 
 }

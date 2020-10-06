@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">CSAO</string>
     <string name="welcome">WELCOME</string>
-    <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
-CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber se ure society and worked with her team of students taking this step forward to aware all and solve the problems related to cyber world. It is our proud privilege to have Mrs Nisha Dua on our expert panel. </string>
-    <string name="preference_file_name">Cyber Security</string>
+     <string name="preference_file_name">Cyber Security</string>
     <string name="aboutus">About Us</string>
     <string name="appcreator">APP CREATOR TEAM</string>
 
@@ -20,7 +18,6 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="complaint5">Filing a Complaint on National Cyber Crime Reporting Portal ! Click on File a Complaint to proceed to the next step</string>
     <string name="complaint3">Prior to filing a complaint with this portal, we would request you to read the below information regarding terms and conditions. Should you have queries prior to filing your complaint, view Frequently Asked Questions on the website . Procedure to complete the process is specified below . </string>
     <string name="close_drawer">Close Drawer</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="info">info</string>
     <string name="dos_and_dont_image">Dos and Dont Image</string>
@@ -60,19 +57,26 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="cyberattacks">
         <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">Covid19 Cyber Attacks</a>
     </string>
-    <string name="cyberthreats">
-        <a href="https://www.interpol.int/Crimes/Cybercrime/COVID-19-cyberthreats">COVID-19 Cyber Threats</a>
-    </string>
+
     <string name="cyberSandS">
         <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">Cyber Safety And Security</a>
     </string>
     <string name="studentsecurity">
-        <a href="https://ciet.nic.in/upload/Cyber%20Security%20for%20Students.pdf">Cyber Security for Students</a>
+        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing">Cyber Security for Students</a>
     </string>
     <string name="teacherguidelines">
-        <a href="http://www.ncert.nic.in/pdf_files/Guidelines_Teachers.pdf">Cyber Security Teacher Guidelines</a>
+        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing">Cyber Security Teacher Guidelines</a>
+    </string>
+    <string name="ncpcr">
+        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing">NCPCR Guidelines for online safety</a>
+    </string>
+    <string name="cybersafetyManual">
+        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing">Cyber Safety Manual</a>
     </string>
 
+    <string name="infosecawareness">
+        <a href="www.infosecawareness.in">Infosecawareness</a>
+    </string>
     <string name="do_string">
         DO
     </string>
@@ -87,10 +91,10 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="about_the_developers">About the Developers</string>
     <string name="pranav_jainname">PRANAV JAIN</string>
     <string name="pranav_email">Jaincoolpranav@gmail.com</string>
-    <string name="pranav_phoneno">9821596708</string>
+    <string name="pranav_phoneno"><a href="">Send Feedback </a></string>
     <string name="bhoomika_garg">BHOOMIKA GARG</string>
     <string name="bhoomika_email">bhoomika.garg.9@gmail.com</string>
-    <string name="bhoomika_phoneno">9711380819</string>
+    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg">Send Feedback </a></string>
     <string name="org">© 2020 Cyber Security Awareness Organization</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="do1">Set your browser security to high and add safe websites to trusted website zone..</string>
@@ -225,4 +229,9 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="question_5">Question 5</string>
     <string name="q5">Do you share your personal/bank details with the caller even if he seems genuine?</string>
     <string name="submit">Submit</string>
+
+    <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
+    <string name="contributor">Language Contributor</string>
+    <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
+CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber secure society to aware all and solve the problems related to Cyber World.</string>
 </resources>

@@ -13,12 +13,18 @@
     android:clickable="true">
 
     <LinearLayout
-        android:background="@drawable/homeborder"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:weightSum="10"
         android:id="@+id/llContent">
+        <ImageView
+            android:id="@+id/imgHomeHeader"
+            android:layout_weight="6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_home"/>
         <TextView
             android:id="@+id/txtHomeHeader"
             android:layout_width="match_parent"
@@ -33,13 +39,7 @@
             android:textSize="18sp"
             android:textAllCaps="true"/>
 
-        <ImageView
-            android:id="@+id/imgHomeHeader"
-            android:layout_weight="6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_home"/>
+
 
     </LinearLayout>
 

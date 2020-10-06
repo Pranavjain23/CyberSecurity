@@ -75,7 +75,7 @@
     </string>
 
     <string name="infosecawareness">
-        <a href="www.infosecawareness.in">Infosecawareness</a>
+        <a href="https://www.infosecawareness.in/">Infosecawareness</a>
     </string>
     <string name="do_string">
         DO
@@ -94,7 +94,7 @@
     <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">Send Feedback </a></string>
     <string name="bhoomika_garg">BHOOMIKA GARG</string>
     <string name="bhoomika_email">bhoomika.garg.9@gmail.com</string>
-    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg">Send Feedback </a></string>
+    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">Send Feedback </a></string>
     <string name="org">© 2020 Cyber Security Awareness Organization</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="do1">Set your browser security to high and add safe websites to trusted website zone..</string>
@@ -116,7 +116,6 @@
     <string name="nishadua_intro"><![CDATA[Nisha Dua is a dynamic & visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army & Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information & Communication Technology in improving lives & learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building & policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety & Security Programs at Cyber Peace Foundation.]]></string>
     <string name="nishadua_desig1"><![CDATA[Mentor & Coach e-Learning Models, Cyber Safety & Wellness]]></string>
     <string name="nishadua_email">nishadua@yahoo.com</string>
-    <string name="chandni_agarwal">Chandni Agarwal</string>
     <string name="security_check">Security check</string>
     <string name="lcc">Learn about Cyber Crime</string>
     <string name="cybercomplaint">Cyber Complaint</string>

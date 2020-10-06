@@ -37,6 +37,15 @@ class ImportantResourcesFragment : Fragment() {
 
         val link7 = view.findViewById<TextView>(R.id.link7)
         link7.movementMethod = LinkMovementMethod.getInstance()
+        val link8 = view.findViewById<TextView>(R.id.link8)
+        link8.movementMethod = LinkMovementMethod.getInstance()
+        val link9 = view.findViewById<TextView>(R.id.link9)
+        link9.movementMethod = LinkMovementMethod.getInstance()
+
+        val link10 = view.findViewById<TextView>(R.id.link10)
+        link10.movementMethod = LinkMovementMethod.getInstance()
+
+
         return view
     }
 

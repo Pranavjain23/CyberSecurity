@@ -26,25 +26,25 @@
         <a href="https://cybercrime.gov.in/Default.aspx">Click here to proceed </a>
     </string>
     <string name="getcybersafe">
-               <a href="https://www.getcybersafe.gc.ca/">Get Cyber Safe</a>
+               https://www.getcybersafe.gc.ca/
     </string>
     <string name="icert">
-               <a href="https://www.cert-in.org.in/">Indian Computer Emergency Response Team</a>
+        https://www.cert-in.org.in/
     </string>
     <string name="isa">
-               <a href="https://infosecawareness.in/">Information Security Awareness</a>
+               https://infosecawareness.in/
     </string>
     <string name="hyderabad">
-               <a href="https://hyderabadpolice.gov.in/">Hyderabad City Police</a>
+               https://hyderabadpolice.gov.in/
     </string>
     <string name="safetyNetkids">
-               <a href="http://www.safetynetkids.org.uk/personal-safety/online-safety/">Safety Net Kids</a>
+               http://www.safetynetkids.org.uk/personal-safety/online-safety/
     </string>
     <string name="cyberpeacefoundation">
-               <a href="https://www.cyberpeace.org/">Cyber Peace Foundation</a>
+               https://www.cyberpeace.org/
     </string>
     <string name="ciet">
-               <a href="https://ciet.nic.in/">Central Institute of Educational Technology</a>
+               https://ciet.nic.in/
     </string>
 
 
@@ -90,8 +90,8 @@
     <string name="welcome_users">Welcome Users !</string>
     <string name="about_the_developers">About the Developers</string>
     <string name="pranav_jainname">PRANAV JAIN</string>
-    <string name="pranav_email">Jaincoolpranav@gmail.com</string>
-    <string name="pranav_phoneno"><a href="">Send Feedback </a></string>
+    <string name="pranav_email">jaincoolpranav@gmail.com</string>
+    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">Send Feedback </a></string>
     <string name="bhoomika_garg">BHOOMIKA GARG</string>
     <string name="bhoomika_email">bhoomika.garg.9@gmail.com</string>
     <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg">Send Feedback </a></string>
@@ -230,8 +230,9 @@
     <string name="q5">Do you share your personal/bank details with the caller even if he seems genuine?</string>
     <string name="submit">Submit</string>
 
-    <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
+
     <string name="contributor">Language Contributor</string>
     <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
 CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber secure society to aware all and solve the problems related to Cyber World.</string>
+    <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
 </resources>

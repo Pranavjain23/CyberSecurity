@@ -15,14 +15,14 @@
     android:id="@+id/card1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
+    android:layout_marginTop="10dp"
     >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="15dp"
-        android:background="@drawable/border_box"
+        android:background="@color/lightBlue"
         >
 
         <TextView
@@ -44,14 +44,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/card1"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         >
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="15dp"
-            android:background="@drawable/border_box">
+            android:background="@color/lightBlue">
 
             <TextView
                 android:id="@+id/linking2"
@@ -70,14 +70,14 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_below="@id/card2"
-             android:layout_margin="10dp"
+             android:layout_marginTop="10dp"
              >
 
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:padding="15dp"
-                 android:background="@drawable/border_box">
+                 android:background="@color/lightBlue">
 
                  <TextView
                      android:id="@+id/linking3"
@@ -97,14 +97,14 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_below="@id/card3"
-             android:layout_margin="10dp"
+             android:layout_marginTop="10dp"
              >
 
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:padding="15dp"
-                 android:background="@drawable/border_box">
+                 android:background="@color/lightBlue">
 
                  <TextView
                      android:id="@+id/linking4"
@@ -125,14 +125,14 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_below="@id/card4"
-             android:layout_margin="10dp"
+             android:layout_marginTop="10dp"
              >
 
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:padding="15dp"
-                 android:background="@drawable/border_box">
+                 android:background="@color/lightBlue">
 
                  <TextView
                      android:id="@+id/linking5"
@@ -153,14 +153,14 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_below="@id/card5"
-             android:layout_margin="10dp"
+             android:layout_marginTop="10dp"
              >
 
              <RelativeLayout
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:padding="15dp"
-                 android:background="@drawable/border_box">
+                 android:background="@color/lightBlue">
 
                  <TextView
                      android:id="@+id/linking6"
@@ -181,8 +181,6 @@
              android:layout_height="wrap_content"
              android:layout_below="@id/card6"
              android:layout_marginTop="10dp"
-             android:layout_marginRight="10dp"
-             android:layout_marginLeft="10dp"
              android:layout_marginBottom="80dp"
              >
 
@@ -190,7 +188,7 @@
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:padding="15dp"
-                 android:background="@drawable/border_box">
+                 android:background="@color/lightBlue">
 
                  <TextView
                      android:id="@+id/linking7"

@@ -8,6 +8,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
     android:background="@android:color/white"
     tools:context=".fragment.Language">
 
@@ -19,7 +20,6 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         app:cardCornerRadius="10dp"
-        android:background="@drawable/border"
         android:padding="20dp">
     <TextView
         android:layout_width="match_parent"
@@ -27,6 +27,7 @@
         android:textAlignment="center"
         android:textColor="@color/blue"
         android:textSize="25sp"
+        android:background="@drawable/border"
         android:text="@string/lang1" />
     </androidx.cardview.widget.CardView>
     <TextView
@@ -111,6 +112,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
+        app:cardCornerRadius="15dp"
         android:layout_below="@+id/imglan"
         android:background="@drawable/border"
         android:elevation="5dp"
@@ -121,9 +123,14 @@
             android:layout_height="match_parent"
             android:textAlignment="center"
             android:textColor="@color/blue"
-            android:layout_marginBottom="40dp"
+            android:background="@drawable/border"
             android:textSize="20sp"
             android:text="@string/lang7" />
     </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_below="@+id/card7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"></TextView>
 </RelativeLayout>
 </ScrollView>

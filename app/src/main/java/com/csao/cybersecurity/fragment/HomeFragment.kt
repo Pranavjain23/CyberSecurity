@@ -1,6 +1,7 @@
 package com.csao.cybersecurity.fragment
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
@@ -8,6 +9,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.csao.cybersecurity.R
+import com.csao.cybersecurity.activity.MainActivity
 import com.csao.cybersecurity.adapter.HomeRecyclerAdapter
 import com.csao.cybersecurity.model.Home
 import java.util.*
@@ -60,6 +62,14 @@ class HomeFragment : Fragment() {
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId == R.id.action_help){
+            val fragment = Language()
+            val args = Bundle()
+            fragment.arguments = args
+            (context as MainActivity).supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.frame,
+                    fragment
+                ).commit()
 
         }
         recyclerAdapter.notifyDataSetChanged()

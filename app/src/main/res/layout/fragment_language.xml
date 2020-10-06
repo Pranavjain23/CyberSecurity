@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".fragment.Language">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="10dp"
+        android:background="@drawable/border"
+        android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:text="@string/lang1" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/card2"
+        android:layout_below="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/lang2" />
+    <TextView
+        android:id="@+id/card3"
+        android:layout_below="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/lang3" />
+    <TextView
+        android:id="@+id/card4"
+        android:layout_below="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/lang4" />
+    <TextView
+        android:id="@+id/card5"
+        android:layout_below="@+id/card4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/lang5" />
+    <TextView
+    android:id="@+id/card6"
+    android:layout_below="@+id/card5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+    android:textSize="20sp"
+    android:text="@string/lang6" />
+    <TextView
+        android:id="@+id/card8"
+        android:layout_below="@+id/card6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:text="@string/lang8" />
+
+    <ImageView
+        android:id="@+id/imglan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card8"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/language"></ImageView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imglan"
+        android:background="@drawable/border"
+        android:elevation="5dp"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:layout_marginBottom="40dp"
+            android:textSize="20sp"
+            android:text="@string/lang7" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+</ScrollView>

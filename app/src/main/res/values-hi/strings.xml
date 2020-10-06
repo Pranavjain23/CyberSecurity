@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CSAO</string>
+    <string name="welcome">स्वागत हे</string>
+    <string name="preference_file_name">Cyber Security</string>
+    <string name="aboutus">About Us</string>
+    <string name="appcreator">APP CREATOR TEAM</string>
+
+
+    <string name="complaint1">Register a cyber complaint</string>
+    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is https://cybercrime.gov.in/ . This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="complaint9">Citizen Login with the Complaint Name and the required field to track the status of your Complaint</string>
+    <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully
+           </string>
+    <string name="complaint7">Next step is to choose between Report Cyber Crime Related to Women/Child and Report Other Cyber Crime . Choose appropriately </string>
+    <string name="complaint6">Prior to filing a complaint with this portal , you should agree to the Terms and Conditions . Should you have queries prior to filing your complaint, view Frequently Asked Questions FAQ.</string>
+    <string name="complaint4">Procedure</string>
+    <string name="complaint5">Filing a Complaint on National Cyber Crime Reporting Portal ! Click on File a Complaint to proceed to the next step</string>
+    <string name="complaint3">Prior to filing a complaint with this portal, we would request you to read the below information regarding terms and conditions. Should you have queries prior to filing your complaint, view Frequently Asked Questions on the website . Procedure to complete the process is specified below . </string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="info">info</string>
+    <string name="dos_and_dont_image">Dos and Dont Image</string>
+    <string name="learn_cyber_crime_headings">Learn Cyber Crime Headings</string>
+    <string name="linkFAQ">
+        <a href="https://cybercrime.gov.in/Default.aspx">Click here to proceed </a>
+    </string>
+    <string name="getcybersafe">
+               https://www.getcybersafe.gc.ca/
+    </string>
+    <string name="icert">
+        https://www.cert-in.org.in/
+    </string>
+    <string name="isa">
+               https://infosecawareness.in/
+    </string>
+    <string name="hyderabad">
+               https://hyderabadpolice.gov.in/
+    </string>
+    <string name="safetyNetkids">
+               http://www.safetynetkids.org.uk/personal-safety/online-safety/
+    </string>
+    <string name="cyberpeacefoundation">
+               https://www.cyberpeace.org/
+    </string>
+    <string name="ciet">
+               https://ciet.nic.in/
+    </string>
+
+
+    <string name="cyberswachhtakendra">
+        <a href="https://www.cyberswachhtakendra.gov.in/">Cyber Swachhta Kendra</a>
+    </string>
+    <string name="cyberswachhtakendrasecuritytools">
+        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">Cyber Swachhta Kendra Security Tools</a>
+    </string>
+    <string name="cyberattacks">
+        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">Covid19 Cyber Attacks</a>
+    </string>
+
+    <string name="cyberSandS">
+        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">Cyber Safety And Security</a>
+    </string>
+    <string name="studentsecurity">
+        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing">Cyber Security for Students</a>
+    </string>
+    <string name="teacherguidelines">
+        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing">Cyber Security Teacher Guidelines</a>
+    </string>
+    <string name="ncpcr">
+        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing">NCPCR Guidelines for online safety</a>
+    </string>
+    <string name="cybersafetyManual">
+        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing">Cyber Safety Manual</a>
+    </string>
+
+    <string name="infosecawareness">
+        <a href="https://www.infosecawareness.in/">Infosecawareness</a>
+    </string>
+    <string name="do_string">
+        DO
+    </string>
+    <string name="dont_string">
+        DONT
+    </string>
+    <string name="webinar">
+                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a>
+
+    </string>
+    <string name="welcome_users">Welcome Users !</string>
+    <string name="about_the_developers">About the Developers</string>
+    <string name="pranav_jainname">PRANAV JAIN</string>
+    <string name="pranav_email">jaincoolpranav@gmail.com</string>
+    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">Send Feedback </a></string>
+    <string name="bhoomika_garg">BHOOMIKA GARG</string>
+    <string name="bhoomika_email">bhoomika.garg.9@gmail.com</string>
+    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">Send Feedback </a></string>
+    <string name="org">© 2020 Cyber Security Awareness Organization</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="do1">Set your browser security to high and add safe websites to trusted website zone..</string>
+    <string name="do2">Disable the login and remembering passwords information…</string>
+    <string name="do3">Block pop up window in your web browser…</string>
+    <string name="do4">Enable the option “warn me when sites try to install extensions/theme”  in your web browser..</string>
+    <string name="do5">Try to have separate email id other than your official id to be  used in social website…</string>
+    <string name="do6">Be extremely careful about how you share personal information about yourself online</string>
+    <string name="do7">Make sure that your ISP and Internet Relay Chart (IRC) network have an acceptable use policy that prohibits cyber-stalking.</string>
+    <string name="do8">Always install recommended updates and install original antivirus and antispyware programs..</string>
+    <string name="dont1">Don\'t delete harmful communications (emails, chat logs, posts etc). These may help provide vital information about the identity of the person behind these..</string>
+    <string name="dont2">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be..</string>
+    <string name="dont3">Do not give your password to anybody. Somebody who is malicious can cause great harm to you and your reputation. It is like leaving your house open for a stranger and walking away.</string>
+    <string name="dont4">Do not copy a program that is copyrighted on the net. It is illegal.</string>
+    <string name="dont5">When talking to somebody new on the net, do not give away personal information-like numbers of the credit card used by your parents, your home addresses/ phone numbers and such other personal information…</string>
+    <string name="dont6">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be…</string>
+    <string name="nisha_dua">Nisha Dua</string>
+    <string name="nishadua_desig">Principal Consultant Cyber Peace Foundation</string>
+    <string name="nishadua_intro"><![CDATA[Nisha Dua is a dynamic & visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army & Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information & Communication Technology in improving lives & learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building & policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety & Security Programs at Cyber Peace Foundation.]]></string>
+    <string name="nishadua_desig1"><![CDATA[Mentor & Coach e-Learning Models, Cyber Safety & Wellness]]></string>
+    <string name="nishadua_email">nishadua@yahoo.com</string>
+    <string name="security_check">Security check</string>
+    <string name="lcc">Learn about Cyber Crime</string>
+    <string name="cybercomplaint">Cyber Complaint</string>
+    <string name="preventivetips">Preventive Tips</string>
+    <string name="helpline_number">Helpline Numbers</string>
+    <string name="vandw">Videos and Webinars</string>
+    <string name="lcc1">CHILD PORNOGRAPHY/ CHILD SEXUALLY ABUSIVE MATERIAL (CSAM)</string>
+    <string name="lcc2">CYBER BULLYING</string>
+    <string name="lcc3">CYBER STALKING</string>
+    <string name="lcc4">CYBER GROOMING</string>
+    <string name="lcc5">ONLINE JOB FRAUD</string>
+    <string name="lcc6">ONLINE SEXTORTION</string>
+    <string name="lcc7">VISHING</string>
+    <string name="lcc8">SEXTING</string>
+    <string name="lcc9">SMSHING</string>
+    <string name="lcc10">SIM SWAP SCAM</string>
+    <string name="lcc11">DEBIT/CREDIT CARD FRAUD</string>
+    <string name="lcc12">IMPERSONATION AND IDENTITY THEFT</string>
+    <string name="lcc13">PHISHING</string>
+    <string name="lcc14">SPAMMING</string>
+    <string name="lcc15">RANSOMWARE</string>
+    <string name="lcc16"><![CDATA[VIRUS, WORMS & TROJANS]]></string>
+    <string name="lcc17">DATA BREACH</string>
+    <string name="lcc18">DENIAL OF SERVICES /DISTRIBUTED DOS</string>
+    <string name="lcc19">WEBSITE DEFACEMENT</string>
+    <string name="lcc20">CYBER-SQUATTING</string>
+    <string name="lcc21">PHARMING</string>
+    <string name="lcc22">CRYPTOJACKING</string>
+    <string name="lcc23">ONLINE DRUG TRAFFICKING</string>
+    <string name="lcc24">ESPIONAGE</string>
+    <string name="pt1">Clicking without Thinking Is Reckless</string>
+    <string name="pt2">Stick to your own devices</string>
+    <string name="pt3">Be aware of your surroundings</string>
+    <string name="pt4">Keep track of your digital footprint</string>
+    <string name="pt5">Keep up with Updates</string>
+    <string name="pt6">Back Up Your Data</string>
+    <string name="pt7">Keep Your Privacy Settings On</string>
+    <string name="pt8">Be Careful What You Download</string>
+    <string name="pt9">Make Online Purchases From Secure Sites</string>
+    <string name="pt10">Use Strong Passwords</string>
+    <string name="pt11">Secure your computer</string>
+    <string name="pt12">Keep Your Antivirus Program Up To Date</string>
+    <string name="pt13">Be Social-Media Savvy</string>
+    <string name="pt14">Secure your Mobile Devices</string>
+    <string name="pt15">Protect your Data</string>
+    <string name="cyberpeacehelpline">helpline@cyberpeace.net</string>
+    <string name="state1"><![CDATA[ANDAMAN & NICOBAR]]></string>
+    <string name="state2">ANDHRA PRADESH</string>
+    <string name="state3">Arunachal Pradesh</string>
+    <string name="state4">ASSAM</string>
+    <string name="state5">Bihar</string>
+    <string name="state6">Chandigarh</string>
+    <string name="state7">Chhattisgarh</string>
+    <string name="state8"><![CDATA[DADRA & NAGAR HAVELI]]></string>
+    <string name="state9"><![CDATA[DAMAN & DIU]]></string>
+    <string name="state10">DELHI</string>
+    <string name="state11">Goa</string>
+    <string name="state12">GUJARAT</string>
+    <string name="state13">HARYANA</string>
+    <string name="state14">Himachal Pradesh</string>
+    <string name="state15"><![CDATA[JAMMU & KASHMIR]]></string>
+    <string name="state16">Jharkhand</string>
+    <string name="state17">Karnataka</string>
+    <string name="state18">Kerala</string>
+    <string name="state19">Lakshadweep</string>
+    <string name="state20">Madhya Pradesh</string>
+    <string name="state21">MAHARASHTRA</string>
+    <string name="state22">Manipur</string>
+    <string name="state23">Meghalaya</string>
+    <string name="state24">Mizoram</string>
+    <string name="state25">Nagaland</string>
+    <string name="state26">ODISHA</string>
+    <string name="state27">Puducherry</string>
+    <string name="state28">Punjab</string>
+    <string name="state29">RAJASTHAN</string>
+    <string name="state30">Sikkim</string>
+    <string name="state31">TAMIL NADU</string>
+    <string name="state32">TAMIL NADU</string>
+    <string name="state33">Telangana</string>
+    <string name="state34">Tripura</string>
+    <string name="state35">UTTARAKHAND</string>
+    <string name="state36">UTTAR PRADESH</string>
+    <string name="state37">West Bengal</string>
+    <string name="home">Home</string>
+    <string name="do_s_and_don_ts">Do\'s and Don\'ts</string>
+    <string name="important_resources">Important Resources</string>
+    <string name="experts_panel">Experts Panel</string>
+    <string name="credits">Credits</string>
+    <string name="about_app">About App</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="app_creator_team">App Creator Team</string>
+    <string name="cyber_complaint_heading">Cyber Complaint</string>
+    <string name="securitycheck_heading">Security Check</string>
+    <string name="videoandwebinar_heading">Videos And Webinars</string>
+    <string name="check_your_awareness">Check your awareness..</string>
+    <string name="question_1">Question 1</string>
+    <string name="q1">Do you change your passwords frequently?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question_2">Question 2</string>
+    <string name="q2">How do you use bank’s services?</string>
+    <string name="from_the_mails">From the mails</string>
+    <string name="from_the_text_messages">From the text messages</string>
+    <string name="from_bank_s_official_website_or_app">From bank’s official website or app</string>
+    <string name="question_3">Question 3</string>
+    <string name="q3">Do you connect your phone to the free, unsecured Wi-Fi for shopping or banking ?</string>
+    <string name="question_4">Question 4</string>
+    <string name="q4">Do you install the software that comes as an attachment in emails?</string>
+    <string name="question_5">Question 5</string>
+    <string name="q5">Do you share your personal/bank details with the caller even if he seems genuine?</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="contributor">Language Contributor</string>
+    <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
+CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber secure society to aware all and solve the problems related to Cyber World.</string>
+    <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
+    <string name="disclaimer">Disclaimer: This app is to provide information about cyber security and we are not responsible for any furthur communication between expert and the end user</string>
+    <string name="do9">Record the unique 15 digit IMEI number</string>
+    <string name="do10">Use auto lock to automatically lock the phone or keypad lock protected by passcode/security patterns to restrict access to your mobile phone</string>
+    <string name="do11">Report lost or stolen devices immediately to the nearest Police Station and concerned service provider</string>
+    <string name="dont7">Never leave your mobile device unattended.</string>
+    <string name="dont8">Never keep sensitive information like user names/passwords on your devices.</string>
+    <string name="dont9">Never connect to unknown networks or untrusted networks.</string>
+    <string name="idea_founder_desig">Founder CSAO</string>
+    <string name="chandniag_desig">Educator, Cyber wellness coach</string>
+    <string name="chandni_agarwal">Chandni Agarwal</string>
+
+
+    <string name="lang1">Change Language</string>
+    <string name="lang2">1. On your Android phone or tablet, open your device\'s Settings app and then click on System.</string>
+    <string name="lang3">2. Tap Languages and input.</string>
+    <string name="lang4">3. Choose Add a language (plus button)..</string>
+    <string name="lang5">4. Tap Edit. Pick a language from the list. (Choose Hindi: This app is currently available in English and Hindi)</string>
+    <string name="lang6">5. Most languages have their own regions. Select a region for your desired language.</string>
+    <string name="lang8">6.  Once the language is added, press and hold the two horizontal lines and move your preferred language to the top.</string>
+    <string name="lang7"> App\'s language will automatically update itself to the first preference of the language selected. </string>
+    <string name="lang">Change language </string>
+
+</resources>

@@ -20,24 +20,22 @@ class DontFragment : Fragment() {
 
 
 
-    val dosAndDontInfoList = arrayListOf<DosAndDont>(
 
-        DosAndDont("Don't delete harmful communications (emails, chat logs, posts etc). These may help provide vital information about the identity of the person behind these.", R.drawable.dont),
-        DosAndDont( "Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be.", R.drawable.dont),
-        DosAndDont( "Do not give your password to anybody. Somebody who is malicious can cause great harm to you and your reputation. It is like leaving your house open for a stranger and walking away.", R.drawable.dont),
-        DosAndDont("Do not copy a program that is copyrighted on the net. It is illegal.", R.drawable.dont),
-        DosAndDont("When talking to somebody new on the net, do not give away personal information-like numbers of the credit card used by your parents, your home addresses/ phone numbers and such other personal information.", R.drawable.dont),
-        DosAndDont("Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be", R.drawable.dont),
-        DosAndDont("Never leave your mobile device unattended.",R.drawable.dont),
-        DosAndDont("Never keep sensitive information like user names/passwords on your devices.",R.drawable.dont),
-        DosAndDont("Never connect to unknown networks or untrusted networks.",R.drawable.dont)
-    )
     lateinit var recyclerAdapter: DosDontRecyclerAdapter
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_dont, container, false)
+
+        val dosAndDontInfoList = arrayListOf<DosAndDont>(
+            DosAndDont(getString(R.string.dont1), R.drawable.dont),
+            DosAndDont( getString(R.string.dont2), R.drawable.dont),
+            DosAndDont( getString(R.string.dont3), R.drawable.dont),
+            DosAndDont(getString(R.string.dont4), R.drawable.dont),
+            DosAndDont(getString(R.string.dont5), R.drawable.dont),
+            DosAndDont(getString(R.string.dont6), R.drawable.dont)
+        )
 
         recyclerDosAndDont = view.findViewById(R.id.dontRecycler)
         layoutManager = LinearLayoutManager(activity)

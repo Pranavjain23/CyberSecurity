@@ -44,11 +44,11 @@ class SecurityCheckFragment : Fragment() {
                 val rb1: RadioButton = view.findViewById(select1)
                 val str1 = "Yes"
                 if ((rb1.text as String).trim { it <= ' ' } == str1.trim { it <= ' ' }) {
-                    msg1= "Good, keep changing your passwords frequently !\n"
+                    msg1= "○ Good, keep changing your passwords frequently !\n"
                     score+=2
 
                 } else {
-                    msg1= "You should atleast change your passwords once each month.\n"
+                    msg1= "○ You should atleast change your passwords once each month.\n"
                 }
 
                 radio2 = view.findViewById(R.id.rg2)
@@ -56,10 +56,10 @@ class SecurityCheckFragment : Fragment() {
                 val rb2: RadioButton = view.findViewById(select2)
                 val str2 = "From bank’s official website or app"
                 if ((rb2.text as String).trim { it <= ' ' } == str2.trim { it <= ' ' }) {
-                    msg2= rb2.text as String + " is correct practice !\n"
+                    msg2= "○ "+ rb2.text as String + " is correct practice !\n"
                     score+=2
                 } else {
-                    msg2= "Never access your bank services from text messages or the mails that you receive because that may be fraud\n"
+                    msg2= "○ Never access your bank services from text messages or the mails that you receive because that may be fraud\n"
                 }
 
 
@@ -70,10 +70,10 @@ class SecurityCheckFragment : Fragment() {
                 val rb3: RadioButton = view.findViewById(select3)
                 val str3 = "No"
                 if ((rb3.text as String).trim { it <= ' ' } == str3.trim { it <= ' ' }) {
-                    msg3= "Also avoid connecting your phone to the free, unsecured Wi-Fi for logging into social media account\n"
+                    msg3= "○ Also avoid connecting your phone to the free, unsecured Wi-Fi for logging into social media account\n"
                     score+=2
                 } else {
-                    msg3= "You should avoid connecting your phone to the free, unsecured Wi-Fi for shopping or banking\n"
+                    msg3= "○ You should avoid connecting your phone to the free, unsecured Wi-Fi for shopping or banking\n"
                 }
 
 
@@ -82,10 +82,10 @@ class SecurityCheckFragment : Fragment() {
                 val rb: RadioButton = view.findViewById(select)
                 val str = "No"
                 if ((rb.text as String).trim { it <= ' ' } == str.trim { it <= ' ' }) {
-                    msg4= "GOOD  ,   you should never install the softwares that comes as an attachment in emails.\n"
+                    msg4= "○ GOOD  ,   you should never install the softwares that comes as an attachment in emails.\n"
                     score+=2
                 } else {
-                    msg4 = "No! REMEMBER : you should never install the softwares that comes as an attachment in emails.\n"
+                    msg4 = "○ No! REMEMBER : you should never install the softwares that comes as an attachment in emails.\n"
                 }
 
 
@@ -95,10 +95,10 @@ class SecurityCheckFragment : Fragment() {
                 val str5 = "No"
                 if ((rb5.text as String).trim { it <= ' ' } == str5.trim { it <= ' ' }) {
                     score+=2
-                    msg5= "GOOD  ,\tyou should never  share your personal details on phone email or sms.\n"
+                    msg5= "○ GOOD  ,\tyou should never  share your personal details on phone email or sms.\n"
 
                 } else {
-                    msg5= "No! REMEMBER   :   you should never share these details on phone email or sms. Bank never asks for the user's information like that.\n"
+                    msg5= "○ No! REMEMBER   :   you should never share these details on phone email or sms. Bank never asks for the user's information like that.\n"
                 }
 
                 alert_box(msg1,msg2,msg3,msg4,msg5,score)

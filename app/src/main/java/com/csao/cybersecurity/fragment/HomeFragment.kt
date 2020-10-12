@@ -28,15 +28,8 @@ class HomeFragment : Fragment() {
         "Helpline Numbers",
         "Videos and Webinars"
     )
-    val homeInfoList = arrayListOf<Home>(
 
-        Home("Security check",R.drawable.securitycheck),
-        Home("Learn about Cyber Crime",R.drawable.learncybercrime),
-        Home("Cyber Complaint",R.drawable.cybercomplaint),
-        Home("Preventive Tips",R.drawable.preventivetips),
-        Home("Helpline Numbers",R.drawable.helplinenumber),
-        Home("Videos and Webinars",R.drawable.videosandwebinar)
-    )
+
 
     lateinit var recyclerAdapter: HomeRecyclerAdapter
     override fun onCreateView(
@@ -45,11 +38,21 @@ class HomeFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_home, container, false)
+
+        val homeInfoList = arrayListOf<Home>(
+            Home(getString(R.string.security_check),R.drawable.securitycheck),
+            Home(getString(R.string.lcc),R.drawable.learncybercrime),
+            Home(getString(R.string.cybercomplaint),R.drawable.cybercomplaint),
+            Home(getString(R.string.preventivetips),R.drawable.preventivetips),
+            Home(getString(R.string.helpline_number),R.drawable.helplinenumber),
+            Home(getString(R.string.vandw),R.drawable.videosandwebinar)
+        )
+
         setHasOptionsMenu(true)
 
 
         recyclerHome = view.findViewById(R.id.recyclerHome)
-        layoutManager= GridLayoutManager(activity,2)
+        layoutManager= LinearLayoutManager(activity)
         recyclerAdapter = HomeRecyclerAdapter(activity as Context, homeInfoList)
 
         recyclerHome.adapter = recyclerAdapter

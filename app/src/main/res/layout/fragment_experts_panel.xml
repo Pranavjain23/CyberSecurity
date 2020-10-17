@@ -30,6 +30,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:weightSum="9"
+                android:background="@color/lightBlue"
                 android:id="@+id/llContent1">
 
                 <ImageView
@@ -83,11 +84,12 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="#ffffff"
-            app:cardCornerRadius="10dp"
+            app:cardCornerRadius="20dp"
             android:orientation="vertical"
             android:id="@+id/card1">
 
             <LinearLayout
+                android:background="@color/lightBlue"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"

@@ -22,6 +22,7 @@
             android:padding="20dp">
 
             <RelativeLayout
+                android:background="@color/lightBlue"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <TextView
@@ -32,7 +33,7 @@
                     android:layout_centerHorizontal="true"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:textColor="@android:color/black"
+                    android:textColor="@color/blue"
                     android:textSize="22sp"/>
 
                 <TextView
@@ -54,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/linkFAQ"
-            android:textColorLink="#ff3d00"
+            android:textColorLink="@color/blue"
             android:textColor="@color/black"
             android:textSize="22sp"
             android:layout_marginTop="20dp"

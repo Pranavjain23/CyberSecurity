@@ -28,6 +28,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:weightSum="9"
+                android:background="@color/lightBlue"
                 android:id="@+id/llContent1">
 
                 <ImageView
@@ -83,6 +84,7 @@
             app:cardCornerRadius="10dp">
 
             <RelativeLayout
+                android:background="@color/lightBlue"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 >

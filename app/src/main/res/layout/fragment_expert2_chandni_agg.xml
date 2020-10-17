@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp">
+        android:layout_marginBottom="40dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -60,6 +60,7 @@
                         android:id="@+id/txtExpertDesignation1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:layout_below="@id/txtExpertName1"
                         android:padding="5dp"
                         android:text="@string/idea_founder_desig"
@@ -78,7 +79,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="20dp"
             android:background="#ffffff"
             app:cardCornerRadius="10dp">
 
@@ -94,7 +95,7 @@
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/blue"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp"
                     android:text="Chandni Agarwal is a dynamic &amp; visionary educationist with over 20 years experience of teaching Computer Science. \nShe is a National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador.  She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\nThis ICT ambassador through her undiluted devotion , determination and focus has become the

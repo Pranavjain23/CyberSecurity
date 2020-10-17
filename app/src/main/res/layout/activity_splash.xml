@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:text="@string/disclaimer"
         android:textSize="12sp"
+        android:textColor="@color/colorAccent"
         android:layout_alignParentBottom="true"
         android:textAlignment="center"
         android:padding="10dp"

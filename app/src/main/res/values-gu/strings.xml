@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CSAO</string>
-    <string name="welcome">स्वागत हे</string>
-    <string name="preference_file_name">Cyber Security</string>
+    <string name="welcome">સ્વાગત</string>
+    <string name="preference_file_name">સાયબર સુરક્ષા</string>
     <string name="aboutus">About Us</string>
     <string name="appcreator">APP CREATOR TEAM</string>
 
+
     <string name="complaint1">Register a cyber complaint</string>
-    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is https://cybercrime.gov.in/ . This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
+    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is \n <a href="https://cybercrime.gov.in/">https://cybercrime.gov.in/</a> .\n This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="complaint9">Citizen Login with the Complaint Name and the required field to track the status of your Complaint</string>
-    <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully</string>
+    <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully
+           </string>
     <string name="complaint7">Next step is to choose between Report Cyber Crime Related to Women/Child and Report Other Cyber Crime . Choose appropriately </string>
     <string name="complaint6">Prior to filing a complaint with this portal , you should agree to the Terms and Conditions . Should you have queries prior to filing your complaint, view Frequently Asked Questions FAQ.</string>
     <string name="complaint4">Procedure</string>
@@ -81,7 +83,10 @@
     <string name="dont_string">
         DONT
     </string>
-    <string name="webinar"><a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a></string>
+    <string name="webinar">
+                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a>
+
+    </string>
     <string name="welcome_users">Welcome Users !</string>
     <string name="about_the_developers">About the Developers</string>
     <string name="pranav_jainname">PRANAV JAIN</string>
@@ -224,11 +229,12 @@
     <string name="q5">Do you share your personal/bank details with the caller even if he seems genuine?</string>
     <string name="submit">Submit</string>
 
-    <string name="contributor">Language Contributor</string>
-    <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
-CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber secure society to aware all and solve the problems related to Cyber World.</string>
+
+    <string name="contributor">Language Contributors</string>
+    <string name="aboutApp1">"CSAO એ ભારત સરકારે શરૂ કરેલી ડિજિટલ ઇન્ડિયા ઇનિશિયેટિવની હેઠળ નાગરિકોને સાયબર સુરક્ષિત બનાવવાની એક પહેલ છે. અમારું મિશન દરેક વ્યક્તિને તેની આસપાસ થતી સાયબર છેતરપિંડીઓ વિશે જાગૃત, માર્ગદર્શન અને શિક્ષિત કરવાનું છે અને નિષ્ણાત પેનલ પરના પ્રખ્યાત સાયબર નિષ્ણાતો સલાહનો ભાગ પ્રદાન કરે છે. કુ.ચાંદની અગ્રવાલ મહારાજા અગ્રસેન મોડેલ સ્કૂલ ખાતે સિનિયર આઇટી ફેકલ્ટીમાં કાર્યરત છે. તેણીએ સાયબર સુરક્ષિત  સમાજ બનાવવા માટે આ પહેલ કરી છે અને તમામ વિદ્યાર્થીઓને જાગૃત કરવા અને સાયબર વર્લ્ડને લગતી સમસ્યાઓના નિરાકરણ માટે આ પગલું ભરતી તેની વિદ્યાર્થીઓની ટીમ સાથે કામ કર્યું છે. શ્રીમતી નિશા દુઆને અમારી નિષ્ણાત પેનલ પર સાથે છે જે અમારા માટે ગૌરવની વાત છે.
+        "</string>
     <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
-    <string name="disclaimer">Disclaimer: This app is to provide information about cyber security and we are not responsible for any furthur communication between expert and the end user</string>
+    <string name="disclaimer">Disclaimer: This app is to provide information about cyber security and we are not responsible for any further communication between expert and the end user</string>
     <string name="do9">Record the unique 15 digit IMEI number</string>
     <string name="do10">Use auto lock to automatically lock the phone or keypad lock protected by passcode/security patterns to restrict access to your mobile phone</string>
     <string name="do11">Report lost or stolen devices immediately to the nearest Police Station and concerned service provider</string>
@@ -238,6 +244,7 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="idea_founder_desig">Founder CSAO</string>
     <string name="chandniag_desig">Educator, Cyber wellness coach</string>
     <string name="chandni_agarwal">Chandni Agarwal</string>
+
 
     <string name="lang1">Change Language</string>
     <string name="lang2">1. On your Android phone or tablet, open your device\'s Settings app and then click on System.</string>

@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp">
+        android:layout_marginBottom="20dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/Aboutapp"
@@ -36,11 +36,11 @@
                     android:id="@+id/txtAboutApp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
+                    android:textSize="17sp"
                     android:text="@string/aboutApp1"
                     android:layout_below="@id/AboutAppHeader"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/blue"
                     />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -59,20 +59,54 @@
             android:drawableLeft="@drawable/ic_creator"
             android:drawablePadding="15dp"
             android:layout_below="@id/Aboutapp"/>
-        <Button
-            android:id="@+id/contributor"
-            android:paddingLeft="20dp"
+        <LinearLayout
+            android:id="@+id/rl"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:layout_marginBottom="40dp"
+            android:layout_height="wrap_content"
             android:background="@color/lightBlue"
-            android:textAlignment="textStart"
-            android:text="@string/contributor"
-            android:drawableLeft="@drawable/ic_creator"
-            android:drawablePadding="15dp"
-            android:layout_below="@id/creatorTeam"/>
+            android:layout_below="@+id/creatorTeam">
+
+            <Button
+                android:id="@+id/contributor"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="textStart"
+                android:background="@color/lightBlue"
+                android:text="@string/contributor"
+                android:drawableLeft="@drawable/ic_creator"
+                android:drawablePadding="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:text="1. Rakesh Nava Nadisar"
+                android:padding="3sp"
+                android:textColor="@color/colorPrimaryDark"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp"
+                android:background="@android:color/white"
+                android:text="2. VASHDHHD D D"
+                android:padding="3sp"
+                android:textColor="@color/colorPrimaryDark"></TextView>
+        </LinearLayout>
     </RelativeLayout>
 </ScrollView>

@@ -16,7 +16,7 @@ class Language : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view= inflater.inflate(R.layout.fragment_language, container, false)
-        getActionBar()?.setTitle(getString(R.string.lang));
+        getActionBar()?.setTitle(getString(R.string.lang))
 
         return view;
     }

@@ -4,8 +4,7 @@
     <string name="welcome">સ્વાગત</string>
     <string name="preference_file_name">સાયબર સુરક્ષા</string>
     <string name="aboutus">About Us</string>
-    <string name="appcreator">APP CREATOR TEAM</string>
-
+    <string name="appcreator">APP CREATOR TEAM </string>
 
     <string name="complaint1">Register a cyber complaint</string>
     <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is \n <a href="https://cybercrime.gov.in/">https://cybercrime.gov.in/</a> .\n This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
@@ -199,50 +198,48 @@
     <string name="state35">UTTARAKHAND</string>
     <string name="state36">UTTAR PRADESH</string>
     <string name="state37">West Bengal</string>
-    <string name="home">Home</string>
-    <string name="do_s_and_don_ts">Do\'s and Don\'ts</string>
-    <string name="important_resources">Important Resources</string>
-    <string name="experts_panel">Experts Panel</string>
-    <string name="credits">Credits</string>
-    <string name="about_app">About App</string>
-    <string name="communicate">Communicate</string>
-    <string name="share">Share</string>
-    <string name="app_creator_team">App Creator Team</string>
-    <string name="cyber_complaint_heading">Cyber Complaint</string>
-    <string name="securitycheck_heading">Security Check</string>
-    <string name="videoandwebinar_heading">Videos And Webinars</string>
-    <string name="check_your_awareness">Check your awareness..</string>
-    <string name="question_1">Question 1</string>
-    <string name="q1">Do you change your passwords frequently?</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="question_2">Question 2</string>
-    <string name="q2">How do you use bank’s services?</string>
-    <string name="from_the_mails">From the mails</string>
-    <string name="from_the_text_messages">From the text messages</string>
-    <string name="from_bank_s_official_website_or_app">From bank’s official website or app</string>
-    <string name="question_3">Question 3</string>
-    <string name="q3">Do you connect your phone to the free, unsecured Wi-Fi for shopping or banking ?</string>
-    <string name="question_4">Question 4</string>
-    <string name="q4">Do you install the software that comes as an attachment in emails?</string>
-    <string name="question_5">Question 5</string>
-    <string name="q5">Do you share your personal/bank details with the caller even if he seems genuine?</string>
-    <string name="submit">Submit</string>
+    <string name="home">ઘર</string>
+    <string name="do_s_and_don_ts">કરવું અને ના કરવું</string>
+    <string name="important_resources">મહત્વપૂર્ણ સ્ત્રોતોનો</string>
+    <string name="experts_panel">નિષ્ણાત પેનલ. </string>
+    <string name="credits">ક્રેડિટ્સ</string>
+    <string name="about_app">એપ્લિકેશન વિશે</string>
+    <string name="communicate">વાતચીત</string>
+    <string name="share">વાતચીત</string>
+    <string name="app_creator_team">એપ્લિકેશન નિર્માતા ટીમ</string>
+    <string name="cyber_complaint_heading">સાયબર ફરિયાદ</string>
+    <string name="securitycheck_heading">સુરક્ષા તપાસ</string>
+    <string name="videoandwebinar_heading">વિડીઓસ અને વેબીનાર.  </string>
+    <string name="check_your_awareness">તમારી જાગૃતિ તપાસો ..</string>
+    <string name="question_1">પ્રશ્ન 1</string>
+    <string name="q1">શું તમે વારંવાર તમારો પાસવર્ડ બદલો છો?</string>
+    <string name="yes">હા</string>
+    <string name="no">ના </string>
+    <string name="question_2">પ્રશ્ન 2</string>
+    <string name="q2">તમે બેંકની સેવાઓનો ઉપયોગ કેવી રીતે કરશો?</string>
+    <string name="from_the_mails">મેલ્સ દ્વારા  </string>
+    <string name="from_the_text_messages">ટેક્સ શદેશાઓ દ્વારા. </string>
+    <string name="from_bank_s_official_website_or_app">બેંક ની સત્તાવાર વેબસાઇટ કે એપ્સ દ્વારા. </string>
+    <string name="question_3">પ્રશ્ન 3</string>
+    <string name="q3">શું તમે તમારા ફોનને ખરીદી અથવા બેંકિંગ માટે મફત, અસુરક્ષિત Wi-Fi થી કનેક્ટ કરો છો?</string>
+    <string name="question_4">પ્રશ્ન 4</string>
+    <string name="q4">શું તમે ઈમેલમાં આવતા સોફ્ટવેર ને ઇન્સ્ટોલ કરો છો?</string>
+    <string name="question_5">પ્રશ્ન 5</string>
+    <string name="q5">શું તમે કોઈ કોલર અસલી લાગે તો તમારી વ્યક્તિગત / બેંક વિગતો શેર કરો છો?</string>
+    <string name="submit">સબમિટ</string>
 
-
-    <string name="contributor">Language Contributors</string>
-    <string name="aboutApp1">"CSAO એ ભારત સરકારે શરૂ કરેલી ડિજિટલ ઇન્ડિયા ઇનિશિયેટિવની હેઠળ નાગરિકોને સાયબર સુરક્ષિત બનાવવાની એક પહેલ છે. અમારું મિશન દરેક વ્યક્તિને તેની આસપાસ થતી સાયબર છેતરપિંડીઓ વિશે જાગૃત, માર્ગદર્શન અને શિક્ષિત કરવાનું છે અને નિષ્ણાત પેનલ પરના પ્રખ્યાત સાયબર નિષ્ણાતો સલાહનો ભાગ પ્રદાન કરે છે. કુ.ચાંદની અગ્રવાલ મહારાજા અગ્રસેન મોડેલ સ્કૂલ ખાતે સિનિયર આઇટી ફેકલ્ટીમાં કાર્યરત છે. તેણીએ સાયબર સુરક્ષિત  સમાજ બનાવવા માટે આ પહેલ કરી છે અને તમામ વિદ્યાર્થીઓને જાગૃત કરવા અને સાયબર વર્લ્ડને લગતી સમસ્યાઓના નિરાકરણ માટે આ પગલું ભરતી તેની વિદ્યાર્થીઓની ટીમ સાથે કામ કર્યું છે. શ્રીમતી નિશા દુઆને અમારી નિષ્ણાત પેનલ પર સાથે છે જે અમારા માટે ગૌરવની વાત છે.
-        "</string>
-    <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
-    <string name="disclaimer">Disclaimer: This app is to provide information about cyber security and we are not responsible for any further communication between expert and the end user</string>
-    <string name="do9">Record the unique 15 digit IMEI number</string>
-    <string name="do10">Use auto lock to automatically lock the phone or keypad lock protected by passcode/security patterns to restrict access to your mobile phone</string>
-    <string name="do11">Report lost or stolen devices immediately to the nearest Police Station and concerned service provider</string>
-    <string name="dont7">Never leave your mobile device unattended.</string>
-    <string name="dont8">Never keep sensitive information like user names/passwords on your devices.</string>
-    <string name="dont9">Never connect to unknown networks or untrusted networks.</string>
-    <string name="idea_founder_desig">Founder CSAO</string>
-    <string name="chandniag_desig">Educator, Cyber wellness coach</string>
+    <string name="contributor">ભાષાની યોગદાનકર્તા</string>
+    <string name="aboutApp1">CSAO नागरिकों साइबर डिजिटल भारत पहल की उम्र में भारत सरकार द्वारा शुरू कर दिया तहत सुरक्षित बनाने के लिए एक पहल है। हमारा मिशन के बारे में पता, गाइड करने के लिए है और साइबर धोखाधड़ी है कि उन्हें चारों ओर हो रही है और उन्हें विशेषज्ञ पर प्रसिद्ध साइबर विशेषज्ञों से सलाह का एक टुकड़ा प्रदान कर रहे हैं के बारे में प्रत्येक व्यक्ति को शिक्षित पैनल.CSAO सुश्री चांदनी अग्रवाल, वरिष्ठ आईटी संकाय के एक मस्तिष्क बच्चा है महाराजा अग्रसेन मॉडल स्कूल में। साइबर दुनिया से जुड़ी सभी समस्याओं के समाधान के लिए साइबर सुरक्षा समाज को जागरूक करने के लिए उन्होंने यह पहल की है |</string>
+    <string name="video">અમારા પોતાના નિષ્ણાતો પાસેથી સાયબર સુરક્ષા વિશે વધુ જાણો. અમારી વિશિષ્ટ પ્લેલિસ્ટમાં સીધા જવા માટે નીચે ક્લિક કરો</string>
+    <string name="disclaimer">અસ્વીકરણ: આ એપ્લિકેશન સાયબર સુરક્ષા વિશેની માહિતી પ્રદાન કરવા માટે છે અને નિષ્ણાત અને અંતિમ વપરાશકર્તા વચ્ચેના કોઈપણ સંવાદ માટે અમે જવાબદાર નથી.</string>
+    <string name="do9">અનન્ય 15 અંકનો IMEI નંબર રેકોર્ડ કરો</string>
+    <string name="do10">તમારા મોબાઇલ ફોનના  એક્સેસને પ્રતિબંધિત કરવા માટે પાસકોડ / સુરક્ષા પેટર્ન દ્વારા આપમેળે ફોનને લોક કરવા અથવા કીપેડ લોક કરવા  માટે ઓટો લોકનો ઉપયોગ કરો.</string>
+    <string name="do11"> ખોવાયેલા અથવા ચોરાયેલા ઉપકરણોને તાત્કાલિક નજીકના પોલીસ સ્ટેશન અને સંબંધિત સેવા પ્રદાતાને જાણ કરો</string>
+    <string name="dont7">તમારા મોબાઇલ ડિવાઇસને ક્યારેય છૂટો પડ્યો મુકસો નહીં.  </string>
+    <string name="dont8"> ક્યારેય તમારા ડિવાઇસ માં યુઝર નેમ/પાસસવર્ડ સેવ રાખસો નહીં. </string>
+    <string name="dont9">અજાણ્યા નેટવર્ક અથવા અવિશ્વસનીય નેટવર્કથી ક્યારેય કનેક્ટ થશો નહીં.</string>
+    <string name="idea_founder_desig">આઈડિયા સ્થાપક</string>
+    <string name="chandniag_desig">માર્ગદર્શક અને કોચ, સાયબર સુરક્ષા &amp; વેલનેસ</string>
     <string name="chandni_agarwal">Chandni Agarwal</string>
 
 

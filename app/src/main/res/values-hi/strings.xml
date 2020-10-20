@@ -6,22 +6,22 @@
     <string name="aboutus">हमारे बारे में</string>
     <string name="appcreator">एप्लिकेशन निर्माता टीम</string>
 
-    <string name="complaint1">Register a cyber complaint</string>
-    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is https://cybercrime.gov.in/ . This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
-    <string name="open_drawer">Open Drawer</string>
-    <string name="complaint9">Citizen Login with the Complaint Name and the required field to track the status of your Complaint</string>
-    <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully</string>
-    <string name="complaint7">Next step is to choose between Report Cyber Crime Related to Women/Child and Report Other Cyber Crime . Choose appropriately </string>
-    <string name="complaint6">Prior to filing a complaint with this portal , you should agree to the Terms and Conditions . Should you have queries prior to filing your complaint, view Frequently Asked Questions FAQ.</string>
-    <string name="complaint4">Procedure</string>
-    <string name="complaint5">Filing a Complaint on National Cyber Crime Reporting Portal ! Click on File a Complaint to proceed to the next step</string>
-    <string name="complaint3">Prior to filing a complaint with this portal, we would request you to read the below information regarding terms and conditions. Should you have queries prior to filing your complaint, view Frequently Asked Questions on the website . Procedure to complete the process is specified below . </string>
-    <string name="close_drawer">Close Drawer</string>
-    <string name="info">info</string>
-    <string name="dos_and_dont_image">Dos and Dont Image</string>
-    <string name="learn_cyber_crime_headings">Learn Cyber Crime Headings</string>
+    <string name="complaint1">साइबर शिकायत रजिस्टर</string>
+    <string name="complaint2">1. इस पोर्टल की सुविधा पीड़ितों / ऑनलाइन रिपोर्ट साइबर अपराध की शिकायतों का शिकायतकर्ताओं। \n 2। केवल महिलाओं और बच्चों के खिलाफ साइबर क्राइम पर विशेष ध्यान देने के साथ साइबर क्राइम से संबंधित शिकायतों के लिए इस पोर्टल पूरा करता है। \ N3। इस पोर्टल पर सूचना दी शिकायतें जानकारी शिकायतों में उपलब्ध के आधार पर कानून प्रवर्तन एजेंसियों / पुलिस ने निपटा रहे हैं। \ n \ n यह शीघ्र कार्रवाई के लिए शिकायत दर्ज कराने, जबकि सही और सटीक जानकारी प्रदान करते हैं आवश्यक है।</string>
+    <string name="open_drawer">ओपन दराज</string>
+    <string name="complaint9">आपकी शिकायत की स्थिति पर नज़र रखने नागरिक लॉग शिकायत नाम और आवश्यक फ़ील्ड के साथ</string>
+    <string name="complaint8">गुमनाम रूप से रिपोर्ट। शिकायत / हादसा विवरण में भरें और अगले चरण के लिए आगे बढ़ना है और सही सभी जानकारी को भरने कर सकते हैं और ध्यान से</string>
+    <string name="complaint7">अगला चरण महिला / बच्चे को रिपोर्ट साइबर अपराध संबंधित और रिपोर्ट अन्य साइबर अपराध के बीच चुनाव करना है। उचित रूप से चुनें</string>
+    <string name="complaint6">इस पोर्टल के साथ शिकायत दर्ज कराने से पहले, आप नियम और शर्तों के लिए सहमत होना चाहिए। आप अपनी शिकायत दर्ज कराने से पहले प्रश्न हैं, सवाल जवाब पूछे जाने वाले प्रश्न देखें।</string>
+    <string name="complaint4">प्रक्रिया</string>
+    <string name="complaint5">राष्ट्रीय साइबर क्राइम रिपोर्टिंग पोर्टल पर शिकायत दर्ज कराने! की शिकायत दर्ज क्लिक करें अगले चरण पर आगे बढ़ने के लिए</string>
+    <string name="complaint3">इस पोर्टल के साथ शिकायत दर्ज कराने से पहले, हम नियमों और शर्तों को के बारे में जानकारी नीचे पढ़ने के लिए आपसे अनुरोध करते हैं। आप अपनी शिकायत दर्ज कराने से पहले प्रश्न हैं, अक्सर पूछे जाने वाले दृश्य वेबसाइट पर प्रश्न। प्रक्रिया को पूरा करने की प्रक्रिया नीचे निर्दिष्ट किया जाता है।</string>
+    <string name="close_drawer">बंद दराज</string>
+    <string name="info">जानकारी</string>
+    <string name="dos_and_dont_image">क्या करें और क्या नहीं छवि</string>
+    <string name="learn_cyber_crime_headings">जानें साइबर अपराध हेडिंग</string>
     <string name="linkFAQ">
-        <a href="https://cybercrime.gov.in/Default.aspx">Click here to proceed </a>
+        <a href="https://cybercrime.gov.in/Default.aspx">आगे बढ़ने के लिए यहां क्लिक करें</a>
     </string>
     <string name="getcybersafe">
                https://www.getcybersafe.gc.ca/
@@ -47,115 +47,115 @@
 
 
     <string name="cyberswachhtakendra">
-        <a href="https://www.cyberswachhtakendra.gov.in/">Cyber Swachhta Kendra</a>
+        <a href="https://www.cyberswachhtakendra.gov.in/">साइबर स्‍वच्‍छता केंद्र</a>
     </string>
     <string name="cyberswachhtakendrasecuritytools">
-        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">Cyber Swachhta Kendra Security Tools</a>
+        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">साइबर सुरक्षा केंद्र सुरक्षा उपकरण</a>
     </string>
     <string name="cyberattacks">
-        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">Covid19 Cyber Attacks</a>
+        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">Covid19 साइबर अटैक</a>
     </string>
 
     <string name="cyberSandS">
-        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">Cyber Safety And Security</a>
+        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">साइबर सुरक्षा और सुरक्षा</a>
     </string>
     <string name="studentsecurity">
-        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing">Cyber Security for Students</a>
+        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing">छात्रों के लिए साइबर सुरक्षा</a>
     </string>
     <string name="teacherguidelines">
-        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing">Cyber Security Teacher Guidelines</a>
+        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing">साइबर सुरक्षा शिक्षक दिशानिर्देश</a>
     </string>
     <string name="ncpcr">
-        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing">NCPCR Guidelines for online safety</a>
+        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing">ऑनलाइन सुरक्षा के लिए NCPCR दिशानिर्देश</a>
     </string>
     <string name="cybersafetyManual">
-        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing">Cyber Safety Manual</a>
+        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing">साइबर सुरक्षा मैनुअल</a>
     </string>
 
     <string name="infosecawareness">
-        <a href="https://www.infosecawareness.in/">Infosecawareness</a>
+        <a href="https://www.infosecawareness.in/">जानकारीजागरूकता</a>
     </string>
     <string name="do_string">
-        DO
+क्या करें
     </string>
     <string name="dont_string">
-        DONT
+क्या न करें
     </string>
-    <string name="webinar"><a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a></string>
-    <string name="welcome_users">Welcome Users !</string>
-    <string name="about_the_developers">About the Developers</string>
-    <string name="pranav_jainname">PRANAV JAIN</string>
-    <string name="pranav_email">jaincoolpranav@gmail.com</string>
-    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">Send Feedback </a></string>
-    <string name="bhoomika_garg">BHOOMIKA GARG</string>
-    <string name="bhoomika_email">bhoomika.garg.9@gmail.com</string>
-    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">Send Feedback </a></string>
-    <string name="org">© 2020 Cyber Security Awareness Organization</string>
-    <string name="privacy_policy">Privacy Policy</string>
-    <string name="do1">Set your browser security to high and add safe websites to trusted website zone..</string>
-    <string name="do2">Disable the login and remembering passwords information…</string>
-    <string name="do3">Block pop up window in your web browser…</string>
-    <string name="do4">Enable the option “warn me when sites try to install extensions/theme”  in your web browser..</string>
-    <string name="do5">Try to have separate email id other than your official id to be  used in social website…</string>
-    <string name="do6">Be extremely careful about how you share personal information about yourself online</string>
-    <string name="do7">Make sure that your ISP and Internet Relay Chart (IRC) network have an acceptable use policy that prohibits cyber-stalking.</string>
-    <string name="do8">Always install recommended updates and install original antivirus and antispyware programs..</string>
-    <string name="dont1">Don\'t delete harmful communications (emails, chat logs, posts etc). These may help provide vital information about the identity of the person behind these..</string>
-    <string name="dont2">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be..</string>
-    <string name="dont3">Do not give your password to anybody. Somebody who is malicious can cause great harm to you and your reputation. It is like leaving your house open for a stranger and walking away.</string>
-    <string name="dont4">Do not copy a program that is copyrighted on the net. It is illegal.</string>
-    <string name="dont5">When talking to somebody new on the net, do not give away personal information-like numbers of the credit card used by your parents, your home addresses/ phone numbers and such other personal information…</string>
-    <string name="dont6">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be…</string>
-    <string name="nisha_dua">Nisha Dua</string>
-    <string name="nishadua_desig">Principal Consultant Cyber Peace Foundation</string>
-    <string name="nishadua_intro"><![CDATA[Nisha Dua is a dynamic & visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army & Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information & Communication Technology in improving lives & learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building & policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety & Security Programs at Cyber Peace Foundation.]]></string>
-    <string name="nishadua_desig1"><![CDATA[Mentor & Coach e-Learning Models, Cyber Safety & Wellness]]></string>
+    <string name="webinar"><a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">यहाँ क्लिक करें</a></string>
+    <string name="welcome_users">आपका स्वागत है उपयोगकर्ता!</string>
+    <string name="about_the_developers">डेवलपर्स के बारे में</string>
+    <string name="pranav_jainname">प्रणव जैन</string>
+    <string name="pranav_email">जैनकूलप्रणव@जीमेल.कॉम</string>
+    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">फ़ीड भेजें</a></string>
+    <string name="bhoomika_garg">भूमिका गर्ग</string>
+    <string name="bhoomika_email">भूमिका.गर्ग.नौ@जीमेल.कॉम</string>
+    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">फ़ीड भेजें </a></string>
+    <string name="org">CSAO © 2020 साइबर सुरक्षा जागरूकता ऑनलाइन</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="do1">उच्च करने के लिए आपके ब्राउज़र सुरक्षा सेट और विश्वसनीय वेबसाइट क्षेत्र के लिए सुरक्षित वेबसाइटों को जोड़ने</string>
+    <string name="do2">लॉगिन और पासवर्ड याद रखने जानकारी अक्षम</string>
+    <string name="do3">ब्लॉक अपने वेब ब्राउज़र में पॉप अप विंडो</string>
+    <string name="do4">विकल्प मुझे चेतावनी जब साइटों अपने वेब ब्राउज़र में एक्सटेंशन / विषय स्थापित करने का प्रयास सक्षम करें ..</string>
+    <string name="do5">सामाजिक वेबसाइट में इस्तेमाल किया जा करने के लिए अपने सरकारी आईडी के अलावा अन्य अलग ईमेल आईडी होना करने की कोशिश करो</string>
+    <string name="do6">के बारे में अत्यंत सावधान रहें कैसे आप अपने बारे में व्यक्तिगत जानकारी साझा ऑनलाइन</string>
+    <string name="do7">सुनिश्चित करें कि आपके आईएसपी और इंटरनेट रिले चार्ट (आईआरसी) नेटवर्क एक स्वीकार्य उपयोग नीति है कि साइबर पीछा करने पर प्रतिबंध लगाता किया हुआ है।</string>
+    <string name="do8">हमेशा की सिफारिश की अद्यतन स्थापित और मूल एंटीवायरस और एंटीस्पायवेयर प्रोग्राम इंस्टॉल ..</string>
+    <string name="dont1">डॉन \ \'टी हटाने हानिकारक संचार (ईमेल, चैट लॉग, पोस्ट आदि)। ये मदद मिल सकती है इन के पीछे व्यक्ति की पहचान के बारे में महत्वपूर्ण जानकारी प्रदान करते हैं ..</string>
+    <string name="dont2">कैसे विषय पंक्ति आकर्षक या लगाव हो सकता है की परवाह किए बिना अजनबियों से नहीं खुला ई-मेल संलग्नक है, ..</string>
+    <string name="dont3">किसी को अपना पासवर्ड न दें। किसी ने जो दुर्भावनापूर्ण है आप और आपके प्रतिष्ठा को काफी नुकसान हो सकता है। यह एक अजनबी के लिए खुला अपने घर छोड़ने और लेने का की तरह है।</string>
+    <string name="dont4">एक प्रोग्राम है जो नेट पर कॉपीराइट की नकल न करें। यह अवैध है।</string>
+    <string name="dont5">जब नेट पर नए किसी से बात कर, व्यक्तिगत जानकारी की तरह क्रेडिट अपने माता-पिता द्वारा प्रयोग किया जाता कार्ड के नंबर, आपके घर के पते / फोन नंबर और ऐसे अन्य व्यक्तिगत जानकारी नहीं देते</string>
+    <string name="dont6">कैसे विषय पंक्ति या लगाव आकर्षक हो सकता है की अजनबियों से नहीं खुला ई-मेल संलग्नक है, भले ही</string>
+    <string name="nisha_dua">निशा दुआ</string>
+    <string name="nishadua_desig">प्रधान सलाहकार साइबर पीस फाउंडेशन</string>
+    <string name="nishadua_intro">निशा दुआ एक गतिशील और प्रगतिशील वास्तविक दुनिया अनुभव और नेतृत्व, अंग्रेजी और PGDSM (कॉम्प विज्ञान) एनआईआईटी से में मास्टर्स की दोहरी संयोजन के साथ के 20 साल के साथ दूरदर्शी शिक्षाविद् है, निशा अंग्रेजी पढ़ाने और यह भी प्रबंध कंप्यूटर विज्ञान लैब के अनुभव है दिल्ली, मुंबई और विशाखापत्तनम भर में थलसेना और नौसेना स्कूलों में एक दशक से अधिक के लिए। जीवन में सुधार लाने और सीखने में सूचना एवं संचार प्रौद्योगिकी का परिवर्तनकारी शक्ति के एक कट्टर समर्थक, निशा इंटेल की Edutech कार्यक्रम में कामयाब रहा है - 12 से अधिक वर्षों के लिए "भविष्य के लिए इंटेल टीच", स्कूलों, कॉलेजों, सरकारी संगठनों, नागरिक समाज और कंपनियों के लिए के साथ सहयोग विभिन्न स्तरों पर क्षमता निर्माण और नीतिगत सुधारों। प्रौद्योगिकी और इंटरनेट के जिम्मेदार और सकारात्मक उपयोग की एक फर्म आस्तिक, वह भी सुरक्षित रूप से और चालाकी से इंटरनेट की शक्ति का उपयोग करने के सलाह बच्चों, युवाओं, शिक्षकों, महिलाओं और वरिष्ठ नागरिकों पर ध्यान केंद्रित है, और डिजिटल युग में कामयाब रहा है। वह वर्तमान में साइबर पीस फाउंडेशन में साइबर सुरक्षा और सुरक्षा कार्यक्रम के लिए प्रधान सलाहकार है</string>
+    <string name="nishadua_desig1">मेंटर और कोच ई-लर्निंग मॉडल, साइबर सुरक्षा और कल्याण</string>
     <string name="nishadua_email">nishadua@yahoo.com</string>
-    <string name="security_check">Security check</string>
-    <string name="lcc">Learn about Cyber Crime</string>
-    <string name="cybercomplaint">Cyber Complaint</string>
-    <string name="preventivetips">Preventive Tips</string>
-    <string name="helpline_number">Helpline Numbers</string>
-    <string name="vandw">Videos and Webinars</string>
-    <string name="lcc1">CHILD PORNOGRAPHY/ CHILD SEXUALLY ABUSIVE MATERIAL (CSAM)</string>
-    <string name="lcc2">CYBER BULLYING</string>
-    <string name="lcc3">CYBER STALKING</string>
-    <string name="lcc4">CYBER GROOMING</string>
-    <string name="lcc5">ONLINE JOB FRAUD</string>
-    <string name="lcc6">ONLINE SEXTORTION</string>
-    <string name="lcc7">VISHING</string>
-    <string name="lcc8">SEXTING</string>
-    <string name="lcc9">SMSHING</string>
-    <string name="lcc10">SIM SWAP SCAM</string>
-    <string name="lcc11">DEBIT/CREDIT CARD FRAUD</string>
-    <string name="lcc12">IMPERSONATION AND IDENTITY THEFT</string>
-    <string name="lcc13">PHISHING</string>
-    <string name="lcc14">SPAMMING</string>
-    <string name="lcc15">RANSOMWARE</string>
-    <string name="lcc16"><![CDATA[VIRUS, WORMS & TROJANS]]></string>
-    <string name="lcc17">DATA BREACH</string>
-    <string name="lcc18">DENIAL OF SERVICES /DISTRIBUTED DOS</string>
-    <string name="lcc19">WEBSITE DEFACEMENT</string>
-    <string name="lcc20">CYBER-SQUATTING</string>
-    <string name="lcc21">PHARMING</string>
-    <string name="lcc22">CRYPTOJACKING</string>
-    <string name="lcc23">ONLINE DRUG TRAFFICKING</string>
-    <string name="lcc24">ESPIONAGE</string>
-    <string name="pt1">Clicking without Thinking Is Reckless</string>
-    <string name="pt2">Stick to your own devices</string>
-    <string name="pt3">Be aware of your surroundings</string>
-    <string name="pt4">Keep track of your digital footprint</string>
-    <string name="pt5">Keep up with Updates</string>
-    <string name="pt6">Back Up Your Data</string>
-    <string name="pt7">Keep Your Privacy Settings On</string>
-    <string name="pt8">Be Careful What You Download</string>
-    <string name="pt9">Make Online Purchases From Secure Sites</string>
-    <string name="pt10">Use Strong Passwords</string>
-    <string name="pt11">Secure your computer</string>
-    <string name="pt12">Keep Your Antivirus Program Up To Date</string>
-    <string name="pt13">Be Social-Media Savvy</string>
-    <string name="pt14">Secure your Mobile Devices</string>
-    <string name="pt15">Protect your Data</string>
+    <string name="security_check">सुरक्षा जांच</string>
+    <string name="lcc">साइबर अपराध के बारे में जानें</string>
+    <string name="cybercomplaint">साइबर शिकायत</string>
+    <string name="preventivetips">निवारक टिप्स</string>
+    <string name="helpline_number">हेल्पलाइन नंबर</string>
+    <string name="vandw">वीडियो और वेबिनार</string>
+    <string name="lcc1">बाल पोर्नोग्राफी / बाल यौन अपमानजनक सामग्री (CSAM)</string>
+    <string name="lcc2">सायबर बदमाशी</string>
+    <string name="lcc3">साइबर पीछा</string>
+    <string name="lcc4">साइबर ग्रूमिंग</string>
+    <string name="lcc5">ऑनलाइन नौकरी धोखाधड़ी</string>
+    <string name="lcc6">ऑनलाइन सेक्स एंड ब्लैकमेल</string>
+    <string name="lcc7">विशिंग</string>
+    <string name="lcc8">सेक्सटिंग</string>
+    <string name="lcc9">एसएमएसशिंग</string>
+    <string name="lcc10">सिम स्वैप घोटाला</string>
+    <string name="lcc11">डेबिट / क्रेडिट कार्ड धोखाधड़ी</string>
+    <string name="lcc12">ग़लत पहचान और पहचान की चोरी</string>
+    <string name="lcc13">फ़िशिंग</string>
+    <string name="lcc14">स्पैमिंग</string>
+    <string name="lcc15">रैंसमवेयर</string>
+    <string name="lcc16">वायरस, कीड़े और ट्रोजन</string>
+    <string name="lcc17">डेटा भंग</string>
+    <string name="lcc18">सेवा से वंचित / वितरित डॉस</string>
+    <string name="lcc19">वेबसाइट विरुपण</string>
+    <string name="lcc20">साइबर बैठने</string>
+    <string name="lcc21">फार्मरिंग</string>
+    <string name="lcc22">किप्टोजैकिंग</string>
+    <string name="lcc23">ऑनलाइन नशीले पदार्थों की तस्करी</string>
+    <string name="lcc24">जासूसी</string>
+    <string name="pt1">सोच के बिना पर क्लिक करने से लापरवाह है</string>
+    <string name="pt2">अपने स्वयं के उपकरणों के लिए चिपका</string>
+    <string name="pt3">अपने आसपास को लेकर जागरूक रहें</string>
+    <string name="pt4">अपने डिजिटल पदचिह्न पर नज़र रखें</string>
+    <string name="pt5">जानकारी की जानकारी रखे</string>
+    <string name="pt6">बैक अप अपने डेटा</string>
+    <string name="pt7">अपनी गोपनीयता सेटिंग्स पर रखें</string>
+    <string name="pt8">सावधान क्या आप डाउनलोड बनें</string>
+    <string name="pt9">सुरक्षित साइट्स से ऑनलाइन खरीदारी करने के</string>
+    <string name="pt10">सशक्त पासवर्ड का उपयोग करें</string>
+    <string name="pt11">अपने कंप्यूटर को सुरक्षित</string>
+    <string name="pt12">आपका एंटीवायरस प्रोग्राम तक की तिथि रखें</string>
+    <string name="pt13">सामाजिक मीडिया प्रेमी बनें</string>
+    <string name="pt14">अपने मोबाइल उपकरणों को सुरक्षित</string>
+    <string name="pt15">अपने डेटा की रक्षा</string>
     <string name="cyberpeacehelpline">helpline@cyberpeace.net</string>
     <string name="state1"><![CDATA[ANDAMAN & NICOBAR]]></string>
     <string name="state2">ANDHRA PRADESH</string>

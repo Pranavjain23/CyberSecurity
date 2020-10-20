@@ -2,9 +2,9 @@
 <resources>
     <string name="app_name">CSAO</string>
     <string name="welcome">स्वागत हे</string>
-    <string name="preference_file_name">Cyber Security</string>
-    <string name="aboutus">About Us</string>
-    <string name="appcreator">APP CREATOR TEAM</string>
+    <string name="preference_file_name">साइबर सुरक्षा</string>
+    <string name="aboutus">हमारे बारे में</string>
+    <string name="appcreator">एप्लिकेशन निर्माता टीम</string>
 
     <string name="complaint1">Register a cyber complaint</string>
     <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is https://cybercrime.gov.in/ . This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
@@ -225,8 +225,7 @@
     <string name="submit">Submit</string>
 
     <string name="contributor">Language Contributor</string>
-    <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
-CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber secure society to aware all and solve the problems related to Cyber World.</string>
+    <string name="aboutApp1">CSAO नागरिकों साइबर डिजिटल भारत पहल की उम्र में भारत सरकार द्वारा शुरू कर दिया तहत सुरक्षित बनाने के लिए एक पहल है। हमारा मिशन के बारे में पता, गाइड करने के लिए है और साइबर धोखाधड़ी है कि उन्हें चारों ओर हो रही है और उन्हें विशेषज्ञ पर प्रसिद्ध साइबर विशेषज्ञों से सलाह का एक टुकड़ा प्रदान कर रहे हैं के बारे में प्रत्येक व्यक्ति को शिक्षित पैनल.CSAO सुश्री चांदनी अग्रवाल, वरिष्ठ आईटी संकाय के एक मस्तिष्क बच्चा है महाराजा अग्रसेन मॉडल स्कूल में। साइबर दुनिया से जुड़ी सभी समस्याओं के समाधान के लिए साइबर सुरक्षा समाज को जागरूक करने के लिए उन्होंने यह पहल की है |</string>
     <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
     <string name="disclaimer">Disclaimer: This app is to provide information about cyber security and we are not responsible for any furthur communication between expert and the end user</string>
     <string name="do9">Record the unique 15 digit IMEI number</string>

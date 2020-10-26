@@ -7,7 +7,7 @@
 
 
     <string name="complaint1">Register a cyber complaint</string>
-    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is \n <a href="https://cybercrime.gov.in/">https://cybercrime.gov.in/</a> .\n This portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
+    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is \n <a href="https://cybercrime.gov.in/">https://cybercrime.gov.in/</a> .\n \nThis portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="complaint9">Citizen Login with the Complaint Name and the required field to track the status of your Complaint</string>
     <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully
@@ -86,6 +86,7 @@
                 <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a>
 
     </string>
+
     <string name="welcome_users">Welcome Users !</string>
     <string name="about_the_developers">About the Developers</string>
     <string name="pranav_jainname">PRANAV JAIN</string>
@@ -111,8 +112,8 @@
     <string name="dont5">When talking to somebody new on the net, do not give away personal information-like numbers of the credit card used by your parents, your home addresses/ phone numbers and such other personal information…</string>
     <string name="dont6">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be…</string>
     <string name="nisha_dua">Nisha Dua</string>
+    <string name="nishadua_intro">Nisha Dua is a dynamic &amp; visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army &amp; Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information &amp; Communication Technology in improving lives &amp; learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building &amp; policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety &amp; Security Programs at Cyber Peace Foundation.</string>
     <string name="nishadua_desig">Principal Consultant Cyber Peace Foundation</string>
-    <string name="nishadua_intro"><![CDATA[Nisha Dua is a dynamic & visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army & Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information & Communication Technology in improving lives & learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building & policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety & Security Programs at Cyber Peace Foundation.]]></string>
     <string name="nishadua_desig1"><![CDATA[Mentor & Coach e-Learning Models, Cyber Safety & Wellness]]></string>
     <string name="nishadua_email">nishadua@yahoo.com</string>
     <string name="security_check">Security check</string>
@@ -161,21 +162,21 @@
     <string name="pt14">Secure your Mobile Devices</string>
     <string name="pt15">Protect your Data</string>
     <string name="cyberpeacehelpline">helpline@cyberpeace.net</string>
-    <string name="state1"><![CDATA[ANDAMAN & NICOBAR]]></string>
+    <string name="state1">ANDAMAN &amp; NICOBAR</string>
     <string name="state2">ANDHRA PRADESH</string>
     <string name="state3">Arunachal Pradesh</string>
     <string name="state4">ASSAM</string>
     <string name="state5">Bihar</string>
     <string name="state6">Chandigarh</string>
     <string name="state7">Chhattisgarh</string>
-    <string name="state8"><![CDATA[DADRA & NAGAR HAVELI]]></string>
-    <string name="state9"><![CDATA[DAMAN & DIU]]></string>
+    <string name="state8">DADRA &amp; NAGAR HAVELI</string>
+    <string name="state9">DAMAN &amp; DIU></string>
     <string name="state10">DELHI</string>
     <string name="state11">Goa</string>
     <string name="state12">GUJARAT</string>
     <string name="state13">HARYANA</string>
     <string name="state14">Himachal Pradesh</string>
-    <string name="state15"><![CDATA[JAMMU & KASHMIR]]></string>
+    <string name="state15">JAMMU &amp; KASHMIR</string>
     <string name="state16">Jharkhand</string>
     <string name="state17">Karnataka</string>
     <string name="state18">Kerala</string>

@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CSAO</string>
-    <string name="welcome">स</string>
-    <string name="preference_file_name"></string>
-    <string name="aboutus"></string>
-    <string name="appcreator"></string>
+    <string name="welcome">இணைய</string>
+    <string name="preference_file_name">இணைய பாதுகாப்பு </string>
+    <string name="aboutus">எங்களைப் பற்றி </string>
+    <string name="appcreator">செயலி உருவாக்கம் </string>
 
-    <string name="complaint1"></string>
-    <string name="complaint2"></string>
-    <string name="open_drawer"></string>]
-    <string name="complaint9"></string>
-    <string name="complaint8"></string>
-    <string name="complaint7"></string>
-    <string name="complaint6"></string>
-    <string name="complaint4"></string>
+    <string name="complaint1">இணைய புகார் பதிவிற்கு </string>
+    <string name="complaint2">1. இந்த போர்டல் பாதிக்கப்பட்டவர்களுக்கு / புகார் அளிப்பவர்களுக்கு இணைய குற்ற புகார்களை ஆன்லைனில் புகாரளிக்க உதவுகிறது. \ N2. பெண்கள் மற்றும் குழந்தைகளுக்கு எதிரான இணைய குற்றங்களில் சிறப்பு கவனம் செலுத்தி  சைபர் குற்றங்கள் தொடர்பான புகார்களை உடனடியாக தீர்க்க  இந்த போர்டல் வழிவகை செய்கிறது . \ n3. இந்த போர்ட்டலில் புகாரளிக்கப்பட்ட  பதிவு செய்யப்பட்ட  தகவல்களின் அடிப்படையில் சட்ட அமலாக்க முகவர் / காவல்துறை மூலம் பிரச்சனைகள் தீர்க்கப்படுகின்றன. \ N \ n உடனடி நடவடிக்கைக்கு புகார் அளிக்கும்போது சரியான மற்றும் துல்லியமான விவரங்களை வழங்க வேண்டியது அவசியம்.</string>
+    <string name="open_drawer">திறந்த அலமாரியை</string>]
+    <string name="complaint9">உங்கள் புகாரின் நிலையைக் கண்டறிய புகார் பெயர் மற்றும் தேவையான புலத்துடன் குடிமகன் உள்நுழைவு</string>
+    <string name="complaint8">
+அநாமதேயமாக புகாரளிக்கவும். புகார் / சம்பவ விவரங்களை பூர்த்தி செய்து அடுத்த படிகளுக்குச் சென்று அனைத்து தகவல்களையும் சரியான மற்றும் கவனமாக நிரப்பவும்</string>
+    <string name="complaint7">அடுத்த கட்டமாக பெண்கள் / குழந்தை தொடர்பான சைபர் குற்றத்தைப் புகாரளித்தல் மற்றும் பிற சைபர் குற்றங்களைப் புகாரளித்தல். சரியான முறையில் தேர்வு செய்யவும்</string>
+    <string name="complaint6">இந்த போர்ட்டலில் புகார் அளிப்பதற்கு முன், நீங்கள் விதிமுறைகளையும் நிபந்தனைகளையும் ஏற்றுக்கொள்ள வேண்டும். உங்கள் புகாரைத் தாக்கல் செய்வதற்கு முன்பு உங்களிடம் கேள்விகள் இருந்தால், அடிக்கடி கேட்கப்படும் கேள்விகள் கேள்விகளைக் காண்க.</string>
+    <string name="complaint4">நடைமுறை </string>
 
-    <string name="complaint5"></string>
-    <string name="complaint3"></string>
-    <string name="close_drawer"></string>
-    <string name="info"></string>
-    <string name="dos_and_dont_image"></string>
-    <string name="learn_cyber_crime_headings"></string>
+    <string name="complaint5">தேசிய சைபர் குற்ற அறிக்கையிடல் போர்ட்டலில் புகார் அளித்தல்! அடுத்த கட்டத்திற்குச் செல்ல ஒரு புகார் அளித்தல் என்னும் பட்டனை  கிளிக் செய்க</string>
+    <string name="complaint3">இந்த போர்ட்டலில் புகார் அளிப்பதற்கு முன், விதிமுறைகள் மற்றும் நிபந்தனைகள் தொடர்பான பின்வரும் தகவல்களைப் படிக்கும்படி கேட்டுக்கொள்கிறோம். உங்கள் புகாரைத் தாக்கல் செய்வதற்கு முன்னர் உங்களிடம் கேள்விகள் இருந்தால், இணையதளத்தில் அடிக்கடி கேட்கப்படும் கேள்விகளைக் காண்க. செயல்முறையை முடிப்பதற்கான செயல்முறை கீழே குறிப்பிடப்பட்டுள்ளது.</string>
+    <string name="close_drawer">மூடு அலமாரியை</string>
+    <string name="info">தகவல் </string>
+    <string name="dos_and_dont_image">செய்ய வேண்டியவை  மற்றும் செய்ய கூடாதவை </string>
+    <string name="learn_cyber_crime_headings">சைபர் குற்றங்கள் பற்றி அறிய </string>
     <string name="linkFAQ">
-        <a href="https://cybercrime.gov.in/Default.aspx">=</a>
+        <a href="https://cybercrime.gov.in/Default.aspx">மேலும் தொடர கிளிக் செய்க </a>
     </string>
     <string name="getcybersafe">
                https://www.getcybersafe.gc.ca/
@@ -48,33 +49,35 @@
 
 
     <string name="cyberswachhtakendra">
-        <a href="https://www.cyberswachhtakendra.gov.in/"></a>
+        <a href="https://www.cyberswachhtakendra.gov.in/">சைபர் ஸ்வச்ச்தா கேந்திரா</a>
     </string>
     <string name="cyberswachhtakendrasecuritytools">
-        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html"></a>
+        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">
+சைபர் ஸ்வச்ச்தா கேந்திர பாதுகாப்பு கருவிகள்</a>
     </string>
     <string name="cyberattacks">
-        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks"></a>
+        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">கோவிட் 19 சைபர் தாக்குதல்கள்</a>
     </string>
 
     <string name="cyberSandS">
-        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf"></a>
+        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">சைபர் பாதுகாப்பு மற்றும் பாதுகாப்பு</a>
     </string>
     <string name="studentsecurity">
-        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing"></a>
+        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing">மாணவர்களுக்கு சைபர் பாதுகாப்பு</a>
     </string>
     <string name="teacherguidelines">
-        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing"></a>
+        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing">
+சைபர் பாதுகாப்பு ஆசிரியர் வழிகாட்டுதல்கள்</a>
     </string>
     <string name="ncpcr">
-        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing"></a>
+        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing">ஆன்லைன் பாதுகாப்பிற்கான NCPCR வழிகாட்டுதல்கள்</a>
     </string>
     <string name="cybersafetyManual">
-        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing"></a>
+        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing">சைபர் பாதுகாப்பு கையேடு</a>
     </string>
 
     <string name="infosecawareness">
-        <a href="https://www.infosecawareness.in/"></a>
+        <a href="https://www.infosecawareness.in/">Infosecawareness</a>
     </string>
     <string name="do_string">
 
@@ -83,166 +86,167 @@
 
     </string>
     <string name="webinar">
-                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"></a>
+                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">Click here</a>
 
     </string>
-    <string name="welcome_users"></string>
-    <string name="about_the_developers"></string>
-    <string name="pranav_jainname"></string>
+    <string name="welcome_users">பயனர்களுக்கு நல்வரவு </string>
+    <string name="about_the_developers">உருவாக்க குழு பற்றிய விவரம் </string>
+    <string name="pranav_jainname">பிரணவ் ஜெயின் </string>
     <string name="pranav_email">jaincoolpranav@gmail.com</string>
-    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">Send Feedback </a></string>
-    <string name="bhoomika_garg">BHOOMIKA GARG</string>
+    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">Send Feedback</a></string>
+    <string name="bhoomika_garg">பூமிகா கார்க் </string>
     <string name="bhoomika_email">bhoomika.garg.9@gmail.com</string>
-    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">Send Feedback </a></string>
-    <string name="org">© 2020 Cyber Security Awareness Organization</string>
-    <string name="privacy_policy">Privacy Policy</string>
-    <string name="do1">Set your browser security to high and add safe websites to trusted website zone..</string>
-    <string name="do2">Disable the login and remembering passwords information…</string>
-    <string name="do3">Block pop up window in your web browser…</string>
-    <string name="do4">Enable the option “warn me when sites try to install extensions/theme”  in your web browser..</string>
-    <string name="do5">Try to have separate email id other than your official id to be  used in social website…</string>
-    <string name="do6">Be extremely careful about how you share personal information about yourself online</string>
-    <string name="do7">Make sure that your ISP and Internet Relay Chart (IRC) network have an acceptable use policy that prohibits cyber-stalking.</string>
-    <string name="do8">Always install recommended updates and install original antivirus and antispyware programs..</string>
-    <string name="dont1">Don\'t delete harmful communications (emails, chat logs, posts etc). These may help provide vital information about the identity of the person behind these..</string>
-    <string name="dont2">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be..</string>
-    <string name="dont3">Do not give your password to anybody. Somebody who is malicious can cause great harm to you and your reputation. It is like leaving your house open for a stranger and walking away.</string>
-    <string name="dont4">Do not copy a program that is copyrighted on the net. It is illegal.</string>
-    <string name="dont5">When talking to somebody new on the net, do not give away personal information-like numbers of the credit card used by your parents, your home addresses/ phone numbers and such other personal information…</string>
-    <string name="dont6">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be…</string>
-    <string name="nisha_dua">Nisha Dua</string>
-    <string name="nishadua_desig">Principal Consultant Cyber Peace Foundation</string>
-    <string name="nishadua_intro"><![CDATA[Nisha Dua is a dynamic & visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army & Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information & Communication Technology in improving lives & learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building & policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety & Security Programs at Cyber Peace Foundation.]]></string>
-    <string name="nishadua_desig1"><![CDATA[Mentor & Coach e-Learning Models, Cyber Safety & Wellness]]></string>
+    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">Send Feedback</a></string>
+    <string name="org">CSAO © 2020 சைபர் பாதுகாப்பு விழிப்புணர்வு ஆன்லைன்</string>
+    <string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="do1">உங்கள் பிரௌசர்  பாதுகாப்பை சரிபார்த்து அமைத்து, பாதுகாப்பான வலைத்தளங்களை நம்பகமான வலைத்தள மண்டலத்தில் சேர்க்கவும் ..</string>
+    <string name="do2">உள்நுழைவு மற்றும் கடவுச்சொல் தகவல்களை நினைவில் வைத்தல் ஆகியவற்றை முடக்கு</string>
+    <string name="do3">உங்கள் வலை உலாவியில் பாப் அப் சாளரத்தை பிளாக் செய்யவும் </string>
+    <string name="do4">உங்கள் வலை உலாவியில் நீட்டிப்புகள் / கருப்பொருளை நிறுவ தளங்கள் முயற்சிக்கும்போது என்னை எச்சரிக்கும் விருப்பத்தை இயக்கவும் ..</string>
+    <string name="do5">சமூக வலைத்தளத்தில் பயன்படுத்த உங்கள் அதிகாரப்பூர்வ ஐடியைத் தவிர வேறு மின்னஞ்சல் ஐடியை பயன்படுத்த  முயற்சிக்கவும்</string>
+    <string name="do6">உங்களைப் பற்றிய தனிப்பட்ட தகவல்களை ஆன்லைனில் எவ்வாறு பகிர்ந்து கொள்கிறீர்கள் என்பதில் மிகவும் கவனமாக இருங்கள்</string>
+    <string name="do7">உங்கள் ஐஎஸ்பி மற்றும் இன்டர்நெட் ரிலே விளக்கப்படம் (ஐஆர்சி) நெட்வொர்க்கில் ஏற்றுக்கொள்ளக்கூடிய பயன்பாட்டுக் கொள்கை இருப்பதை உறுதிசெய்து கொள்ளுங்கள்.</string>
+    <string name="do8">பரிந்துரைக்கப்பட்ட புதுப்பிப்புகளை எப்போதும் நிறுவி அசல் வைரஸ் தடுப்பு மற்றும் ஆண்டிஸ்பைவேர் நிரல்களை நிறுவவும்</string>
+    <string name="dont1">தீங்கு விளைவிக்கும் தகவல்தொடர்புகளை (மின்னஞ்சல்கள், அரட்டை பதிவுகள், பதிவுகள் போன்றவை) நீக்க வேண்டாம். இவை பின்னால் இருக்கும் நபரின் அடையாளம் குறித்த முக்கிய தகவல்களை வழங்க உதவக்கூடும் ..</string>
+    <string name="dont2">பொருள் வரி அல்லது இணைப்பு எவ்வளவு கவர்ச்சியாக இருந்தாலும், அந்நியர்களிடமிருந்து மின்னஞ்சல் இணைப்புகளைத் திறக்க வேண்டாம் ..</string>
+    <string name="dont3">உங்கள் கடவுச்சொல்லை யாருக்கும் கொடுக்க வேண்டாம். தீங்கிழைக்கும் ஒருவர் உங்களுக்கும் உங்கள் நற்பெயருக்கும் பெரும் தீங்கு விளைவிக்கும். இது உங்கள் வீட்டை அந்நியருக்காகத் திறந்து விட்டு வெளியேறுவது போன்றது.</string>
+    <string name="dont4">வலையில் பதிப்புரிமை பெற்ற ஒரு நிரலை நகலெடுக்க வேண்டாம். இது சட்டவிரோதமானது.</string>
+    <string name="dont5">வலையில் புதிதாக ஒருவருடன் பேசும்போது, ​​உங்கள் பெற்றோர் பயன்படுத்தும் கிரெடிட் கார்டின் தனிப்பட்ட தகவல் போன்ற எண்கள், உங்கள் வீட்டு முகவரிகள் / தொலைபேசி எண்கள் மற்றும் பிற தனிப்பட்ட தகவல்களைக் கொடுக்க வேண்டாம்</string>
+    <string name="dont6">பொருள் வரி அல்லது இணைப்பு எவ்வளவு கவர்ச்சியாக இருந்தாலும், அந்நியர்களிடமிருந்து மின்னஞ்சல் இணைப்புகளைத் திறக்க வேண்டாம் ..</string>
+    <string name="nisha_dua">நிஷா டுவா </string>
+    <string name="nishadua_desig">முதன்மை ஆலோசகர் சைபர் அமைதி அறக்கட்டளை</string>
+    <string name="nishadua_intro">
+        நிஷா துவா 20 ஆண்டுகளுக்கும் மேலான முற்போக்கான நிஜ உலக அனுபவமும் தலைமைத்துவமும் கொண்ட ஒரு மாறும் மற்றும் தொலைநோக்கு கல்வியாளர் ஆவார், ஆங்கிலத்தில் முதுநிலை மற்றும் என்ஐஐடியிலிருந்து பிஜிடிஎஸ்எம் (காம்ப் சயின்ஸ்) இரட்டை கலவையுடன், நிஷாவுக்கு ஆங்கிலம் கற்பித்தல் மற்றும் கணினி அறிவியல் ஆய்வகத்தை நிர்வகிக்கும் அனுபவம் உள்ளது டெல்லி, மும்பை மற்றும் விசாக் முழுவதும் இராணுவ மற்றும் கடற்படை பள்ளிகளில் ஒரு தசாப்தத்திற்கும் மேலாக. வாழ்க்கையையும் கற்றலையும் மேம்படுத்துவதில் தகவல் மற்றும் தொடர்பு தொழில்நுட்பத்தின் உருமாறும் சக்தியின் தீவிர ஆதரவாளரான நிஷா, இன்டெல்லின் எடெக் திட்டத்தை - “எதிர்காலத்திற்கு இன்டெல் கற்பித்தல்” 12 ஆண்டுகளுக்கும் மேலாக நிர்வகித்து வருகிறார், பள்ளிகள், கல்லூரிகள், அரசு நிறுவனங்கள், சிவில் சமூகம் மற்றும் நிறுவனங்களுடன் ஒத்துழைக்கிறார். திறன் மேம்பாடு மற்றும் பல்வேறு மட்டங்களில் கொள்கை சீர்திருத்தங்கள். தொழில்நுட்பம் மற்றும் இணையத்தின் பொறுப்பான மற்றும் நேர்மறையான பயன்பாட்டின் மீது உறுதியான நம்பிக்கை கொண்ட இவர், குழந்தைகள், இளைஞர்கள், கல்வியாளர்கள், பெண்கள் மற்றும் மூத்த குடிமக்கள் ஆகியோருக்கு இணையத்தின் சக்தியை பாதுகாப்பாகவும், புத்திசாலித்தனமாகவும் பயன்படுத்தவும், டிஜிட்டல் சகாப்தத்தில் செழிக்கவும் வழிகாட்டுவதில் கவனம் செலுத்துகிறார். அவர் தற்போது சைபர் அமைதி அறக்கட்டளையில் சைபர் பாதுகாப்பு மற்றும் பாதுகாப்பு திட்டங்களுக்கான முதன்மை ஆலோசகராக உள்ளார்
+    </string>
+    <string name="nishadua_desig1">வழிகாட்டி மற்றும் பயிற்சியாளர் மின் கற்றல் மாதிரிகள், சைபர் பாதுகாப்பு மற்றும் ஆரோக்கியம்</string>
     <string name="nishadua_email">nishadua@yahoo.com</string>
-    <string name="security_check">Security check</string>
-    <string name="lcc">Learn about Cyber Crime</string>
-    <string name="cybercomplaint">Cyber Complaint</string>
-    <string name="preventivetips">Preventive Tips</string>
-    <string name="helpline_number">Helpline Numbers</string>
-    <string name="vandw">Videos and Webinars</string>
-    <string name="lcc1">CHILD PORNOGRAPHY/ CHILD SEXUALLY ABUSIVE MATERIAL (CSAM)</string>
-    <string name="lcc2">CYBER BULLYING</string>
-    <string name="lcc3">CYBER STALKING</string>
-    <string name="lcc4">CYBER GROOMING</string>
-    <string name="lcc5">ONLINE JOB FRAUD</string>
-    <string name="lcc6">ONLINE SEXTORTION</string>
-    <string name="lcc7">VISHING</string>
-    <string name="lcc8">SEXTING</string>
-    <string name="lcc9">SMSHING</string>
-    <string name="lcc10">SIM SWAP SCAM</string>
-    <string name="lcc11">DEBIT/CREDIT CARD FRAUD</string>
-    <string name="lcc12">IMPERSONATION AND IDENTITY THEFT</string>
-    <string name="lcc13">PHISHING</string>
-    <string name="lcc14">SPAMMING</string>
-    <string name="lcc15">RANSOMWARE</string>
-    <string name="lcc16"><![CDATA[VIRUS, WORMS & TROJANS]]></string>
-    <string name="lcc17">DATA BREACH</string>
-    <string name="lcc18">DENIAL OF SERVICES /DISTRIBUTED DOS</string>
-    <string name="lcc19">WEBSITE DEFACEMENT</string>
-    <string name="lcc20">CYBER-SQUATTING</string>
-    <string name="lcc21">PHARMING</string>
-    <string name="lcc22">CRYPTOJACKING</string>
-    <string name="lcc23">ONLINE DRUG TRAFFICKING</string>
-    <string name="lcc24">ESPIONAGE</string>
-    <string name="pt1">Clicking without Thinking Is Reckless</string>
-    <string name="pt2">Stick to your own devices</string>
-    <string name="pt3">Be aware of your surroundings</string>
-    <string name="pt4">Keep track of your digital footprint</string>
-    <string name="pt5">Keep up with Updates</string>
-    <string name="pt6">Back Up Your Data</string>
-    <string name="pt7">Keep Your Privacy Settings On</string>
-    <string name="pt8">Be Careful What You Download</string>
-    <string name="pt9">Make Online Purchases From Secure Sites</string>
-    <string name="pt10">Use Strong Passwords</string>
-    <string name="pt11">Secure your computer</string>
-    <string name="pt12">Keep Your Antivirus Program Up To Date</string>
-    <string name="pt13">Be Social-Media Savvy</string>
-    <string name="pt14">Secure your Mobile Devices</string>
-    <string name="pt15">Protect your Data</string>
+    <string name="security_check">பாதுகாப்பு சரிபார்த்தல் </string>
+    <string name="lcc">சைபர் கிரைம் பற்றி அறிய </string>
+    <string name="cybercomplaint">சைபர் புகார் அளிக்க </string>
+    <string name="preventivetips">பாதுகாப்பு முறைகள் </string>
+    <string name="helpline_number">உதவி எண்கள் </string>
+    <string name="vandw">காணொளி மற்றும் இணைய கருத்தரங்குகள் </string>
+    <string name="lcc1">குழந்தை ஆபாசம் / குழந்தை பாலியல் துஷ்பிரயோகம் செய்தல் குறித்த தகவல்கள் (CSAM)</string>
+    <string name="lcc2">சைபர் கொடுமைகள் </string>
+    <string name="lcc3">சைபர் பின்தொடர்தல் </string>
+    <string name="lcc4">சைபர் சீர்படுத்தல் </string>
+    <string name="lcc5">இணைய வேலை மோசடிகள் </string>
+    <string name="lcc6">இணைய பாலியல் தொல்லைகள் </string>
+    <string name="lcc7">போய் தகவல்கள் </string>
+    <string name="lcc8">செக்ஸ் தகவல் பகிர்வு </string>
+    <string name="lcc9">பொய்யான விளம்பரங்கள் </string>
+    <string name="lcc10">சிம்மாற்று மோசடி </string>
+    <string name="lcc11">செக்ஸ் தகவல் பகிர்வு </string>
+    <string name="lcc12">ஆள்மாறாட்டம் மற்றும் அடையாள திருட்டு</string>
+    <string name="lcc13">தொடர் பொய்யான செய்திகள் மோசடி  (ஃபிஷ்ங்க் )</string>
+    <string name="lcc14">ஸ்பேமிங்க் </string>
+    <string name="lcc15">ரேன் சோம்வேர் </string>
+    <string name="lcc16">[வைரஸ், வோம்ஸ்  மற்றும் ட்ரோஜன்கள்</string>
+    <string name="lcc17">தகவல் மீறல்கள் </string>
+    <string name="lcc18">சேவைகளின் காலம் / விநியோகிக்கப்பட்ட டோஸ்</string>
+    <string name="lcc19">வலைத்தள செயலிழப்பு</string>
+    <string name="lcc20">சைபர்-ஸ்குவாட்டிங்</string>
+    <string name="lcc21">ஃபார்மிங்</string>
+    <string name="lcc22">ஆன்லைன் பண மோசடி </string>
+    <string name="lcc23">ஆன்லைன் ட்ரக் டிராஃபிக்கிங்</string>
+    <string name="lcc24">வேவு பார்த்தல்</string>
+    <string name="pt1">சிந்திக்காமல் கிளிக் செய்வது பொறுப்பற்றது</string>
+    <string name="pt2">உங்கள் சொந்த சாதனங்களை பயன்படுத்த பழகிகொள்க</string>
+    <string name="pt3">உங்கள் சுற்றுப்புறங்களைப் பற்றி எச்சரிக்கையாக இருங்கள்</string>
+    <string name="pt4">உங்கள் டிஜிட்டல் தடம் குறித்து கண்காணிக்கவும்</string>
+    <string name="pt5">புதுப்பிப்புகளைத் தொடருங்கள்</string>
+    <string name="pt6">உங்கள் தரவை காப்புப் பிரதி எடுக்கவும்</string>
+    <string name="pt7">உங்கள் தனியுரிமை அமைப்புகளை தொடர்ந்து வைத்திருங்கள்</string>
+    <string name="pt8">நீங்கள் பதிவிறக்குவதை கவனமாக இருங்கள்</string>
+    <string name="pt9">பாதுகாப்பான தளங்களிலிருந்து ஆன்லைன் கொள்முதல் செய்யுங்கள்</string>
+    <string name="pt10">வலுவான கடவுச்சொற்களைப் பயன்படுத்தவும்</string>
+    <string name="pt11">உங்கள் கணினியைப் பாதுகாக்கவும்</string>
+    <string name="pt12">உங்கள் வைரஸ் தடுப்பு நிரலைப் புதுப்பித்த நிலையில் வைத்திருங்கள்</string>
+    <string name="pt13">சமூக ஊடக ஆர்வலராக இருங்கள்</string>
+    <string name="pt14">உங்கள் மொபைல் சாதனங்களைப் பாதுகாபிபாக வைத்திருக்கவும்</string>
+    <string name="pt15">உங்கள்  தரவுகளை பாதுகாப்பாக வைத்திருங்கள் </string>
     <string name="cyberpeacehelpline">helpline@cyberpeace.net</string>
-    <string name="state1"><![CDATA[ANDAMAN & NICOBAR]]></string>
-    <string name="state2">ANDHRA PRADESH</string>
-    <string name="state3">Arunachal Pradesh</string>
-    <string name="state4">ASSAM</string>
-    <string name="state5">Bihar</string>
-    <string name="state6">Chandigarh</string>
-    <string name="state7">Chhattisgarh</string>
-    <string name="state8"><![CDATA[DADRA & NAGAR HAVELI]]></string>
-    <string name="state9"><![CDATA[DAMAN & DIU]]></string>
-    <string name="state10">DELHI</string>
-    <string name="state11">Goa</string>
-    <string name="state12">GUJARAT</string>
-    <string name="state13">HARYANA</string>
-    <string name="state14">Himachal Pradesh</string>
-    <string name="state15"><![CDATA[JAMMU & KASHMIR]]></string>
-    <string name="state16">Jharkhand</string>
-    <string name="state17">Karnataka</string>
-    <string name="state18">Kerala</string>
-    <string name="state19">Lakshadweep</string>
-    <string name="state20">Madhya Pradesh</string>
-    <string name="state21">MAHARASHTRA</string>
-    <string name="state22">Manipur</string>
-    <string name="state23">Meghalaya</string>
-    <string name="state24">Mizoram</string>
-    <string name="state25">Nagaland</string>
-    <string name="state26">ODISHA</string>
-    <string name="state27">Puducherry</string>
-    <string name="state28">Punjab</string>
-    <string name="state29">RAJASTHAN</string>
-    <string name="state30">Sikkim</string>
-    <string name="state31">TAMIL NADU</string>
-    <string name="state32">TAMIL NADU</string>
-    <string name="state33">Telangana</string>
-    <string name="state34">Tripura</string>
-    <string name="state35">UTTARAKHAND</string>
-    <string name="state36">UTTAR PRADESH</string>
-    <string name="state37">West Bengal</string>
-    <string name="home">Home</string>
-    <string name="do_s_and_don_ts">Do\'s and Don\'ts</string>
-    <string name="important_resources">Important Resources</string>
-    <string name="experts_panel">Experts Panel</string>
-    <string name="credits">Credits</string>
-    <string name="about_app">About App</string>
-    <string name="communicate">Communicate</string>
-    <string name="share">Share</string>
-    <string name="app_creator_team">App Creator Team</string>
-    <string name="cyber_complaint_heading">Cyber Complaint</string>
-    <string name="securitycheck_heading">Security Check</string>
-    <string name="videoandwebinar_heading">Videos And Webinars</string>
-    <string name="check_your_awareness">Check your awareness..</string>
-    <string name="question_1">Question 1</string>
-    <string name="q1">Do you change your passwords frequently?</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="question_2">Question 2</string>
-    <string name="q2">How do you use bank’s services?</string>
-    <string name="from_the_mails">From the mails</string>
-    <string name="from_the_text_messages">From the text messages</string>
-    <string name="from_bank_s_official_website_or_app">From bank’s official website or app</string>
-    <string name="question_3">Question 3</string>
-    <string name="q3">Do you connect your phone to the free, unsecured Wi-Fi for shopping or banking ?</string>
-    <string name="question_4">Question 4</string>
-    <string name="q4">Do you install the software that comes as an attachment in emails?</string>
-    <string name="question_5">Question 5</string>
-    <string name="q5">Do you share your personal/bank details with the caller even if he seems genuine?</string>
-    <string name="submit">Submit</string>
+    <string name="state1">அந்தமான் நிக்கோபார் </string>
+    <string name="state2">ஆந்திர பிரதேசம் </string>
+    <string name="state3">அருணாச்சல பிரதேசம் </string>
+    <string name="state4">அஸ்ஸாம் </string>
+    <string name="state5">பீகார் </string>
+    <string name="state6">சண்டிகர் </string>
+    <string name="state7">சட்டீஷ்கர் </string>
+    <string name="state8">தத்ரா &amp; நகர் ஹவேலி</string>
+    <string name="state9">டாமன் &amp; டயு</string>
+    <string name="state10">தில்லி </string>
+    <string name="state11">கோவா </string>
+    <string name="state12">குஜராத் </string>
+    <string name="state13">ஹரியானா </string>
+    <string name="state14">இமாச்சல பிரதேசம் </string>
+    <string name="state15">ஜம்மு &amp; காஷ்மீர்</string>
+    <string name="state16">ஜார்க்கண்ட் </string>
+    <string name="state17">கர்நாடகா </string>
+    <string name="state18">கேரளா </string>
+    <string name="state19">"லட்சத்தீவு"</string>
+    <string name="state20">மத்திய பிரதேசம் </string>
+    <string name="state21">மகாராஷ்ட்ரா </string>
+    <string name="state22">மணிப்பூர் </string>
+    <string name="state23">மேகாலயா </string>
+    <string name="state24">மிசோரம் </string>
+    <string name="state25">நாகாலாந்து </string>
+    <string name="state26">ஓடிசா  </string>
+    <string name="state27">புதுச்சேரி </string>
+    <string name="state28">பஞ்சாப் </string>
+    <string name="state29">ராஜஸ்தான் </string>
+    <string name="state30">சிக்கிம் </string>
+    <string name="state31">தமிழ் நாடு </string>
+    <string name="state32">தமிழ் நாடு </string>
+    <string name="state33">தெலுங்கானா </string>
+    <string name="state34">திரிப்பூரா </string>
+    <string name="state35">உத்தரகண்ட் </string>
+    <string name="state36">உத்தர பிரதேசம் </string>
+    <string name="state37">மேற்கு வங்கம் </string>
+    <string name="home">முகப்பு </string>
+    <string name="do_s_and_don_ts">செய்யவேண்டியவையும், செய்யக்கூடாதவையும்</string>
+    <string name="important_resources">முக்கிய வளங்கள்</string>
+    <string name="experts_panel">நிபுணர்கள் குழு</string>
+    <string name="credits">நன்றி </string>
+    <string name="about_app">செயலிப் பற்றி </string>
+    <string name="communicate">தொடர்பு கொள்ள</string>
+    <string name="share">பகிர்வு </string>
+    <string name="app_creator_team">செயலி உருவாக்க குழு </string>
+    <string name="cyber_complaint_heading">சைபர் புகார் </string>
+    <string name="securitycheck_heading">பாதுகாப்பு சோதனை</string>
+    <string name="videoandwebinar_heading">வீடியோக்கள் மற்றும் வெபினார்கள்</string>
+    <string name="check_your_awareness">உங்கள் விழிப்புணர்வை சரிபார்க்கவும் ..</string>
+    <string name="question_1">வினா  1</string>
+    <string name="q1">உங்கள் கடவுச்சொற்களை அடிக்கடி மாற்றுகிறீர்களா?</string>
+    <string name="yes">ஆம் </string>
+    <string name="no">இல்லை </string>
+    <string name="question_2">வினா 2</string>
+    <string name="q2">வங்கியின் சேவைகளை எவ்வாறு பயன்படுத்துகிறீர்கள்?</string>
+    <string name="from_the_mails">மின்னஞ்சல்களிலிருந்து</string>
+    <string name="from_the_text_messages">டெக்ஸ்ட் மெசேஜிலிருந்து </string>
+    <string name="from_bank_s_official_website_or_app">வங்கியின் அதிகாரப்பூர்வ வலைத்தளம் அல்லது  செயலியிலிருந்து </string>
+    <string name="question_3">வினா 3 </string>
+    <string name="q3">உங்கள் தொலைபேசியை பொது இடங்கள்  அல்லது வங்கி இலவச, பாதுகாப்பற்ற வைஃபை உடன் இணைக்கிறீர்களா?</string>
+    <string name="question_4">வினா 4 </string>
+    <string name="q4">மின்னஞ்சல்களில் இணைப்பாக வரும் மென்பொருளை நிறுவுகிறீர்களா?</string>
+    <string name="question_5">வினா 5 </string>
+    <string name="q5">உங்கள் தனிப்பட்ட / வங்கி விவரங்களை அழைப்பவர் உண்மையானவர் என்று தோன்றினாலும் அவருடன் பகிர்ந்து கொள்கிறீர்களா?</string>
+    <string name="submit">"சமர்ப்பிக்கவும்"</string>
 
 
-    <string name="contributor">Language Contributors</string>
-    <string name="aboutApp1">CSAO is an initiative to make the citizens cyber secure under the ages of Digital India Initiative started by the Government of India. Our mission is to aware, guide and educate each individual about cyber frauds that are taking place around them and provide them a piece of advice from renowned cyber experts on the expert panel.
-CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agrasen Model School. She has taken this initiative to make cyber secure society to aware all and solve the problems related to Cyber World.</string>
-    <string name="video">Learn more about Cyber Security from our very own experts. Click below to directly go to our specialized playlist.</string>
-    <string name="disclaimer">Disclaimer: This app is to provide information about cyber security and we are not responsible for any further communication between expert and the end user</string>
-    <string name="do9">Record the unique 15 digit IMEI number</string>
-    <string name="do10">Use auto lock to automatically lock the phone or keypad lock protected by passcode/security patterns to restrict access to your mobile phone</string>
-    <string name="do11">Report lost or stolen devices immediately to the nearest Police Station and concerned service provider</string>
-    <string name="dont7">Never leave your mobile device unattended.</string>
-    <string name="dont8"></string>
-    <string name="dont9"></string>
-    <string name="idea_founder_desig"></string>
-    <string name="chandniag_desig"></string>
-    <string name="chandni_agarwal"></string>
+    <string name="contributor">மொழி பங்களிப்பாளர்</string>
+    <string name="aboutApp1">CSAO என்பது இந்திய அரசால் தொடங்கப்பட்ட டிஜிட்டல் இந்தியா முன்முயற்சியின் கீழ் குடிமக்கள் இணையத்தை  பாதுகாப்பாக பயன்படுத்த செய்வதற்கான  ஒரு முயற்சியாகும். ஒவ்வொரு நபரும் அவர்களைச் சுற்றி நடக்கும் இணைய மோசடிகளைப் பற்றி அறிந்திருத்தல், வழிகாட்டுதல் மற்றும் கல்வி கற்பது மற்றும்  புகழ்பெற்ற  நிபுணர்களிடமிருந்து அவர்களுக்கு இணைய பாதுகாப்பு குறித்து  ஆலோசனையை வழங்குவதே CSAO இன்  நோக்கம். CSAO மகாராஜா ரஸன் மாதிரி பள்ளியில் மூத்த தகவல் தொழில்நுட்ப ஆசிரியரான திருமதி சாந்தினி அகர்வால்  அவர்களின்   முயற்சியில் உருவானது . அவர் இந்த முயற்சியை மேற்கொள்ள காரணம்  பொது மக்கள் இணையதளத்தை  பாதுகாப்பாக பயன்படுத்த வைக்க வேண்டும் என்பதே  .இம்முயற்சியில் அவரது பள்ளி மாணவர்களும் உடன் இணைந்து பணியாற்றி வருகிறார்கள் .இந்த  நிபுணர் குழுவில் திருமதி.  நிஷா துவா அவர்கள் இணைந்து இருப்பது பெருமையாக கொள்ள வேண்டும் .</string>
+    <string name="video">எங்கள்  நிபுணர்களிடமிருந்து சைபர் பாதுகாப்பு பற்றி மேலும் அறிக. எங்கள் சிறப்பு பிளேலிஸ்ட்டுக்கு நேரடியாகச் செல்ல கீழே கிளிக் செய்க</string>
+    <string name="disclaimer">நிபந்தனைகள்: இந்த பயன்பாடு இணைய பாதுகாப்பு குறித்த தகவல்களை வழங்குவதோடு, நிபுணருக்கும் இறுதி பயனருக்கும் இடையிலான எந்தவொரு தகவல்தொடர்புக்கும் நாங்கள் பொறுப்பல்ல.</string>
+    <string name="do9">தனித்துவமான 15 இலக்க IMEI எண்ணைப் பதிவுசெய்க</string>
+    <string name="do10">உங்கள் மொபைல் ஃபோனுக்கான அணுகலைத் தடுக்க பாஸ்கோடு / பாதுகாப்பு வடிவங்களால் பாதுகாக்கப்பட்ட தொலைபேசி அல்லது கீபேட் பூட்டை தானாக பூட்டுவதற்கு ஆட்டோ பூட்டைப் பயன்படுத்தவும்</string>
+    <string name="do11">இழந்த அல்லது திருடப்பட்ட சாதனங்களை உடனடியாக அருகிலுள்ள காவல் நிலையம் மற்றும் சம்பந்தப்பட்ட சேவை வழங்குநரிடம் தெரிவிக்கவும்</string>
+    <string name="dont7">இழந்த அல்லது திருடப்பட்ட சாதனங்களை உடனடியாக அருகிலுள்ள காவல் நிலையம் மற்றும் சம்பந்தப்பட்ட சேவை வழங்குநரிடம் தெரிவிக்கவும்</string>
+    <string name="dont8">பயனர் பெயர்கள் / கடவுச்சொற்கள் போன்ற முக்கியமான தகவல்களை உங்கள் சாதனங்களில் ஒருபோதும் வைத்திருக்க வேண்டாம்.</string>
+    <string name="dont9">அறியப்படாத நெட்வொர்க்குகள் அல்லது நம்பத்தகாத நெட்வொர்க்குகளுடன் ஒருபோதும் இணைக்க வேண்டாம்.</string>
+    <string name="idea_founder_desig">ஐடியா நிறுவனர்</string>
+    <string name="chandniag_desig">வழிகாட்டி &amp; பயிற்சியாளர், சைபர் பாதுகாப்பு மற்றும் ஆரோக்கியம்</string>
+    <string name="chandni_agarwal">சாந்தினி அகர்வால்</string>
 
 
     <string name="lang1">Change Language</string>

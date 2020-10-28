@@ -28,6 +28,10 @@
             android:icon="@drawable/ic_aboutapp"
             android:title="@string/about_app" />
 
+        <item
+            android:id="@+id/language"
+            android:icon="@drawable/ic_language"
+            android:title="@string/languagesidebar" />
 
     </group>
 

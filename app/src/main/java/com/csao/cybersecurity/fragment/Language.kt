@@ -28,7 +28,6 @@ class Language : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
         val view= inflater.inflate(R.layout.fragment_language, container, false)
-        getActionBar()?.setTitle(getString(R.string.lang))
         btnHindi=view.findViewById(R.id.btn1)
         btnEnglish=view.findViewById(R.id.btn2)
         btnGujrati=view.findViewById(R.id.btn3)

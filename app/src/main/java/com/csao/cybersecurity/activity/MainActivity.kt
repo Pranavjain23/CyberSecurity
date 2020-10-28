@@ -140,6 +140,17 @@ class MainActivity : AppCompatActivity() {
                     drawerLayout.closeDrawers()
                 }
 
+                R.id.language ->{
+                    supportFragmentManager.beginTransaction()
+                        .replace(
+                            R.id.frame,
+                            Language()
+                        )                                                                          // dashboard fragment is replacing the blank frame
+                        .commit()
+
+                    supportActionBar?.title = (getString(R.string.languagetitle))
+                    drawerLayout.closeDrawers()
+                }
 
 
             }

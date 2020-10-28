@@ -60,24 +60,5 @@ class HomeFragment : Fragment() {
 
         return view
     }
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater?.inflate(R.menu.menu_home,menu)
-    }
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if(item.itemId == R.id.action_help){
-            val fragment = Language()
-            val args = Bundle()
-            fragment.arguments = args
-            (context as MainActivity).supportFragmentManager.beginTransaction()
-                .replace(
-                    R.id.frame,
-                    fragment
-                ).commit()
-
-        }
-        recyclerAdapter.notifyDataSetChanged()
-
-        return super.onOptionsItemSelected(item)
-    }
 
 }

@@ -87,48 +87,37 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:layout_marginRight="35dp"
-                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="14sp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/white"
-                android:text="1. Rakesh Nava Nadisar"
-                android:padding="3sp"
-                android:textColor="@color/colorPrimaryDark"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:layout_marginRight="35dp"
-                android:layout_marginTop="10dp"
-                android:textSize="15sp"
-                android:background="@android:color/white"
-                android:text="2. VASHDHHD D D"
+                android:text="1. Pratima Singh \n\n PRIMARY SCHOOL DHUSAH 1 \n DISTRICT BALRAMPUR UTTAR PRADESH"
                 android:padding="3sp"
                 android:textColor="@color/colorPrimaryDark"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:layout_marginRight="35dp"
-                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="14sp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/white"
-                android:text="3. Pratima Singh"
+                android:text="2. Rakesh Nava Nadisar \n\n M.A.,M.A.,M.Phil.,M.Ed., PGDCA, PGDEA, IPICT \n English Graduate Teacher, National Awardee, \n Ggovernment Higher Secondary School, \n Sathiyamangalam,Gingee Taluk, Villupuram dt,\n  Tamil Nadu 604153"
                 android:padding="3sp"
                 android:textColor="@color/colorPrimaryDark"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:layout_marginRight="35dp"
-                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="14sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
-                android:text="4. S. Dilip"
+                android:text="3. S. Dhilip \n\n Gujarat"
                 android:padding="3sp"
                 android:textColor="@color/colorPrimaryDark"/>
         </LinearLayout>

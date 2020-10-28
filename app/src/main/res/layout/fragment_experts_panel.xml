@@ -68,7 +68,7 @@
                         android:layout_below="@id/txtExpertName1"
                         android:paddingStart="8dp"
                         android:textColor="@color/colorPrimary"
-                        android:text="Principal Consultant Cyber Peace Foundation"
+                        android:text="@string/nishadua_desig"
                         android:textSize="15sp"/>
 
                 </RelativeLayout>

@@ -94,19 +94,43 @@
                 android:background="@android:color/white"
                 android:text="1. Rakesh Nava Nadisar"
                 android:padding="3sp"
-                android:textColor="@color/colorPrimaryDark"></TextView>
+                android:textColor="@color/colorPrimaryDark"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
                 android:textSize="15sp"
                 android:background="@android:color/white"
                 android:text="2. VASHDHHD D D"
                 android:padding="3sp"
-                android:textColor="@color/colorPrimaryDark"></TextView>
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:text="3. Pratima Singh"
+                android:padding="3sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"
+                android:text="4. S. Dilip"
+                android:padding="3sp"
+                android:textColor="@color/colorPrimaryDark"/>
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

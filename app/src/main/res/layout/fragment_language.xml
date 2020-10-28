@@ -4,125 +4,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    >
-<RelativeLayout
+    tools:context=".fragment.Language">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="5dp"
-    android:background="@android:color/white"
-    tools:context=".fragment.Language">
+    android:orientation="horizontal"
+    android:weightSum="2">
     <Button
+        android:layout_weight="1"
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change to hindi"></Button>
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="150dp"
+        android:textSize="28sp"
+        android:text="हिंदी"/>
+
     <Button
         android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
         android:layout_below="@+id/btn1"
-        android:text="Change to english"></Button>
-    <TextView
-        android:id="@+id/card2"
-        android:layout_below="@+id/btn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="17sp"
-        android:text="@string/lang2" />
-    <TextView
-        android:id="@+id/card3"
-        android:layout_below="@+id/card2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="17sp"
-        android:text="@string/lang3" />
-    <TextView
-        android:id="@+id/card4"
-        android:layout_below="@+id/card3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="17sp"
-        android:text="@string/lang4" />
-    <TextView
-        android:id="@+id/card5"
-        android:layout_below="@+id/card4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="17sp"
-        android:text="@string/lang5" />
-    <TextView
-    android:id="@+id/card6"
-    android:layout_below="@+id/card5"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-    android:padding="10dp"
-    android:layout_marginTop="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="17sp"
-    android:text="@string/lang6" />
-    <TextView
-        android:id="@+id/card8"
-        android:layout_below="@+id/card6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="17sp"
-        android:text="@string/lang8" />
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="English"
+        android:textSize="26sp" />
 
-    <ImageView
-        android:id="@+id/imglan"
+</LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/card8"
-        android:layout_marginTop="15dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/language"></ImageView>
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        app:cardCornerRadius="15dp"
-        android:layout_below="@+id/imglan"
-        android:background="@drawable/border"
-        android:elevation="5dp"
-        android:padding="15dp">
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btn3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="150dp"
+            android:text="ગુજરતી"
+            android:textSize="26sp"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="150dp"
+            android:textSize="26sp"
+            android:text="தமிழ்"/>
+
+    </LinearLayout>
+
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="@color/blue"
-            android:background="@drawable/border"
-            android:textSize="20sp"
-            android:text="@string/lang7" />
-    </androidx.cardview.widget.CardView>
-    <TextView
-        android:layout_below="@+id/card7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"></TextView>
-</RelativeLayout>
+            android:text="Restart the app once you select your preffered language"/>
+    </LinearLayout>
+
+
+
 </ScrollView>

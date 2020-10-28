@@ -58,7 +58,7 @@ class LearnCyberCrimeFragment : Fragment() {
 
         )
 
-        getActionBar()?.setTitle("Learn about Cyber Crime");
+        getActionBar()?.setTitle(getString(R.string.lcc));
         recyclerLearnCyberCrime = view.findViewById(R.id.recyclerLearnCyberCrime)
         layoutManager = LinearLayoutManager(activity)
 

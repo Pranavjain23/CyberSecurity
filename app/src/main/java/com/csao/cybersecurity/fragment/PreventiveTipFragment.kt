@@ -49,7 +49,7 @@ class PreventiveTipFragment : Fragment() {
             PreventiveTip(getString(R.string.pt15))
         )
 
-        getActionBar()?.setTitle("Preventive Tips");
+        getActionBar()?.setTitle(getString(R.string.preventivetips));
 
         recyclerPreventiveTip = view.findViewById(R.id.recyclerPreventiveTip)
         layoutManager = LinearLayoutManager(activity)

@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
                         )                                                                                                       // dashboard fragment is replacing the blank frame
                         .commit()
 
-                    supportActionBar?.title = "Do's And Don'ts"                                                      //giving the title
+                    supportActionBar?.title = getString(R.string.do_s_and_don_ts)                                                      //giving the title
                     drawerLayout.closeDrawers()
                 }
 
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
                         )                                                                                        // dashboard fragment is replacing the blank frame
                         .commit()
 
-                    supportActionBar?.title = "Important Resources"                                                     //giving the title
+                    supportActionBar?.title = getString(R.string.important_resources)                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
 
@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                         )                                                                                        // dashboard fragment is replacing the blank frame
                         .commit()
 
-                    supportActionBar?.title = "Experts Panel"                                                     //giving the title
+                    supportActionBar?.title = getString(R.string.experts_panel)                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
                 R.id.credits ->{
@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
                         )                                                                                        // dashboard fragment is replacing the blank frame
                         .commit()
 
-                    supportActionBar?.title = "Credits"                                                     //giving the title
+                    supportActionBar?.title = getString(R.string.credits)                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
 
@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
                         )                                                                          // dashboard fragment is replacing the blank frame
                         .commit()
 
-                    supportActionBar?.title = "About App"
+                    supportActionBar?.title = getString(R.string.about_app)
                     drawerLayout.closeDrawers()
                 }
 
@@ -173,7 +173,7 @@ class MainActivity : AppCompatActivity() {
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.frame, fragment)   // dashboard fragment is replacing the blank frame
         transaction.commit()
-        supportActionBar?.title = "Home"    //giving the title to each fragment
+        supportActionBar?.title = getString(R.string.home)    //giving the title to each fragment
         navigationView.setCheckedItem(R.id.home)
     }
 

@@ -20,7 +20,7 @@ class CyberComplaintFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_cyber_complaint, container, false)
 
-        getActionBar()?.setTitle(getString(R.string.cyber_complaint_heading));
+        getActionBar()?.setTitle(getString(R.string.cybercomplaint));
         val textView = view.findViewById<TextView>(R.id.linkFAQ)
         textView.movementMethod = LinkMovementMethod.getInstance()
 

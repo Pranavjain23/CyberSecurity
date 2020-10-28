@@ -242,14 +242,10 @@
     <string name="chandni_agarwal">Chandni Agarwal</string>
 
 
-    <string name="lang1">Change Language</string>
-    <string name="lang2">1. On your Android phone or tablet, open your device\'s Settings app and then click on System.</string>
-    <string name="lang3">2. Tap Languages and input.</string>
-    <string name="lang4">3. Choose Add a language (plus button)..</string>
-    <string name="lang5">4. Tap Edit. Pick a language from the list. (Choose Hindi: This app is currently available in English and Hindi)</string>
-    <string name="lang6">5. Most languages have their own regions. Select a region for your desired language.</string>
-    <string name="lang8">6.  Once the language is added, press and hold the two horizontal lines and move your preferred language to the top.</string>
-    <string name="lang7"> App\'s language will automatically update itself to the first preference of the language selected. </string>
-    <string name="lang">Change language </string>
+    <string name="lang">ભાષા બદલો</string>
+    <string name="sometimes">ક્યારેક</string>
+
+    <string name="chandni_agg_intro">Chandni Agarwal is a dynamic &amp; visionary educationist with over 20 years experience of teaching Computer Science. \nShe is a National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador. She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\nThis ICT ambassador through her undiluted devotion , determination and focus has become the torch bearer of her initiative CSAO – Cyber Security Awareness via Cyber Security Guide Android App.\nShe is creating an ICT literate community of learners which can deploy, utilize and contribute to a constantly evolving digital nation.</string>
+
 
 </resources>

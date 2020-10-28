@@ -73,7 +73,7 @@ class HelplineNumberFragment : Fragment() {
             HelplineNumber(getString(R.string.state37),"03324791830")
         )
 
-        getActionBar()?.setTitle("Helpline Number");
+        getActionBar()?.setTitle(getString(R.string.helpline_number));
         recyclerHelplineNumber = view.findViewById(R.id.recyclerHelplineNumber)
         layoutManager = LinearLayoutManager(activity)
 

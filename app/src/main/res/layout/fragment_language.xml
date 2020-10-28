@@ -16,9 +16,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Change to hindi"></Button>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:text="Change to english"></Button>
     <TextView
         android:id="@+id/card2"
-        android:layout_below="@+id/btn1"
+        android:layout_below="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="textStart"

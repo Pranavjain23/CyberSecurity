@@ -14,7 +14,7 @@ import com.csao.cybersecurity.model.LocaleHelper
 
 class Language : Fragment() {
     lateinit var btnHindi:Button
-     private  var mLanguageCode:String? = "hi"
+    lateinit var btnEnglish:Button
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
@@ -23,14 +23,18 @@ class Language : Fragment() {
         val view= inflater.inflate(R.layout.fragment_language, container, false)
         getActionBar()?.setTitle(getString(R.string.lang))
         btnHindi=view.findViewById(R.id.btn1)
+        btnEnglish=view.findViewById(R.id.btn2)
 
         btnHindi.setOnClickListener {
-            LocaleHelper.setLocale(context, mLanguageCode);
+            LocaleHelper.setLocale(context, "hi")
 
             //It is required to recreate the activity to reflect the change in UI.
            // recreate(MainActivity())
         }
+        btnEnglish.setOnClickListener {
+            LocaleHelper.setLocale(context, "en")
 
+        }
         return view;
     }
     private fun getActionBar(): androidx.appcompat.app.ActionBar? {

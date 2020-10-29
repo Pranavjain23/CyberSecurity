@@ -42,24 +42,24 @@ class SecurityCheckFragment : Fragment() {
                 radio1 = view.findViewById(R.id.rg1)
                 val select1 = radio1.checkedRadioButtonId
                 val rb1: RadioButton = view.findViewById(select1)
-                val str1 = "Yes"
+                val str1 = getString(R.string.yes)
                 if ((rb1.text as String).trim { it <= ' ' } == str1.trim { it <= ' ' }) {
-                    msg1= "○ Good, keep changing your passwords frequently !\n"
+                    msg1= getString(R.string.msg1)
                     score+=2
 
                 } else {
-                    msg1= "○ You should atleast change your passwords once each month.\n"
+                    msg1= getString(R.string.msg11)
                 }
 
                 radio2 = view.findViewById(R.id.rg2)
                 val select2 = radio2.checkedRadioButtonId
                 val rb2: RadioButton = view.findViewById(select2)
-                val str2 = "From bank’s official website or app"
+                val str2 = getString(R.string.from_bank_s_official_website_or_app)
                 if ((rb2.text as String).trim { it <= ' ' } == str2.trim { it <= ' ' }) {
-                    msg2= "○ "+ rb2.text as String + " is correct practice !\n"
+                    msg2= "○ "+ rb2.text as String + getString(R.string.msg2)
                     score+=2
                 } else {
-                    msg2= "○ Never access your bank services from text messages or the mails that you receive because that may be fraud\n"
+                    msg2= getString(R.string.msg22)
                 }
 
 
@@ -68,37 +68,37 @@ class SecurityCheckFragment : Fragment() {
 
                 val select3 = radio3.checkedRadioButtonId
                 val rb3: RadioButton = view.findViewById(select3)
-                val str3 = "No"
+                val str3 = getString(R.string.no)
                 if ((rb3.text as String).trim { it <= ' ' } == str3.trim { it <= ' ' }) {
-                    msg3= "○ Also avoid connecting your phone to the free, unsecured Wi-Fi for logging into social media account\n"
+                    msg3= getString(R.string.msg3)
                     score+=2
                 } else {
-                    msg3= "○ You should avoid connecting your phone to the free, unsecured Wi-Fi for shopping or banking\n"
+                    msg3= getString(R.string.msg33)
                 }
 
 
                 radio4 = view.findViewById(R.id.rg4)
                 val select = radio4.checkedRadioButtonId
                 val rb: RadioButton = view.findViewById(select)
-                val str = "No"
+                val str = getString(R.string.no)
                 if ((rb.text as String).trim { it <= ' ' } == str.trim { it <= ' ' }) {
-                    msg4= "○ GOOD  ,   you should never install the softwares that comes as an attachment in emails.\n"
+                    msg4= getString(R.string.msg4)
                     score+=2
                 } else {
-                    msg4 = "○ No! REMEMBER : you should never install the softwares that comes as an attachment in emails.\n"
+                    msg4 = getString(R.string.msg44)
                 }
 
 
                 radio5 = view.findViewById(R.id.rg5)
                 val select5 = radio5.checkedRadioButtonId
                 val rb5: RadioButton = view.findViewById(select5)
-                val str5 = "No"
+                val str5 = getString(R.string.no)
                 if ((rb5.text as String).trim { it <= ' ' } == str5.trim { it <= ' ' }) {
                     score+=2
-                    msg5= "○ GOOD  ,\tyou should never  share your personal details on phone email or sms.\n"
+                    msg5= getString(R.string.msg5)
 
                 } else {
-                    msg5= "○ No! REMEMBER   :   you should never share these details on phone email or sms. Bank never asks for the user's information like that.\n"
+                    msg5= getString(R.string.msg55)
                 }
 
                 alert_box(msg1,msg2,msg3,msg4,msg5,score)
@@ -111,16 +111,28 @@ class SecurityCheckFragment : Fragment() {
         return view
     }
     fun alert_box(msg1:String,msg2:String,msg3:String,msg4:String,msg5:String,score:Int){
+        if(msg1==""||msg2==""||msg3==""||msg4==""||msg5==""){
+            Toast.makeText(context,"PLEASE ANSWER ALL THE QUESTIONS",Toast.LENGTH_LONG).show()
+            val fragment = HomeFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            (context as MainActivity).supportFragmentManager.beginTransaction()
+                    .replace(
+                            R.id.frame,
+                            fragment
+                    ).commit()
+
+        }
         //       val dialog = AlertDialog.Builder(this@SecurityCheckActivity)
         var str:String="---"
         if(score>=8){
-            str+="EXCELLENT PERFORMANCE !---"
+            str+=getString(R.string.sc1)
         }
-        else if(score >=6 && score<=4 ){
-            str+="AVERAGE PERFORMANCE !---"
+        else if(score in 6..4){
+            str+=getString(R.string.sc2)
         }
         else {
-            str+="POOR PERFORMANCE !---"
+            str+=getString(R.string.sc3)
         }
 //        dialog.setTitle("Score = "+score)
 //        dialog.setMessage( Html.fromHtml("<font color='#FF7F27'>$str\n"+ "SUMMARY TO YOUR QUIZ: \n\n"
@@ -140,11 +152,8 @@ class SecurityCheckFragment : Fragment() {
     val items = arrayOf(str,msg1, msg2, msg3, msg4, msg5)
     AlertDialog.Builder(context)
         .setTitle(Html.fromHtml("<font color='#2a405e'>SCORE : $score</font>"))
-//        .setTitleColor(HALLOWEEN_ORANGE)
-//        .setDividerColor(R.color.colorAccent)
         .setItems(items) { dialog, which ->
-            Toast.makeText(context, "$str. Learn more about cyber crime", Toast.LENGTH_LONG).show()
-            //           Toast.makeText(context, "${items[which]} is pressed", Toast.LENGTH_LONG).show()
+            Toast.makeText(context, str+getString(R.string.lcc), Toast.LENGTH_LONG).show()
         }
         .setNegativeButton("Okay")
 //        { dialog, which ->

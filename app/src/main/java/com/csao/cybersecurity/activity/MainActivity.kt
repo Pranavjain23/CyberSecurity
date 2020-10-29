@@ -3,18 +3,20 @@ package com.csao.cybersecurity.activity
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.FrameLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.coordinatorlayout.widget.CoordinatorLayout
+import androidx.core.app.ActivityCompat
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.csao.cybersecurity.BuildConfig
 import com.csao.cybersecurity.R
 import com.csao.cybersecurity.fragment.*
 import com.google.android.material.navigation.NavigationView
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -44,10 +46,10 @@ class MainActivity : AppCompatActivity() {
         openHome()
 
         val actionBarDrawerToggle = ActionBarDrawerToggle(
-            this@MainActivity,
-            drawerLayout,
-            R.string.open_drawer,
-            R.string.close_drawer
+                this@MainActivity,
+                drawerLayout,
+                R.string.open_drawer,
+                R.string.close_drawer
         )
 
 
@@ -67,53 +69,53 @@ class MainActivity : AppCompatActivity() {
             previousMenuItem = it
 
             when(it.itemId){
-                R.id.home ->{
+                R.id.home -> {
 
                     openHome()
                     drawerLayout.closeDrawers()
                 }
-                R.id.dosDonts ->{
+                R.id.dosDonts -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(
-                            R.id.frame,
-                            DosDontFragment()
-                        )                                                                                                       // dashboard fragment is replacing the blank frame
-                        .commit()
+                            .replace(
+                                    R.id.frame,
+                                    DosDontFragment()
+                            )                                                                                                       // dashboard fragment is replacing the blank frame
+                            .commit()
 
                     supportActionBar?.title = getString(R.string.do_s_and_don_ts)                                                      //giving the title
                     drawerLayout.closeDrawers()
                 }
 
-                R.id.impResources ->{
+                R.id.impResources -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(
-                            R.id.frame,
-                            ImportantResourcesFragment()
-                        )                                                                                        // dashboard fragment is replacing the blank frame
-                        .commit()
+                            .replace(
+                                    R.id.frame,
+                                    ImportantResourcesFragment()
+                            )                                                                                        // dashboard fragment is replacing the blank frame
+                            .commit()
 
                     supportActionBar?.title = getString(R.string.important_resources)                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
 
-                R.id.expertsPanel ->{
+                R.id.expertsPanel -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(
-                            R.id.frame,
-                            ExpertsPanelFragment()
-                        )                                                                                        // dashboard fragment is replacing the blank frame
-                        .commit()
+                            .replace(
+                                    R.id.frame,
+                                    ExpertsPanelFragment()
+                            )                                                                                        // dashboard fragment is replacing the blank frame
+                            .commit()
 
                     supportActionBar?.title = getString(R.string.experts_panel)                                                     //giving the title
                     drawerLayout.closeDrawers()
                 }
-                R.id.credits ->{
+                R.id.credits -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(
-                            R.id.frame,
-                            CreditsFragment()
-                        )                                                                                        // dashboard fragment is replacing the blank frame
-                        .commit()
+                            .replace(
+                                    R.id.frame,
+                                    CreditsFragment()
+                            )                                                                                        // dashboard fragment is replacing the blank frame
+                            .commit()
 
                     supportActionBar?.title = getString(R.string.credits)                                                     //giving the title
                     drawerLayout.closeDrawers()
@@ -128,25 +130,25 @@ class MainActivity : AppCompatActivity() {
                     startActivity(shareIntent)
                 }
 
-                R.id.about_app ->{
+                R.id.about_app -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(
-                            R.id.frame,
-                            AboutAppFragment()
-                        )                                                                          // dashboard fragment is replacing the blank frame
-                        .commit()
+                            .replace(
+                                    R.id.frame,
+                                    AboutAppFragment()
+                            )                                                                          // dashboard fragment is replacing the blank frame
+                            .commit()
 
                     supportActionBar?.title = getString(R.string.about_app)
                     drawerLayout.closeDrawers()
                 }
 
-                R.id.language ->{
+                R.id.language -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(
-                            R.id.frame,
-                            Language()
-                        )                                                                          // dashboard fragment is replacing the blank frame
-                        .commit()
+                            .replace(
+                                    R.id.frame,
+                                    Language()
+                            )                                                                          // dashboard fragment is replacing the blank frame
+                            .commit()
 
                     supportActionBar?.title = (getString(R.string.languagetitle))
                     drawerLayout.closeDrawers()
@@ -190,10 +192,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onBackPressed() {
         val frag = supportFragmentManager.findFragmentById(R.id.frame)
-
         when(frag){
             !is HomeFragment -> openHome()    // if at any frame ie other than dashboard this will bring back to dasboard on pressing back key
-
+            is HomeFragment ->
+                ActivityCompat.finishAffinity(this@MainActivity)
+               // finish()
             else -> super.onBackPressed()     // Exit the app (default)
         }
     }

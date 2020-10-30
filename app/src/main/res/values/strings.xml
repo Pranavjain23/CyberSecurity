@@ -248,5 +248,17 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="languagetitle">Select Language</string>
     <string name="languagesidebar">Language</string>
 
-
+    <string name="msg1" >○ Good, keep changing your passwords frequently !</string>
+    <string name="msg11">○ You should atleast change your passwords once each month.</string>
+    <string name="msg2">is correct practice !</string>
+    <string name="msg22">○ Never access your bank services from text messages or the mails that you receive because that may be fraud</string>
+    <string name="msg3">○ Also avoid connecting your phone to the free, unsecured Wi-Fi for logging into social media account</string>
+    <string name="msg33">○ You should avoid connecting your phone to the free, unsecured Wi-Fi for shopping or banking</string>
+    <string name="msg4">○ GOOD  ,   you should never install the softwares that comes as an attachment in emails.</string>
+    <string name="msg44">○ No! REMEMBER : you should never install the softwares that comes as an attachment in emails.</string>
+    <string name="msg5">○ GOOD  ,	you should never  share your personal details on phone email or sms.</string>
+    <string name="msg55">○ No! REMEMBER   :   you should never share these details on phone email or sms. Bank never asks for the user\'s information like that.</string>
+    <string name="sc1">EXCELLENT PERFORMANCE !---</string>
+    <string name="sc2">AVERAGE PERFORMANCE !---</string>
+    <string name="sc3">POOR PERFORMANCE !---</string>
 </resources>

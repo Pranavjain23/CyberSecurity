@@ -194,7 +194,11 @@ class MainActivity : AppCompatActivity() {
         when(frag){
             !is HomeFragment -> openHome()    // if at any frame ie other than dashboard this will bring back to dasboard on pressing back key
 
-            else -> super.onBackPressed()     // Exit the app (default)
+            else -> {
+                super.onBackPressed()
+                finishAffinity()
+                finish()
+            }// Exit the app (default)
         }
     }
 

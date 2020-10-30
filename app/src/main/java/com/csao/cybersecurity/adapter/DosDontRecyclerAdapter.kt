@@ -36,10 +36,10 @@ class DosDontRecyclerAdapter(val context: Context, val itemList: ArrayList<DosAn
         holder.txtDetail.text = doAndDont.dosAndDontName
         holder.imgDoAndDont.setImageResource(doAndDont.DosAndDontImage)
 
-        holder.linearLayout.setOnClickListener {
-            Toast.makeText(context, "List item is selected! ", Toast.LENGTH_SHORT).show()
+        //holder.linearLayout.setOnClickListener {
+         //   Toast.makeText(context, "List item is selected! ", Toast.LENGTH_SHORT).show()
 
-        }
+       // }
     }
     class DoDontViewHolder(view: View) : RecyclerView.ViewHolder(view){
 

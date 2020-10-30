@@ -203,11 +203,11 @@
     <string name="securitycheck_heading"> सुरक्षा जांच</string>
     <string name="videoandwebinar_heading">वीडियो और वेबिनार </string>
     <string name="check_your_awareness"> अपनी जागरूकता की जाँच करें ..</string>
-    <string name="question_1">પप्रश्न 1</string>
+    <string name="question_1">प्रश्न 1</string>
     <string name="q1"> आप अपने पासवर्ड अक्सर बदल सकता हूँ?</string>
-    <string name="yes">हाँહા</string>
+    <string name="yes">हाँ</string>
     <string name="no">नहीं</string>
-    <string name="question_2">પ્प्रश्न 2</string>
+    <string name="question_2">प्रश्न 2</string>
     <string name="q2"> आप बैंक की सेवाओं का उपयोग कैसे करूँ?</string>
     <string name="from_the_mails">मेल से </string>
     <string name="from_the_text_messages">पाठ संदेश से </string>

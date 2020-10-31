@@ -242,17 +242,17 @@
     <string name="languagetitle">भाषा का चयन करें</string>
     <string name="languagesidebar">भाषा</string>
 
-    <string name="msg1" >trial भाषा</string>
-    <string name="msg11">○ You should atleast change your passwords once each month.</string>
-    <string name="msg2">is correct practice !</string>
-    <string name="msg22">○ Never access your bank services from text messages or the mails that you receive because that may be fraud</string>
-    <string name="msg3">○ Also avoid connecting your phone to the free, unsecured Wi-Fi for logging into social media account</string>
-    <string name="msg33">○ You should avoid connecting your phone to the free, unsecured Wi-Fi for shopping or banking</string>
-    <string name="msg4">○ GOOD  ,   you should never install the softwares that comes as an attachment in emails.</string>
-    <string name="msg44">○ No! REMEMBER : you should never install the softwares that comes as an attachment in emails.</string>
-    <string name="msg5">○ GOOD  ,	you should never  share your personal details on phone email or sms.</string>
-    <string name="msg55">○ No! REMEMBER   :   you should never share these details on phone email or sms. Bank never asks for the user\'s information like that.</string>
-    <string name="sc1">EXCELLENT PERFORMANCE !---</string>
-    <string name="sc2">AVERAGE PERFORMANCE !---</string>
-    <string name="sc3">POOR PERFORMANCE !---</string>
+    <string name="msg1" >बेहतर परिणाम ! अपने पासवर्ड को बार-बार बदलते रहें!</string>
+    <string name="msg11">○ आपको प्रत्येक महीने में एक बार अपने पासवर्ड बदलने चाहिए।</string>
+    <string name="msg2">सही अभ्यास है!</string>
+    <string name="msg22">○ टेक्स्ट संदेश या आपके द्वारा प्राप्त मेल से कभी भी अपनी बैंक सेवाओं का उपयोग न करें क्योंकि यह धोखाधड़ी हो सकती है|</string>
+    <string name="msg3">○ इसके अलावा अपने फोन को सोशल मीडिया अकाउंट में लॉग इन करने के लिए असुरक्षित, वाई-फाई से कनेक्ट करने से बचें</string>
+    <string name="msg33">○ खरीदारी या बैंकिंग के लिए आपको अपने फोन को मुफ्त, असुरक्षित वाई-फाई से जोड़ने से बचना चाहिए</string>
+    <string name="msg4">○ बेहतर, आपको ईमेल में अनुलग्नक के रूप में आने वाले सॉफ्टवेयर्स को कभी भी इंस्टॉल नहीं करना चाहिए।</string>
+    <string name="msg44">○ नहीं  ! याद रखें , आपको ईमेल में अनुलग्नक के रूप में आने वाले सॉफ्टवेयर्स को कभी भी इंस्टॉल नहीं करना चाहिए।</string>
+    <string name="msg5">○ बेहतर , आपको फोन ईमेल या एसएमएस पर अपने व्यक्तिगत विवरण को कभी भी साझा नहीं करना चाहिए।</string>
+    <string name="msg55">○ नहीं  ! याद रखें ,आपको फोन ईमेल या एसएमएस पर इन विवरणों को कभी साझा नहीं करना चाहिए। बैंक कभी भी उस तरह के उपयोगकर्ता की जानकारी नहीं मांगता है।</string>
+    <string name="sc1">उत्कृष्ट कार्य - निष्पादन !---</string>
+    <string name="sc2">औसत प्रदर्शन!---</string>
+    <string name="sc3">घटिया प्रदर्शन !---</string>
 </resources>

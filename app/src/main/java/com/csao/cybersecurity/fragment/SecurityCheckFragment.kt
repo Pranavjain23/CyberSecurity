@@ -149,15 +149,15 @@ class SecurityCheckFragment : Fragment() {
     AlertDialog.Builder(context)
         .setTitle(Html.fromHtml("<font color='#2a405e'>SCORE : $score</font>"))
         .setItems(items) { dialog, which ->
-            Toast.makeText(context, str+"\n"+getString(R.string.lcc), Toast.LENGTH_LONG).show()
-             val fragment = HomeFragment()
-            val args = Bundle()
-            fragment.arguments = args
-            (context as MainActivity).supportFragmentManager.beginTransaction()
-                    .replace(
-                            R.id.frame,
-                            fragment
-                    ).commit()
+//            Toast.makeText(context, str+"\n"+getString(R.string.lcc), Toast.LENGTH_LONG).show()
+//             val fragment = HomeFragment()
+//            val args = Bundle()
+//            fragment.arguments = args
+//            (context as MainActivity).supportFragmentManager.beginTransaction()
+//                    .replace(
+//                            R.id.frame,
+//                            fragment
+//                    ).commit()
         }
         .setNegativeButton(getString(R.string.ok))
 //        { dialog, which ->

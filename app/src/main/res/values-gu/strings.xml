@@ -82,9 +82,12 @@
        શું ન કરવું
     </string>
     <string name="webinar">
-                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a>
+                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> અહીં ક્લિક કરો</a>
 
     </string>
+    <string name="all_five">
+તમારો સ્કોર જાણવા બધા પ્રશ્નોના જવાબ આપો</string>
+
     <string name="welcome_users">સ્વાગત વપરાશકર્તાઓ !!</string>
     <string name="about_the_developers">ડેવલોપર્સ વિષે </string>
     <string name="pranav_jainname">પ્રણવ જૈન</string>

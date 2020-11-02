@@ -248,6 +248,7 @@ CSAO is a brain child of Ms. Chandni Agarwal, senior IT faculty at Maharaja Agra
     <string name="languagetitle">Select Language</string>
     <string name="languagesidebar">Language</string>
 
+    <string name="all_five">Answer all the questions to know your score</string>
     <string name="msg1" >○ Good, keep changing your passwords frequently !</string>
     <string name="msg11">○ You should atleast change your passwords once each month.</string>
     <string name="msg2">is correct practice !</string>

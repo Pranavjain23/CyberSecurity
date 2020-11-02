@@ -82,9 +82,12 @@
     <string name="do_string">செய்</string>
     <string name="dont_string">இல்லை</string>
     <string name="webinar">
-                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">Click here</a>
+                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">இங்கே கிளிக் செய்க
+</a>
 
     </string>
+    <string name="all_five">உங்கள் மதிப்பெண்ணை அறிய அனைத்து கேள்விகளுக்கும் பதிலளிக்கவும்</string>
+
     <string name="welcome_users">பயனர்களுக்கு நல்வரவு </string>
     <string name="about_the_developers">உருவாக்க குழு பற்றிய விவரம் </string>
     <string name="pranav_jainname">பிரணவ் ஜெயின் </string>

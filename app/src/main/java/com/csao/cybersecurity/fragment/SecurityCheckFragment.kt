@@ -104,10 +104,6 @@ class SecurityCheckFragment : Fragment() {
                 alert_box(msg1,msg2,msg3,msg4,msg5,score)
             }
 
-
-
-
-
         return view
     }
     fun alert_box(msg1:String,msg2:String,msg3:String,msg4:String,msg5:String,score:Int){
@@ -153,9 +149,17 @@ class SecurityCheckFragment : Fragment() {
     AlertDialog.Builder(context)
         .setTitle(Html.fromHtml("<font color='#2a405e'>SCORE : $score</font>"))
         .setItems(items) { dialog, which ->
-            Toast.makeText(context, str+getString(R.string.lcc), Toast.LENGTH_LONG).show()
+            Toast.makeText(context, str+"\n"+getString(R.string.lcc), Toast.LENGTH_LONG).show()
+             val fragment = HomeFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            (context as MainActivity).supportFragmentManager.beginTransaction()
+                    .replace(
+                            R.id.frame,
+                            fragment
+                    ).commit()
         }
-        .setNegativeButton("Okay")
+        .setNegativeButton(getString(R.string.ok))
 //        { dialog, which ->
 //            Toast.makeText(context, "", Toast.LENGTH_LONG).show()
         { dialog, which ->  val fragment = HomeFragment()

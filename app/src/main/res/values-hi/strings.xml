@@ -75,6 +75,8 @@
     <string name="infosecawareness">
         <a href="https://www.infosecawareness.in/">जानकारीजागरूकता</a>
     </string>
+    <string name="all_five">अपने स्कोर को जानने के लिए सभी प्रश्नों के उत्तर दें</string>
+
     <string name="do_string">क्या करें</string>
     <string name="dont_string">क्या न करें</string>
     <string name="webinar"><a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">यहाँ क्लिक करें</a></string>
@@ -242,7 +244,7 @@
     <string name="languagetitle">भाषा का चयन करें</string>
     <string name="languagesidebar">भाषा</string>
 
-    <string name="msg1" >बेहतर परिणाम ! अपने पासवर्ड को बार-बार बदलते रहें!</string>
+    <string name="msg1" >○ बेहतर परिणाम ! अपने पासवर्ड को बार-बार बदलते रहें!</string>
     <string name="msg11">○ आपको प्रत्येक महीने में एक बार अपने पासवर्ड बदलने चाहिए।</string>
     <string name="msg2">सही अभ्यास है!</string>
     <string name="msg22">○ टेक्स्ट संदेश या आपके द्वारा प्राप्त मेल से कभी भी अपनी बैंक सेवाओं का उपयोग न करें क्योंकि यह धोखाधड़ी हो सकती है|</string>

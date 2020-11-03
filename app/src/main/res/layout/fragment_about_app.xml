@@ -92,7 +92,7 @@
                 android:textSize="14sp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/white"
-                android:text="1. Pratima Singh \n\n PRIMARY SCHOOL DHUSAH 1 \n DISTRICT BALRAMPUR UTTAR PRADESH"
+                android:text="1. Pratima Singh \n\n National ICT Awardee \n PRIMARY SCHOOL DHUSAH 1 \n DISTRICT BALRAMPUR UTTAR PRADESH"
                 android:padding="3sp"
                 android:textColor="@color/colorPrimaryDark"/>
 
@@ -104,7 +104,7 @@
                 android:textSize="14sp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/white"
-                android:text="2. Rakesh Nava Nadisar \n\n M.A.,M.A.,M.Phil.,M.Ed., PGDCA, PGDEA, IPICT \n English Graduate Teacher, National Awardee, \n Ggovernment Higher Secondary School, \n Sathiyamangalam,Gingee Taluk, Villupuram dt,\n  Tamil Nadu 604153"
+                android:text="2. S. Dhilip \n\n National ICT Awardee \n M.A.,M.A.,M.Phil.,M.Ed., PGDCA, PGDEA, IPICT \n English Graduate Teacher, National Awardee, \n Ggovernment Higher Secondary School, \n Sathiyamangalam,Gingee Taluk, Villupuram dt,\n  Tamil Nadu 604153"
                 android:padding="3sp"
                 android:textColor="@color/colorPrimaryDark"/>
 
@@ -117,7 +117,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@android:color/white"
-                android:text="3. S. Dhilip \n\n Gujarat"
+                android:text="3. Rakesh Nava Nadisar \n\n National ICT Awardee \n Gujarat"
                 android:padding="3sp"
                 android:textColor="@color/colorPrimaryDark"/>
         </LinearLayout>

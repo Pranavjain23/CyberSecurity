@@ -91,10 +91,7 @@
     <string name="dont_string">
        શું ન કરવું
     </string>
-    <string name="webinar">
-                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> અહીં ક્લિક કરો</a>
-
-    </string>
+    <string name="webinar"><a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">Click Here</a></string>
     <string name="all_five">
 તમારો સ્કોર જાણવા બધા પ્રશ્નોના જવાબ આપો</string>
 
@@ -297,6 +294,7 @@
     <string name="sometimes">ક્યારેક</string>
 
     <string name="chandni_agg_intro">Chandni Agarwal is a dynamic &amp;amp; visionary educationist with over 20 years experience of teaching Computer Science. \nShe is a National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador. She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\nThis ICT ambassador through her undiluted devotion , determination and focus has become the torch bearer of her initiative CSAO – Cyber Security Awareness via Cyber Security Guide Android App.\nShe is creating an ICT literate community of learners which can deploy, utilize and contribute to a constantly evolving digital nation.</string>
+    <string name="chandni_agarwal">ચાંદની અગ્રવાલ</string>
 
 
 </resources>

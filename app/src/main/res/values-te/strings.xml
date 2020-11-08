@@ -180,7 +180,6 @@
     <string name="dont9">తెలియని నెట్వర్క్లు లేదా అవిశ్వసనీయ నెట్వర్క్లకు ఎప్పుడూ కనెక్ట్ కాకండి </string>
     <string name="idea_founder_desig">ఐడియా ఫౌండర్</string>
     <string name="chandniag_desig">మెంటర్ &amp; కోచ్, సైబర్ భద్రత &amp; వెల్నెస్</string>
-    <string name="lang2">మీ యొక్క ఆండ్రాయిడ్ మొబైల్ / టాబ్లెట్ లో "సెట్ట్ంగ్" లో "సిస్టం" పై క్లిక్ చేయండి </string>
     <string name="open_drawer">ఓపెన్ డ్రాయర్</string>
     <string name="sometimes">Sometimes</string>
     <string name="chandni_agg_intro">Chandni Agarwal is a dynamic &amp; visionary educationist with over 20 years experience of teaching Computer Science. \nShe is a National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador. She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\nThis ICT ambassador through her undiluted devotion , determination and focus has become the torch bearer of her initiative CSAO – Cyber Security Awareness via Cyber Security Guide Android App.\nShe is creating an ICT literate community of learners which can deploy, utilize and contribute to a constantly evolving digital nation.</string>
@@ -229,4 +228,6 @@
     <string name="dlcc24">గూ ion చర్యం అనేది యజమాని యొక్క అనుమతి మరియు జ్ఞానం లేకుండా డేటా మరియు సమాచారాన్ని పొందే చర్య లేదా అభ్యాసం.</string>
 
     <string name="ok">అలాగే</string>
+    <string name="lang">భాష మార్చు</string>
+    <string name="webinar"><a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">Click Here</a></string>
 </resources>

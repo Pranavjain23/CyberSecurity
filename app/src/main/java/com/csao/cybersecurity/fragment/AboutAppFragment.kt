@@ -13,6 +13,7 @@ import com.csao.cybersecurity.activity.MainActivity
 class AboutAppFragment : Fragment() {
 
     lateinit var creatorTeam : Button
+    lateinit var contributor : Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,9 +23,20 @@ class AboutAppFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_about_app, container, false)
 
         creatorTeam = view.findViewById(R.id.creatorTeam)
-
+        contributor = view.findViewById(R.id.contributor)
         creatorTeam.setOnClickListener {
             val fragment = AppCreatorFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            (context as MainActivity).supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.frame,
+                    fragment
+                ).commit()
+        }
+
+        contributor.setOnClickListener {
+            val fragment = LanguageConvertFragment()
             val args = Bundle()
             fragment.arguments = args
             (context as MainActivity).supportFragmentManager.beginTransaction()

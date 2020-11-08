@@ -73,53 +73,16 @@
 
             <Button
                 android:id="@+id/contributor"
-                android:paddingLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:textAlignment="textStart"
                 android:background="@color/lightBlue"
-                android:text="@string/contributor"
                 android:drawableLeft="@drawable/ic_creator"
                 android:drawablePadding="15dp"
-                />
+                android:paddingLeft="20dp"
+                android:text="@string/contributor"
+                android:textAlignment="textStart" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textSize="14sp"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/white"
-                android:text="1. Pratima Singh \n\n National ICT Awardee \n PRIMARY SCHOOL DHUSAH 1 \n DISTRICT BALRAMPUR UTTAR PRADESH"
-                android:padding="3sp"
-                android:textColor="@color/colorPrimaryDark"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textSize="14sp"
-                android:layout_marginTop="10dp"
-                android:background="@android:color/white"
-                android:text="2. S. Dhilip \n\n National ICT Awardee \n M.A.,M.A.,M.Phil.,M.Ed., PGDCA, PGDEA, IPICT \n English Graduate Teacher, National Awardee, \n Ggovernment Higher Secondary School, \n Sathiyamangalam,Gingee Taluk, Villupuram dt,\n  Tamil Nadu 604153"
-                android:padding="3sp"
-                android:textColor="@color/colorPrimaryDark"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textSize="14sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@android:color/white"
-                android:text="3. Rakesh Nava Nadisar \n\n National ICT Awardee \n Gujarat"
-                android:padding="3sp"
-                android:textColor="@color/colorPrimaryDark"/>
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

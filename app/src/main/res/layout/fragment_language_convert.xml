@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="1. Pratima Singh \n\n National ICT Awardee \n UTTAR PRADESH"
+                    android:text="1. Ms. Pratima Singh \n\n National ICT Awardee \n UTTAR PRADESH"
                     android:textColor="@color/colorPrimaryDark"/>
 
             </RelativeLayout>
@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="2. S. Dhilip \n\n National ICT Awardee \n Tamil Nadu 604153"
+                    android:text="2. Mr. S. Dhilip \n\n National ICT Awardee \n Tamil Nadu 604153"
                     android:padding="3sp"
                     android:textColor="@color/colorPrimaryDark"/>
 
@@ -72,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="3. Rakesh Nava Nadisar \n\n National ICT Awardee \n Gujarat"
+                    android:text="3. Mr. Rakesh Nava Nadisar \n\n National ICT Awardee \n Gujarat"
                     android:padding="3sp"
                     android:textColor="@color/colorPrimaryDark"/>
 
@@ -95,11 +95,17 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="4. KRUPALI SANGHVI \n\n National ICT Awardee(CBSE) \n  Gujarat"
+                    android:text="4. Ms. Krupali Sanghvi \n\n National ICT Awardee(CBSE) \n  Gujarat"
                     android:padding="3sp"
                     android:textColor="@color/colorPrimaryDark"/>
 
             </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="4dp">
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -109,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="5. D. NAGARAJU \n\n National ICT Awardee \n TELANGANA"
+                    android:text="5. Mr. D. Nagaraju \n\n National ICT Awardee \n TELANGANA"
                     android:padding="3sp"
                     android:textColor="@color/colorPrimaryDark"/>
 

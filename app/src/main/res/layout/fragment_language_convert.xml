@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="1. Pratima Singh \n\n National ICT Awardee \n PRIMARY SCHOOL DHUSAH 1 \n DISTRICT BALRAMPUR UTTAR PRADESH"
+                    android:text="1. Pratima Singh \n\n National ICT Awardee \n UTTAR PRADESH"
                     android:textColor="@color/colorPrimaryDark"/>
 
             </RelativeLayout>
@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="2. S. Dhilip \n\n National ICT Awardee \n M.A.,M.A.,M.Phil.,M.Ed., PGDCA, PGDEA, IPICT \n English Graduate Teacher, National Awardee, \n Ggovernment Higher Secondary School, \n Sathiyamangalam,Gingee Taluk, Villupuram dt,\nTamil Nadu 604153"
+                    android:text="2. S. Dhilip \n\n National ICT Awardee \n Tamil Nadu 604153"
                     android:padding="3sp"
                     android:textColor="@color/colorPrimaryDark"/>
 
@@ -95,7 +95,21 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="4. KRUPALI SANGHVI \n\n National ICT Awardee, MIEE MASTER TRAINER"
+                    android:text="4. KRUPALI SANGHVI \n\n National ICT Awardee(CBSE) \n  Gujarat"
+                    android:padding="3sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:background="@android:color/white"
+                    android:text="5. D. NAGARAJU \n\n National ICT Awardee \n TELANGANA"
                     android:padding="3sp"
                     android:textColor="@color/colorPrimaryDark"/>
 

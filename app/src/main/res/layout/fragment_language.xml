@@ -45,14 +45,15 @@
         android:layout_height="match_parent"
         android:layout_margin="5dp"
         android:weightSum="2">
+
         <Button
             android:id="@+id/btn3"
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_margin="10dp"
             android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
             android:text="ગુજરાતી"
-            android:textSize="26sp"/>
+            android:textSize="26sp" />
         <Button
             android:id="@+id/btn4"
             android:layout_weight="1"

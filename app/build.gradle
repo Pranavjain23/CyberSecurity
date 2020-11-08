@@ -7,7 +7,6 @@ android {
     buildToolsVersion "29.0.3"
 
         bundle {
-
             language {
                 enableSplit = false
             }

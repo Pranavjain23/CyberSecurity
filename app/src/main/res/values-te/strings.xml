@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CSAO</string>
-    <string name="welcome">स्वागत है  </string>
-    <string name="preference_file_name">साइबर सुरक्षा</string>
-    <string name="aboutus">हमारे बारे में</string>
-    <string name="appcreator">एप्लिकेशन निर्माता टीम</string>
+    <string name="welcome">WELCOME</string>
+    <string name="preference_file_name">Cyber Security</string>
+    <string name="aboutus">About Us</string>
+    <string name="appcreator">APP CREATOR TEAM</string>
 
-    <string name="complaint1">साइबर शिकायत रजिस्टर</string>
-    <string name="complaint2">यह पोर्टल पीड़ितों को साइबर अपराध के खिलाफ ऑनलाइन शिकायत दर्ज करने की सुविधा प्रदान करता है |\n महिलाओं एवं बच्चों को साइबर क्राइम रिपोर्टिंग की विशेष सुविधा प्रदान की गई है जिसके अंतर्गत उनकी जानकारी पूर्णतया गोपनीय राखी जाती है | \n इस पोर्टल पर दी जाने वाली हर शिकायत को कानूनी एजेंसी अथवा पुलिस द्वारा हल किया जाता है | \n यह जरूरी है कि आप शिकायत दर्ज कराते समय सही व् सटीक जानकारी उपलब्ध कराएं</string>
-    <string name="open_drawer">ओपन दराज</string>
-    <string name="complaint9">आपकी शिकायत की स्थिति पर नज़र रखने के लिए लॉग इन शिकायतकर्ता का नाम और अन्य आवश्यक जानकारी </string>
-    <string name="complaint8">आप गुमनाम रूप से रिपोर्ट दर्ज करा सकते हैं | आप कंप्लेंट फॉर्म में अपने साथ हुए हादसे का पूर्णतया विवरण दें तथा अगले चरण की तरफ बढ़ें | अपनी सभी जानकारी को सावधानी से भरें </string>
-    <string name="complaint7">अगला चरण महिला / बच्चे से  संबंधित साइबर अपराध की रिपोर्ट या अन्य साइबर अपराध के बीच चुनाव करना है। कृपया उचित रूप से चुनें</string>
-    <string name="complaint6">इस पोर्टल के साथ शिकायत दर्ज कराने से पहले कृपया आप नियम और शर्तों को जान उनसे सहमत हो। आप अपनी शिकायत दर्ज कराने से पहले अपने मन में आ रहे प्रश्न , सवाल जवाब , पूछे जाने वाले प्रश्न देखें।</string>
-    <string name="complaint4">प्रक्रिया</string>
-    <string name="complaint5">राष्ट्रीय साइबर क्राइम रिपोर्टिंग पोर्टल पर शिकायत दर्ज कराने! की शिकायत दर्ज क्लिक करें अगले चरण पर आगे बढ़ने के लिए</string>
-    <string name="complaint3">इस पोर्टल पर शिकायत दर्ज कराने से पहले, हम नियमों और शर्तों  के बारे में यहां आप के साथ जानकारी  साझा कर रहे हैं। आप अपनी शिकायत दर्ज कराने से पहले आपके मन में आ रहे प्रश्न , अक्सर पूछे जाने वाले प्रश्न, दृश्य वेबसाइट पर प्रश्न, प्रक्रिया को पूरा करने की प्रक्रिया यहां देख सकते है।</string>
-    <string name="close_drawer">बंद दराज</string>
-    <string name="info">जानकारी</string>
-    <string name="dos_and_dont_image">क्या करें और क्या नहीं </string>
-    <string name="learn_cyber_crime_headings">जानें साइबर अपराध </string>
+
+    <string name="complaint1">Register a cyber complaint</string>
+    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is \n <a href="https://cybercrime.gov.in/">https://cybercrime.gov.in/</a> .\n \nThis portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="complaint9">Citizen Login with the Complaint Name and the required field to track the status of your Complaint</string>
+    <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully
+           </string>
+    <string name="complaint7">Next step is to choose between Report Cyber Crime Related to Women/Child and Report Other Cyber Crime . Choose appropriately </string>
+    <string name="complaint6">Prior to filing a complaint with this portal , you should agree to the Terms and Conditions . Should you have queries prior to filing your complaint, view Frequently Asked Questions FAQ.</string>
+    <string name="complaint4">Procedure</string>
+    <string name="complaint5">Filing a Complaint on National Cyber Crime Reporting Portal ! Click on File a Complaint to proceed to the next step</string>
+    <string name="complaint3">Prior to filing a complaint with this portal, we would request you to read the below information regarding terms and conditions. Should you have queries prior to filing your complaint, view Frequently Asked Questions on the website . Procedure to complete the process is specified below . </string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="info">info</string>
+    <string name="dos_and_dont_image">Dos and Dont Image</string>
+    <string name="learn_cyber_crime_headings">Learn Cyber Crime Headings</string>
     <string name="linkFAQ">
-        <a href="https://cybercrime.gov.in/Default.aspx">आगे बढ़ने के लिए यहां क्लिक करें</a>
+        <a href="https://cybercrime.gov.in/Default.aspx">ముందుకు ఇక్కడ క్లిక్ చేయండి </a>
     </string>
     <string name="getcybersafe">
                https://www.getcybersafe.gc.ca/
@@ -47,242 +49,245 @@
 
 
     <string name="cyberswachhtakendra">
-        <a href="https://www.cyberswachhtakendra.gov.in/">साइबर स्‍वच्‍छता केंद्र</a>
+        <a href="https://www.cyberswachhtakendra.gov.in/">సైబర్ స్వచ్ఛ కేంద్రం</a>
     </string>
     <string name="cyberswachhtakendrasecuritytools">
-        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">साइबर सुरक्षा केंद्र सुरक्षा उपकरण</a>
+        <a href="https://www.cyberswachhtakendra.gov.in/security-tools.html">
+సైబర్ శుభ్రత కేంద్రం భద్రతా సాధనాలు</a>
     </string>
     <string name="cyberattacks">
-        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">Covid19 साइबर अटैक</a>
+        <a href="https://www.infosecawareness.in/article/covid19-cyber-attacks">కోవిడ్ 19 సైబర్ దాడులు</a>
     </string>
 
     <string name="cyberSandS">
-        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">साइबर सुरक्षा और जागरूकता</a>
+        <a href="https://ciet.nic.in/upload/cyber%20safety%20and%20security.pdf">సైబర్ భద్రత మరియు భద్రత</a>
     </string>
     <string name="studentsecurity">
-        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing">छात्रों के लिए साइबर सुरक्षा</a>
+        <a href="https://drive.google.com/file/d/1yxA1GGllvQw3mvaNKVM7dZ9olzXQ4zf8/view?usp=sharing">విద్యార్థులకు సైబర్ భద్రత</a>
     </string>
     <string name="teacherguidelines">
-        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing">साइबर सुरक्षा शिक्षक दिशानिर्देश</a>
+        <a href="https://drive.google.com/file/d/1QXXbhw-KZk8mEfw4SiI552Okip5XSztE/view?usp=sharing">సైబర్ సెక్యూరిటీ టీచర్ మార్గదర్శకాలు</a>
     </string>
     <string name="ncpcr">
-        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing">ऑनलाइन सुरक्षा के लिए NCPCR दिशानिर्देश</a>
+        <a href="https://drive.google.com/file/d/15n_8rZue-GLGH8g0dURpUfBpJbW9c1Mr/view?usp=sharing">
+ఆన్‌లైన్ భద్రత కోసం ఎన్‌సిపిసిఆర్ మార్గదర్శకాలు</a>
     </string>
     <string name="cybersafetyManual">
-        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing">साइबर सुरक्षा मैनुअल</a>
+        <a href="https://drive.google.com/file/d/1o3dgQaOvk4tatiHIIX5DD238_Z-jd2Q8/view?usp=sharing">Cyber Safety Manual</a>
     </string>
 
     <string name="infosecawareness">
-        <a href="https://www.infosecawareness.in/">जानकारी व् जागरूकता</a>
+        <a href="https://www.infosecawareness.in/">Infosecawareness</a>
     </string>
-    <string name="all_five">अपने स्कोर को जानने के लिए सभी प्रश्नों के उत्तर दें</string>
+    <string name="do_string">DO\'s</string>
+    <string name="dont_string">DON\'ts</string>
+    <string name="webinar">
+                <a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-"> Click here </a>
 
-    <string name="do_string">क्या करें</string>
-    <string name="dont_string">क्या न करें</string>
-    <string name="webinar"><a href="https://www.youtube.com/playlist?list=PLD5wzl-GmKMVrfli48k0ypE6HtrGO_sP-">यहाँ क्लिक करें</a></string>
-    <string name="welcome_users">आपका स्वागत है उपयोगकर्ता!</string>
-    <string name="about_the_developers">हमारे डेवेलपर्स</string>
-    <string name="pranav_jainname">प्रणव जैन</string>
+    </string>
+
+    <string name="welcome_users">Welcome Users !</string>
+    <string name="about_the_developers">About the Developers</string>
+    <string name="pranav_jainname">PRANAV JAIN</string>
     <string name="pranav_email">jaincoolpranav@gmail.com</string>
-    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">फ़ीड भेजें</a></string>
-    <string name="bhoomika_garg">भूमिका गर्ग</string>
+    <string name="pranav_phoneno"><a href="https://www.linkedin.com/in/pranav-jain-9414a71a0">Send Feedback </a></string>
+    <string name="bhoomika_garg">BHOOMIKA GARG</string>
     <string name="bhoomika_email">bhoomika.garg.9@gmail.com</string>
-    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">फ़ीड भेजें </a></string>
-    <string name="org">CSAO © 2020 साइबर सुरक्षा जागरूकता ऑनलाइन</string>
-    <string name="privacy_policy">गोपनीयता नीति</string>
-    <string name="do1">अपनी ब्राउज़र सिक्योरिटी को केवल सुरक्षित एवं विशवसनीय वेबसाइट के लिए सेट करें </string>
-    <string name="do2">लॉगिन व् पासवर्ड की जानकारी को याद रखने की क्षमता को बंद रखें </string>
-    <string name="do3">पॉप अप विंडो को अपने वेब ब्रोसवेर में ब्लॉक करें | </string>
-    <string name="do4">वेब एक्सटेंशन्स को इनस्टॉल करते समय warn me  ऑप्शन को सक्षम करें | </string>
-    <string name="do5">सोशल साइट्स का प्रयोग करने के लिए अपनी  ऑफिसियल या पर्सनल ईमेल ID का इस्तेमाल करें | </string>
-    <string name="do6">अपनी निजी जानकारी ऑनलाइन पलटफॉर्मस पर साझा करते समय सावधान रहें | </string>
-    <string name="do7">आप यह अवशय सुनिश्चित करें कि आपकी ISP व् IRC नेटवर्क उस निति का प्रयोग करती है जो साइबर स्टाकिंग को प्रतिबंधित करती है |</string>
-    <string name="do8">आप हमेशा एंटीवायरस व् antispyware का ओरिजिनल व् अपडेटेड वर्शन ही प्रयोग करें | </string>
-    <string name="dont1">किसी भी हानिकारक ईमेल / चैट / पोस्ट्स को डिलीट न करें क्योंकि किसी भी साइबर क्राइम में यह एक महत्वपूर्ण सबूत  की तरह प्रयोंग हो सकती है | </string>
-    <string name="dont2">किसी भी अनजान व्यक्ति द्वारा भेजे गए मेल अथवा लिंक को न खोलें , चाहे वो कितना भी आकर्षक न हो | </string>
-    <string name="dont3">किसी को भी अपना OTP / पासवर्ड न दें।  कोई भी व्यक्ति दुर्भावनापूर्ण इरादे से आपको या आपकी प्रतिष्ठा को नुक्सान पहुंचा सकता है | यह एक अजनबी को अपने घर में आने के खुले आमत्रण की तरह है |</string>
-    <string name="dont4">किसी भी कॉपीराइट सामग्री की नक़ल न करें , यह एक अवैध कार्य है | </string>
-    <string name="dont5">जब नेट पर किसी नए व्यक्ति से बात करें तो अपनी  व्यक्तिगत जानकारी , अपने अथवा अपने माता-पिता द्वारा प्रयोग किया जाता क्रेडिट कार्ड के नंबर, आपके घर के पते / फोन नंबर इतियादी को साझा न करें  | </string>
-    <string name="dont6">किसी भी अनजान व्यक्ति द्वारा भेजे गए मेल अथवा लिंक को न खोलें , चाहे वो कितना भी आकर्षक न हो | </string>
-    <string name="nisha_dua">निशा दुआ</string>
-    <string name="nishadua_desig">प्रधान सलाहकार साइबर पीस फाउंडेशन</string>
-    <string name="nishadua_intro">Nisha Dua is a dynamic &amp; visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army &amp; Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information &amp; Communication Technology in improving lives &amp; learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building and policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety &amp; Security Programs at Cyber Peace Foundation</string>
-    <string name="nishadua_desig1">मेंटर और कोच ई-लर्निंग मॉडल, साइबर सुरक्षा और कल्याण</string>
+    <string name="bhoomika_phoneno"><a href="https://www.linkedin.com/in/bhoomikagarg/">Send Feedback </a></string>
+    <string name="org">© 2020 Cyber Security Awareness Organization</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="do1">Set your browser security to high and add safe websites to trusted website zone..</string>
+    <string name="do2">Disable the login and remembering passwords information…</string>
+    <string name="do3">Block pop up window in your web browser…</string>
+    <string name="do4">Enable the option “warn me when sites try to install extensions/theme”  in your web browser..</string>
+    <string name="do5">Try to have separate email id other than your official id to be  used in social website…</string>
+    <string name="do6">Be extremely careful about how you share personal information about yourself online</string>
+    <string name="do7">Make sure that your ISP and Internet Relay Chart (IRC) network have an acceptable use policy that prohibits cyber-stalking.</string>
+    <string name="do8">Always install recommended updates and install original antivirus and antispyware programs..</string>
+    <string name="dont1">Don\'t delete harmful communications (emails, chat logs, posts etc). These may help provide vital information about the identity of the person behind these..</string>
+    <string name="dont2">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be..</string>
+    <string name="dont3">Do not give your password to anybody. Somebody who is malicious can cause great harm to you and your reputation. It is like leaving your house open for a stranger and walking away.</string>
+    <string name="dont4">Do not copy a program that is copyrighted on the net. It is illegal.</string>
+    <string name="dont5">When talking to somebody new on the net, do not give away personal information-like numbers of the credit card used by your parents, your home addresses/ phone numbers and such other personal information…</string>
+    <string name="dont6">Do not open e-mail attachments from strangers, regardless of how enticing the subject line or attachment may be…</string>
+    <string name="nisha_dua">Nisha Dua</string>
+    <string name="nishadua_intro">Nisha Dua is a dynamic &amp; visionary educationist with over 20 years of progressive real-world experience and leadership, With dual combination of Masters in English and PGDSM (Comp Science) from NIIT, Nisha has the experience of teaching English and also managing Computer Science Lab for over a decade in the Army &amp; Navy Schools across Delhi, Mumbai and Vizag. A staunch proponent of transformative power of Information &amp; Communication Technology in improving lives &amp; learning, Nisha has managed Intel’s EduTech Program - “Intel Teach to the Future” for over 12 years, collaborating with schools, colleges, government organisations, civil society and corporates for capacity building &amp; policy reforms at various levels. A firm believer of responsible and positive use of technology and Internet, she is also focussed on mentoring children, youth, educators, women and senior citizens to use the power of Internet safely and smartly, and thrive in the Digital Era. She is currently the Principal Consultant for Cyber Safety &amp; Security Programs at Cyber Peace Foundation.</string>
+    <string name="nishadua_desig">Principal Consultant Cyber Peace Foundation</string>
+    <string name="nishadua_desig1"><![CDATA[Mentor & Coach e-Learning Models, Cyber Safety & Wellness]]></string>
     <string name="nishadua_email">nishadua@yahoo.com</string>
-    <string name="security_check">सुरक्षा जांच</string>
-    <string name="lcc">साइबर अपराध के बारे में जानें</string>
-    <string name="cybercomplaint">साइबर शिकायत</string>
-    <string name="preventivetips">निवारक टिप्स</string>
-    <string name="helpline_number">हेल्पलाइन नंबर</string>
-    <string name="vandw">वीडियो और वेबिनार</string>
-    <string name="lcc1">बाल पोर्नोग्राफी / बाल यौन अपमानजनक सामग्री (CSAM)</string>
-    <string name="lcc2">साइबर बुलइंग</string>
-    <string name="lcc3">साइबर स्टाकिंग</string>
-    <string name="lcc4">साइबर ग्रूमिंग</string>
-    <string name="lcc5">ऑनलाइन नौकरी धोखाधड़ी</string>
-    <string name="lcc6">ऑनलाइन सेक्स एंड ब्लैकमेल</string>
-    <string name="lcc7">विशिंग</string>
-    <string name="lcc8">सेक्सटिंग</string>
-    <string name="lcc9">एसएमएसशिंग</string>
-    <string name="lcc10">सिम स्वैप घोटाला</string>
-    <string name="lcc11">डेबिट / क्रेडिट कार्ड धोखाधड़ी</string>
-    <string name="lcc12">ग़लत पहचान और पहचान की चोरी</string>
-    <string name="lcc13">फ़िशिंग</string>
-    <string name="lcc14">स्पैमिंग</string>
-    <string name="lcc15">रैंसमवेयर</string>
-    <string name="lcc16">वायरस, वॉर्म ,ट्रोजन्स</string>
-    <string name="lcc17">डेटा भंग</string>
-    <string name="lcc18">वंचित सेवाए</string>
-    <string name="lcc19">वेबसाइट विरुपण</string>
-    <string name="lcc20">साइबर बैठने</string>
-    <string name="lcc21">फार्मरिंग</string>
-    <string name="lcc22">किप्टोजैकिंग</string>
-    <string name="lcc23">ऑनलाइन नशीले पदार्थों की तस्करी</string>
-    <string name="lcc24">जासूसी</string>
-    <string name="pt1">बिना सोचे समझे किसी साइट को क्लिक न करें | </string>
-    <string name="pt2">केवल अपने उपकरणों का प्रयोग करें</string>
-    <string name="pt3">अपने आसपास को लेकर जागरूक रहें</string>
-    <string name="pt4">अपने डिजिटल पदचिह्न पर नज़र रखें</string>
-    <string name="pt5">हमेशा ताजा जानकारी रखे |</string>
-    <string name="pt6">अपने डाटा का नियमित रूप से बैकअप लें  </string>
-    <string name="pt7">अपनी गोपनीयता सेटिंग्स पर रखें</string>
-    <string name="pt8">हमेशा डाउनलोड सावधानीपूर्वक करें | </string>
-    <string name="pt9">सुरक्षित साइट्स से ही खरीदारी करें | </string>
-    <string name="pt10">सशक्त पासवर्ड का उपयोग करें</string>
-    <string name="pt11">अपने कंप्यूटर को सुरक्षित बनायें</string>
-    <string name="pt12">अपडेटेड एंटीवायरस का ही प्रयोग करें | </string>
-    <string name="pt13">सोशल मीडिया का सावधानी से प्रयोग करें | </string>
-    <string name="pt14">अपने मोबाइल उपकरणों को सुरक्षित बनाएं | </string>
-    <string name="pt15">अपने डाटा की रक्षा करें | </string>
+    <string name="security_check">Security check</string>
+    <string name="lcc">Learn about Cyber Crime</string>
+    <string name="cybercomplaint">Cyber Complaint</string>
+    <string name="preventivetips">Preventive Tips</string>
+    <string name="helpline_number">Helpline Numbers</string>
+    <string name="vandw">Videos and Webinars</string>
+    <string name="lcc1">CHILD PORNOGRAPHY/ CHILD SEXUALLY ABUSIVE MATERIAL (CSAM)</string>
+    <string name="lcc2">CYBER BULLYING</string>
+    <string name="lcc3">CYBER STALKING</string>
+    <string name="lcc4">CYBER GROOMING</string>
+    <string name="lcc5">ONLINE JOB FRAUD</string>
+    <string name="lcc6">ONLINE SEXTORTION</string>
+    <string name="lcc7">VISHING</string>
+    <string name="lcc8">SEXTING</string>
+    <string name="lcc9">SMSHING</string>
+    <string name="lcc10">SIM SWAP SCAM</string>
+    <string name="lcc11">DEBIT/CREDIT CARD FRAUD</string>
+    <string name="lcc12">IMPERSONATION AND IDENTITY THEFT</string>
+    <string name="lcc13">PHISHING</string>
+    <string name="lcc14">SPAMMING</string>
+    <string name="lcc15">RANSOMWARE</string>
+    <string name="lcc16"><![CDATA[VIRUS, WORMS & TROJANS]]></string>
+    <string name="lcc17">DATA BREACH</string>
+    <string name="lcc18">DENIAL OF SERVICES /DISTRIBUTED DOS</string>
+    <string name="lcc19">WEBSITE DEFACEMENT</string>
+    <string name="lcc20">CYBER-SQUATTING</string>
+    <string name="lcc21">PHARMING</string>
+    <string name="lcc22">CRYPTOJACKING</string>
+    <string name="lcc23">ONLINE DRUG TRAFFICKING</string>
+    <string name="lcc24">ESPIONAGE</string>
+    <string name="pt1">Clicking without Thinking Is Reckless</string>
+    <string name="pt2">Stick to your own devices</string>
+    <string name="pt3">Be aware of your surroundings</string>
+    <string name="pt4">Keep track of your digital footprint</string>
+    <string name="pt5">Keep up with Updates</string>
+    <string name="pt6">Back Up Your Data</string>
+    <string name="pt7">Keep Your Privacy Settings On</string>
+    <string name="pt8">Be Careful What You Download</string>
+    <string name="pt9">Make Online Purchases From Secure Sites</string>
+    <string name="pt10">Use Strong Passwords</string>
+    <string name="pt11">Secure your computer</string>
+    <string name="pt12">Keep Your Antivirus Program Up To Date</string>
+    <string name="pt13">Be Social-Media Savvy</string>
+    <string name="pt14">Secure your Mobile Devices</string>
+    <string name="pt15">మీ డేటాను రక్షించడానికి</string>
     <string name="cyberpeacehelpline">helpline@cyberpeace.net</string>
-    <string name="state1">अंडमान एवं निकोबार</string>
-    <string name="state2">आंध्र प्रदेश</string>
-    <string name="state3">अरुणाचल प्रदेश</string>
-    <string name="state4">असम</string>
-    <string name="state5">बिहार</string>
-    <string name="state6">चंडीगढ़</string>
-    <string name="state7">छत्तीसगढ़</string>
-    <string name="state8">दादरा व नगर हवेली</string>
-    <string name="state9">दमन एवं दीव</string>
-    <string name="state10">दिल्ली</string>
-    <string name="state11">गोवा</string>
-    <string name="state12">गुजरात</string>
-    <string name="state13">हरियाणा</string>
-    <string name="state14">हिमाचल प्रदेश</string>
-    <string name="state15">जम्मू और कश्मीर</string>
-    <string name="state16">झारखंड</string>
-    <string name="state17">कर्नाटक</string>
-    <string name="state18">केरल</string>
-    <string name="state19">लक्षद्वीप</string>
-    <string name="state20">मध्य प्रदेश</string>
-    <string name="state21">महाराष्ट्र</string>
-    <string name="state22">मणिपुर</string>
-    <string name="state23">मेघालय</string>
-    <string name="state24">मिजोरम</string>
-    <string name="state25">नगालैंड</string>
-    <string name="state26">ओडिशा</string>
-    <string name="state27">पुडुचेरी</string>
-    <string name="state28">पंजाब</string>
-    <string name="state29">राजस्थान </string>
-    <string name="state30">सिक्किम</string>
-    <string name="state31">तमिलनाडु</string>
-    <string name="state32">तमिलनाडु</string>
-    <string name="state33">तेलंगाना</string>
-    <string name="state34">त्रिपुरा</string>
-    <string name="state35">उत्तराखंड</string>
-    <string name="state36">उत्तर प्रदेश</string>
-    <string name="state37">पश्चिम बंगाल</string>
-    <string name="home">मुख्य पृष्ठ  </string>
-    <string name="do_s_and_don_ts">क्या करें और क्या नहीं</string>
-    <string name="important_resources">महत्वपूर्ण संसाधन</string>
-    <string name="experts_panel">विशेषज्ञों का पैनल </string>
-    <string name="credits">क्रेडिट</string>
-    <string name="about_app">एप्लिकेशन के बारे में</string>
-    <string name="communicate">संवाद</string>
-    <string name="share">વशेयर</string>
-    <string name="app_creator_team"> अनुप्रयोग प्रजापति टीम</string>
-    <string name="cyber_complaint_heading">साइबर शिकायत</string>
-    <string name="securitycheck_heading"> सुरक्षा जांच</string>
-    <string name="videoandwebinar_heading">वीडियो और वेबिनार </string>
-    <string name="check_your_awareness"> अपनी जागरूकता की जाँच करें ..</string>
-    <string name="question_1">प्रश्न 1</string>
-    <string name="q1"> क्या आप अपना पासवर्ड अक्सर बदलते हैं? </string>
-    <string name="yes">हाँ</string>
-    <string name="no">नहीं</string>
-    <string name="question_2">प्रश्न 2</string>
-    <string name="q2"> आप अपनी बैंक सेवाओं का कैसे प्रयोग करते हैं ?</string>
-    <string name="from_the_mails">मेल से </string>
-    <string name="from_the_text_messages">टेक्स्ट सन्देश से  </string>
-    <string name="from_bank_s_official_website_or_app">बैंक की आधिकारिक वेबसाइट या ऐप्लिकेशन से</string>
-    <string name="question_3">प्रश्न 3</string>
-    <string name="q3">क्या आप खरीदारी या बैंकिंग के लिए मुफ्त, असुरक्षित वाई-फ़ाई से अपने फ़ोन से कनेक्ट करते हैं?</string>
-    <string name="question_4">प्रश्न 4</string>
-    <string name="q4"> क्या आप सॉफ्टवेयर जो कि ईमेल में अनुलग्नक के रूप में आता है उसे इनस्टॉल  करते हैं?</string>
-    <string name="question_5"> प्रश्न 5</string>
-    <string name="q5"> क्या आप ऐसे कॉलर से जो भले ही वह वास्तविक लगता है , अपना  व्यक्तिगत / बैंक विवरण साझा करते हैं?</string>
-    <string name="submit"> दर्ज करें | </string>
+    <string name="state1">అండమాన్ &amp; నికోబార్</string>
+    <string name="state2">ఆంధ్రప్రదేశ్</string>
+    <string name="state3">అరుణాచల్ ప్రదేశ్</string>
+    <string name="state4">అస్సాం</string>
+    <string name="state5">బీహార్</string>
+    <string name="state6">చండీగఢ్</string>
+    <string name="state7">ఛత్తీస్గఢ్</string>
+    <string name="state8">దాద్రా &amp; నాగర్ హవేలీ</string>
+    <string name="state9">డామన్ &amp; డయ్యూ</string>
+    <string name="state10">న్యూఢిల్లీ</string>
+    <string name="state11">గోవా</string>
+    <string name="state12">గుజరాత్</string>
+    <string name="state13">హర్యానా</string>
+    <string name="state14">హిమాచల్ ప్రదేశ్</string>
+    <string name="state15">జమ్మూ కాశ్మీర్</string>
+    <string name="state16">జార్ఖండ్</string>
+    <string name="state17">కర్ణాటక</string>
+    <string name="state18">కేరళ</string>
+    <string name="state19">లక్షద్వీప్</string>
+    <string name="state20">మధ్యప్రదేశ్</string>
+    <string name="state21">మహారాష్ట్ర</string>
+    <string name="state22">మణిపూర్</string>
+    <string name="state23">మేఘాలయ</string>
+    <string name="state24">మిజోరం</string>
+    <string name="state25">నాగాలాండ్</string>
+    <string name="state26">ఒడిషా</string>
+    <string name="state27">పుదుచ్చేరి</string>
+    <string name="state28">పంజాబ్</string>
+    <string name="state29">రాజస్తాన్</string>
+    <string name="state30">సిక్కిం</string>
+    <string name="state31">తమిళనాడు</string>
+    <string name="state32">తమిళనాడు</string>
+    <string name="state33">తెలంగాణ</string>
+    <string name="state34">త్రిపుర</string>
+    <string name="state35">ఉత్తరాఖండ్</string>
+    <string name="state36">ఉత్తరప్రదేశ్</string>
+    <string name="state37">వెస్ట్ బెంగాల్</string>
+    <string name="home">హోమ్</string>
+    <string name="do_s_and_don_ts">చేయదగినవి మరియు చేయకూడనివి</string>
+    <string name="important_resources">ముఖ్యమైన వనరుల</string>
+    <string name="experts_panel">నిపుణులు ప్యానెల్</string>
+    <string name="credits">క్రెడిట్స్</string>
+    <string name="about_app">గురించి అప్లికేషన్</string>
+    <string name="communicate">కమ్యూనికేట్</string>
+    <string name="share">భాగస్వామ్యం చేయండి</string>
+    <string name="app_creator_team">అప్లికేషన్ సృష్టికర్త టీమ్</string>
+    <string name="cyber_complaint_heading">సైబర్ ఫిర్యాదు</string>
+    <string name="securitycheck_heading">భద్రత తనిఖీ</string>
+    <string name="videoandwebinar_heading">వీడియోలు మరియు వెబినార్లు</string>
+    <string name="check_your_awareness">Cమిమ్మల్ని మీరు పరీక్షించుకోండి ..</string>
+    <string name="question_1">ప్రశ్న 1</string>
+    <string name="q1">మీరు తరచుగా మీ పాస్వర్డ్లను మార్చాలి?</string>
+    <string name="yes">అవును</string>
+    <string name="no">కాదు </string>
+    <string name="question_2">ప్రశ్న 2</string>
+    <string name="q2">మీరు ఎలా బ్యాంకు యొక్క సేవల ఉపయోగించగలరు?</string>
+    <string name="from_the_mails">మెయిల్స్ నుండి</string>
+    <string name="from_the_text_messages">టెక్స్ట్ సందేశాలను నుండి</string>
+    <string name="from_bank_s_official_website_or_app">బ్యాంకు యొక్క అధికారిక వెబ్సైట్ లేదా యాప్ నుండి</string>
+    <string name="question_3">ప్రశ్న 3</string>
+    <string name="q3">మీరు షాపింగ్ లేదా బ్యాంకింగ్ కోసం ఉచిత, భద్రతలేని వై-ఫై మీ ఫోన్ కనెక్ట్ అవుతున్నారా?</string>
+    <string name="question_4">ప్రశ్న 4</string>
+    <string name="q4">ఇమెయిళ్ళ అటాచ్మెంట్ గా వచ్చే   సాఫ్ట్వేర్ ఇన్స్టాల్ చేస్తారా?</string>
+    <string name="question_5">ప్రశ్న 5</string>
+    <string name="q5">మీరు మీకు ఫోన్ చేసిన వ్యక్తిని నమ్మి అతనితో మీ వ్యక్తిగత / బ్యాంకు వివరాలు తెలియజేస్తారా ?</string>
+    <string name="submit">సమర్పించండి</string>
 
-    <string name="contributor"> भाषा योगदानकर्ता </string>
-    <string name="aboutApp1">CSAO भारत सरकार द्वारा शुरू किए गए डिजिटल इंडिया उपक्रम के तहत नागरिकों को  सुरक्षित बनाने के लिए एक पहल है। CSAO महाराजा अग्रसेन मॉडल स्कूल के आई टी विभाग की वरिष्ठ अध्यापिका श्रीमती चॉंदनी अग्रवाल का मौलिक विचार है | इन्होंने साइबर समाज को सुरक्षित बनाने के लिए यह पहल की है और अपनी छात्रों की टीम के साथ काम करते हुए सभी को जागरूक करने और साइबर दुनिया से संबंधित समस्याओं को हल करने के लिए कदम बढ़ाया है। उनका मिशन प्रत्येक व्यक्ति को साइबर धोखाधड़ी के बारे में जागरूक कर उनका मार्गदर्शन करना तथा उन्हें शिक्षित करना है जो उनके आसपास हो रहे हैं और उन्हें विशेषज्ञ पैनल के प्रसिद्ध साइबर विशेषज्ञों के द्वारा सलाह प्रदान करना है।</string>
 
-    <string name="video">हमारे विशेषज्ञों से साइबर सुरक्षा के बारे में और जानें। सीधे प्लेलिस्ट पर जाने के लिए नीचे लिंक पर क्लिक करें | ा</string>
-    <string name="disclaimer"> Disclaimer: This app is to provide information about cyber security and we are not responsible for any furthur communication between expert and the end userं</string>
-    <string name="do9"> १५ अंको वाला IMEI नंबर दर्ज करें | </string>
-    <string name="do10"> अपने फ़ोन या कीपैड लॉक के लिए ऑटो लॉक ऑप्शन का चयन करें |   </string>
-    <string name="do11"> खोई हुई अथवा चोरी हुए उपकरणों की निकटतम थाने में शिकायत करें |  </string>
-    <string name="dont7">कभी भी अपने मोबाइल फ़ोन को अकेला न छोड़े | </string>
-    <string name="dont8"> कभी भी  उपयोगकर्ता नाम / पासवर्ड जैसी सवेंदनशील जानकारी फ़ोन पर न रखें | </string>
-    <string name="dont9">कभी भी अज्ञात नेटवर्क या अविश्वसनीय नेटवर्क से कनेक्ट न करें | </string>
-    <string name="idea_founder_desig">कल्पना संस्थापक</string>
-    <string name="chandniag_desig">मेंटर और कोच, साइबर सुरक्षा और कल्याण</string>
-    <string name="chandni_agarwal">चांदनी अग्रवाल</string>
+    <string name="contributor">భాషా సహాయం </string>
+    <string name="aboutApp1">CSAO అనేది డిజిటల్ ఇండియా ఇనియేటివ్ కింద పౌరుల సైబర్ భద్రత కోసం  భారతదేశం ప్రభుత్వం ప్రారంభించారు.  మా లక్ష్యం చుట్టు జరుగుతున్న సైబర్ నేరాల గురించి పౌరులందరికి తెలియజేసి, వారికి మార్గదర్శనం చేయడం. అవసరమైన నిపుణుల సహాయ సహకారాలను అందించడం. </string>
+    <string name="video">సైబర్ భద్రత గురించి మా నిపుణుల గురించి మరింత తెలుసుకోండి. దిగువన క్లిక్ చేసి మా ప్రత్యేక ప్లేజాబితాలోకి వెళ్లండి </string>
+    <string name="disclaimer">డిస్క్లెయిమర్ : ఈ యాప్ సైబర్ భద్రత గురించిన సమాచారాన్ని అందించడానికి మాత్రమే ఉద్దేశించబడినది. మరియు నిపుణుడు మరియు వినియోగదారు మధ్య జరిగే ఎలాంటి లావాదేవీలకు మేము బాధ్యులం కాదు  </string>
+    <string name="do9">15 అంకెల IMEI సంఖ్యను రికార్డ్ చేసి పెట్టుకోండి </string>
+    <string name="do10">మీ మొబైల్ ఫోన్ యాక్సెస్ ను పరిమితం చేయడానికి ఫోన్ లేదా కీప్యాడ్  ఆటో లాక్ అయ్యేట్లు లాక్ పాస్కోడ్ లేదా పాటర్న్ లాక్ ను ఉపయోగించండి   </string>
+    <string name="do11">మీ మొబైల్ లేదా ఇతర పరికరం పోయిన వెంటనే సమీప పోలీస్ స్టేషన్ ఫిర్యాదు చేయండి. మీ సర్వీస్ ప్రొవైడర్ ని కలిసి వాటి సేవలను నిలిపి వేయించండి </string>
+    <string name="dont7">ఎప్పుడూ మీ మొబైల్ పరికరం గమనింపకుండా వదిలి వెళ్లకండి .</string>
+    <string name="dont8">మీ మొబైల్ లేదా ఇతర పరికరాలలో యూజర్ నేమ్స్ /  పాస్వర్డ్ల వంటి  సున్నితమైన సమాచారాన్ని ఎప్పుడూ ఉంచకండి </string>
+    <string name="dont9">Nతెలియని నెట్వర్క్లు లేదా అవిశ్వసనీయ నెట్వర్క్లకు ఎప్పుడూ కనెక్ట్ కాకండి .</string>
+    <string name="idea_founder_desig">ఐడియా ఫౌండర్ CSAO</string>
+    <string name="chandniag_desig">మెంటర్ &amp; కోచ్, సైబర్ భద్రత &amp; వెల్నెస్</string>
+    <string name="chandni_agarwal">Chandni Agarwal</string>
 
-    <string name="lang">भाषा बदलो</string>
-    <string name="sometimes">कभी कभी</string>
+    <string name="lang">ఎంచుకోండి భాష</string>
+    <string name="sometimes">Sometimes</string>
     <string name="chandni_agg_intro">Chandni Agarwal is a dynamic &amp; visionary educationist with over 20 years experience of teaching Computer Science. \nShe is a National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador. She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\nThis ICT ambassador through her undiluted devotion , determination and focus has become the torch bearer of her initiative CSAO – Cyber Security Awareness via Cyber Security Guide Android App.\nShe is creating an ICT literate community of learners which can deploy, utilize and contribute to a constantly evolving digital nation.</string>
-    <string name="language">भाषा</string>
-    <string name="languagetitle">भाषा का चयन करें</string>
-    <string name="languagesidebar">भाषा</string>
+    <string name="language">భాష</string>
+    <string name="languagetitle">భాష మార్చు</string>
+    <string name="languagesidebar">భాష</string>
 
-    <string name="msg1" >○ बेहतर परिणाम ! अपने पासवर्ड को बार-बार बदलते रहें!</string>
-    <string name="msg11">○ आपको प्रत्येक महीने में एक बार अपने पासवर्ड बदलने चाहिए।</string>
-    <string name="msg2">सही अभ्यास है!</string>
-    <string name="msg22">○ टेक्स्ट संदेश या आपके द्वारा प्राप्त मेल से कभी भी अपनी बैंक सेवाओं का उपयोग न करें क्योंकि यह धोखाधड़ी हो सकती है|</string>
-    <string name="msg3">○ इसके अलावा अपने फोन को सोशल मीडिया अकाउंट में लॉग इन करने के लिए असुरक्षित, वाई-फाई से कनेक्ट करने से बचें</string>
-    <string name="msg33">○ खरीदारी या बैंकिंग के लिए आपको अपने फोन को मुफ्त, असुरक्षित वाई-फाई से जोड़ने से बचना चाहिए</string>
-    <string name="msg4">○ बेहतर, आपको ईमेल में अनुलग्नक के रूप में आने वाले सॉफ्टवेयर्स को कभी भी इंस्टॉल नहीं करना चाहिए।</string>
-    <string name="msg44">○ नहीं  ! याद रखें , आपको ईमेल में अनुलग्नक के रूप में आने वाले सॉफ्टवेयर्स को कभी भी इंस्टॉल नहीं करना चाहिए।</string>
-    <string name="msg5">○ बेहतर , आपको फोन ईमेल या एसएमएस पर अपने व्यक्तिगत विवरण को कभी भी साझा नहीं करना चाहिए।</string>
-    <string name="msg55">○ नहीं  ! याद रखें ,आपको फोन ईमेल या एसएमएस पर इन विवरणों को कभी साझा नहीं करना चाहिए। बैंक कभी भी उस तरह के उपयोगकर्ता की जानकारी नहीं मांगता है।</string>
-    <string name="sc1">उत्कृष्ट कार्य - निष्पादन !---</string>
-    <string name="sc2">औसत प्रदर्शन!---</string>
-    <string name="sc3">कम औसत प्रदर्शन !---</string>
+    <string name="all_five">మీ స్కోరు తెలుసుకోవడానికి అన్ని ప్రశ్నలకు సమాధానం ఇవ్వండి</string>
+    <string name="msg1" >○ గుడ్, తరుచుగా మీ పాస్ వర్డ్ లను మార్చుతూ ఉండండి </string>
+    <string name="msg11">○ మీ పాస్ వర్డ్ లను కనీసం నెలకోసారి మార్చుతూ ఉండండి .</string>
+    <string name="msg2">ఇది కరెక్ట్  !</string>
+    <string name="msg22">○ మీ యొక్క బ్యాంకింగ్ సేవలను మీకు వచ్చిన టెక్స్ట్ సందేశాలనుండి తెరవకండి. అవి మోసపూరితం కావచ్చు. </string>
+    <string name="msg3">○ సోషల్ మీడియాను యాక్సెస్ చేయడానికి ఉచిత వైఫై లేదా రక్షితం కాని వైఫై లను ఉపయోగించకండి </string>
+    <string name="msg33">○ బ్యాంకింగ్ సేవలను పొందడానికి ఆన్లైన్ కొనుగోలు  చేయడానికి ఉచిత వైఫై లేదా రక్షితం కాని వైఫై లను ఉపయోగించకండి </string>
+    <string name="msg4">○ గుడ్, మీ ఇ-మెయిళ్లకు అటాచ్మెంట్ గా వచ్చే సాఫ్ట్వేర్లను ఇన్స్తాల్ చేయకండి </string>
+    <string name="msg44">○ నో ! గుర్తుంచుకోండి. మీ ఇ-మెయిళ్లకు అటాచ్మెంట్ గా వచ్చే సాఫ్ట్వేర్లను ఇన్స్తాల్ చేయకండి</string>
+    <string name="msg5">○ గుడ్, మీ యొక్క వ్యక్తిగత సమాచారాన్ని ఫోన్, ఇ-మెయిల్ లేదా SMS ల ద్వారా ఎట్టి పరిస్థితులలో పంచుకోకండి </string>
+    <string name="msg55">○ నో ! గుర్తుంచుకోండి,  ఇలాంటి సమాచారాన్ని ఫోన్, ఇ-మెయిల్ లేదా SMS ల ద్వారా ఎట్టి పరిస్థితులలో పంచుకోకండి. బ్యాంక్ మీ యొక్క వ్యక్తిగత సమాచారాన్ని ఆ పద్దతిలో ఎప్పుడూ అడగదు. </string>
+    <string name="sc1">అద్భుతమైన పనితీరు !---</string>
+    <string name="sc2">సగటు పనితీరు!---</string>
+    <string name="sc3">పేలవ ప్రదర్శన!---</string>
 
-    <string name="dlcc1">बाल यौन उत्पीड़न सामग्री (CSAM) किसी भी रूप में यौन छवि वाली सामग्री को संदर्भित करती है, एक बच्चा के साथ जो दुर्व्यवहार या यौन शोषण करता है। आईटी अधिनियम की धारा 67 (बी) में कहा गया है कि “यौन रूप से स्पष्ट अधिनियम में बच्चों को चित्रित करने वाले कपड़े को प्रकाशित करने या प्रसारित करने के लिए दंडनीय है, इलेक्ट्रॉनिक रूप में।</string>
-    <string name="dlcc2">कंप्यूटर, मोबाइल, लैपटॉप आदि जैसे इलेक्ट्रॉनिक या संचार उपकरणों के उपयोग के माध्यम से उत्पीड़न या धमकाने का एक प्रकार</string>
-    <string name="dlcc3">साइबर स्टैकिंग यह है कि किसी व्यक्ति का अनुसरण करने के लिए किसी व्यक्ति द्वारा संचरण का उपयोग, या ऐसे व्यक्ति द्वारा उदासीनता के एक पारदर्शी संकेत के बावजूद व्यक्तिगत संपर्क को बढ़ावा देने के लिए किसी व्यक्ति से संपर्क करने का प्रयास; या वेब, ईमेल या अन्य प्रकार के प्रसारणों की निगरानी करता है, जो पीछा करने का अपराध करता है।</string>
-    <string name="dlcc4">साइबर ग्रूमिंग तब होती है जब कोई व्यक्ति किसी युवक के साथ वेब संबंध बनाता है और उसके साथ अश्लील हरकतें करता है।</string>
-    <string name="dlcc5">ऑनलाइन जॉब फ्रॉड उन लोगों को ठगने का एक प्रयास है जो उन्हें उच्च वेतन के साथ उच्च रोजगार के लिए झूठी उम्मीद / वादा करके रोजगार की जरूरत है।</string>
-    <string name="dlcc6">ऑनलाइन सेक्स्टॉर्शन तब होता है जब कोई व्यक्ति इलेक्ट्रॉनिक माध्यम का उपयोग करके निजी और संवेदनशील सामग्री को वितरित करने की धमकी देता है, यदि वह यौन प्रकृति, यौन एहसान, या धन की छवियां प्रदान नहीं करता है।</string>
-    <string name="dlcc7">विशिंग एक ऐसा प्रयास है, जहाँ जालसाज व्यक्तिगत जानकारी जैसे ग्राहक आईडी, नेट बैंकिंग पासवर्ड, एटीएम पिन, ओटीपी, कार्ड एक्सपायरी तिथि, सीवीवी आदि फोन कॉल के माध्यम से प्राप्त करने का प्रयास करते हैं।</string>
-    <string name="dlcc8">"सेक्सटिंग, आमतौर पर टेलीफोन द्वारा यौन रूप से स्पष्ट डिजिटल चित्र, वीडियो, पाठ संदेश या ईमेल भेजने का एक कार्य है।"</string>
-    <string name="dlcc9">"स्माइकिंग एक तरह का धोखा हो सकता है जो पीड़ितों को एक धोखाधड़ी वाले टेलीफोन नंबर पर कॉल करने, धोखाधड़ी करने वाली वेबसाइटों पर जाने या फोन या वेब के माध्यम से दुर्भावनापूर्ण सामग्री डाउनलोड करने के लिए मोबाइल टेक्स्ट संदेशों का उपयोग करता है।"</string>
-    <string name="dlcc10">सिम स्वैप घोटाला तब होता है जब धोखेबाज एक पंजीकृत मोबाइल नंबर के खिलाफ जारी किए गए नए सिम कार्ड को मोबाइल सेवा प्रदाता के माध्यम से धोखे से प्राप्त करने का प्रबंधन करते हैं। इस नए सिम कार्ड की सहायता से, उन्हें पीड़ित व्यक्ति के चेकिंग खाते के माध्यम से वित्तीय लेनदेन बनाने के लिए केवल एक अवसर पासवर्ड (ओटीपी) और अलर्ट प्राप्त होते हैं। एक पंजीकृत मोबाइल नंबर के खिलाफ धोखाधड़ी करके नया सिम कार्ड प्राप्त करना सिम स्वैप के रूप में जाना जाता है</string>
-    <string name="dlcc11">क्रेडिट कार्ड (या डेबिट कार्ड) धोखाधड़ी में किसी अन्य क्रेडिट या डेबिट कार्ड की जानकारी का अनधिकृत उपयोग शामिल है, जिससे कि वह धनराशि खरीद सके या उससे धन निकाल सके।</string>
-    <string name="dlcc13">फ़िशिंग एक प्रकार की धोखाधड़ी है जिसमें व्यक्तिगत जानकारी जैसे कि ग्राहक आईडी, आईपीआईएन, क्रेडिट / डेबिट कार्ड नंबर, कार्ड एक्सपायरी डेट, सीवीवी नंबर आदि, जो एक वैध स्रोत से प्रतीत होते हैं, चोरी करना शामिल है।</string>
-    <string name="dlcc12">प्रतिरूपण और धोखाधड़ी - धोखाधड़ी या बेईमानी से इलेक्ट्रॉनिक हस्ताक्षर, पासवर्ड या किसी अन्य व्यक्ति की अन्य विशिष्ट पहचान सुविधा का उपयोग करने का एक कार्य है।</string>
-    <string name="dlcc14">स्पैमिंग तब होती है जब कोई व्यक्ति ईमेल, एसएमएस, एमएमएस और किसी अन्य समान इलेक्ट्रॉनिक मैसेजिंग मीडिया के माध्यम से भेजे गए एक अवांछित वाणिज्यिक संदेश प्राप्त करता है। वे किसी उत्पाद या सेवा को खरीदने के लिए प्राप्त करने के लिए राजी करने की कोशिश कर सकते हैं, या एक वेबसाइट पर जा सकते हैं जहाँ वह खरीदारी कर सकता है; या वे उसे बैंक खाते या क्रेडिट कार्ड के विवरण में फंसाने का प्रयास कर सकते हैं।</string>
-    <string name="dlcc15">रैनसमवेयर एक प्रकार का कंप्यूटर मालवेयर है जो फाइलों, स्टोरेज मीडिया को डेस्कटॉप, लैपटॉप, मोबाइल फोन आदि जैसे संचार उपकरणों पर, डेटा / सूचना को बंधक के रूप में रखता है। पीड़ित को अपने डिवाइस डिक्रिप्ट्स का आग्रह करने के लिए मांगे गए फिरौती का भुगतान करने के लिए कहा जाता है</string>
-    <string name="dlcc16">कंप्यूटर वायरस आपके कंप्यूटर में प्रवेश करने और आपकी फ़ाइलों / डेटा को क्षति / परिवर्तन करने और स्वयं को दोहराने के लिए लिखा गया प्रोग्राम है। कीड़े दुर्भावनापूर्ण प्रोग्राम हैं जो स्थानीय ड्राइव, नेटवर्क शेयर आदि पर बार-बार खुद की प्रतियां बनाते हैं। ट्रोजन हॉर्स वायरस नहीं है। यह एक विनाशकारी कार्यक्रम है जो एक वास्तविक अनुप्रयोग के रूप में प्रकट होता है। वायरस के विपरीत, ट्रोजन घोड़े खुद को दोहराते नहीं हैं, लेकिन वे विनाशकारी भी होंगे। ट्रोजन आपके कंप्यूटर में एक बैकडोर एंट्री खोलते हैं जो आपके सिस्टम तक गोपनीय उपयोगकर्ताओं और कार्यक्रमों को पहुंच प्रदान करता है, जिससे गोपनीय और निजी जानकारी चोरी हो सकती है।</string>
-    <string name="dlcc17">डेटा ब्रीच एक घटना है जिसमें जानकारी को प्राधिकरण के बिना एक्सेस किया जाता है।</string>
-    <string name="dlcc18">डिनायल ऑफ सर्विसेज (डीओएस) हमले एक ऐसा हमला है, जो बिना किसी स्वामी या किसी कंप्यूटर, कंप्यूटर सिस्टम या कंप्यूटर नेटवर्क के प्रभारी के किसी अन्य व्यक्ति की अनुमति के बिना कंप्यूटर संसाधन तक पहुंच से इंकार करने के लिए है। डिस्ट्रीब्यूटेड डडिनायल
- ऑफ सर्विस (DDoS) हमला एक वेब सेवा को उपलब्ध करने का एक प्रयास है जो इसे कई स्रोतों से ट्रैफ़िक से भरकर अनुपलब्ध है।</string>
-    <string name="dlcc19">वेबसाइट डीफेसमेंट एक वेबसाइट के दृश्य उपस्थिति को बदलने और / या इसे बेकार बनाने के लिए किया गया एक हमला है। हमलावर अभद्र, शत्रुतापूर्ण और अश्लील चित्र, संदेश, वीडियो आदि पोस्ट कर सकता है।</string>
-    <string name="dlcc20">साइबर-स्क्वेटिंग किसी अन्य व्यक्ति से संबंधित ट्रेडमार्क की सद्भावना का लाभ उठाने के इरादे से नाम दर्ज करना, तस्करी करना या नौकरी देना है।</string>
-    <string name="dlcc21">फार्मिंग साइबर-हमले का उद्देश्य एक वेबसाइट के ट्रैफ़िक को दूसरे, फर्जी वेबसाइट पर पुनर्निर्देशित करना है।</string>
-    <string name="dlcc22">क्रिप्टोजैकिंग कंप्यूटिंग क्रिप्टोकरेंसी के लिए कंप्यूटिंग संसाधनों का अनधिकृत उपयोग है।</string>
-    <string name="dlcc23">ऑनलाइन मादक पदार्थों की तस्करी भी अवैध रूप से गैरकानूनी नियंत्रित पदार्थों को बेचने, परिवहन, या अवैध रूप से आयात करने वाले आपराधिक अपराध हो सकते हैं, जैसे कि हेरोइन, कोकीन, मारिजुआना, या इलेक्ट्रॉनिक साधनों का उपयोग करके अन्य अवैध ड्रग्स।</string>
-    <string name="dlcc24">जासूसी मालिक की अनुमति और ज्ञान के बिना डेटा और जानकारी प्राप्त करने का कार्य या अभ्यास है।</string>
-    <string name="ok">ठीक है</string>
-
+    <string name="dlcc1">Child sexually abusive material (CSAM) refers to material containing sexual image in any form, of a toddler who is abused or sexually exploited. Section 67 (B) of IT Act states that “it is punishable for publishing or transmitting of fabric depicting children in sexually explicit act, etc. in electronic form.</string>
+    <string name="dlcc2">A sort of harassment or bullying inflicted through the utilization of electronic or communication devices like computer, mobile , laptop, etc.</string>
+    <string name="dlcc3">Cyber stalking is that the use of transmission by an individual to follow an individual , or attempts to contact an individual to foster personal interaction repeatedly despite a transparent indication of disinterest by such person; or monitors the web , email or the other sort of transmission commits the offence of stalking.</string>
+    <string name="dlcc4">Cyber Grooming is when an individual builds a web relationship with a youth and tricks or pressures him/ her into doing sexual act.</string>
+    <string name="dlcc5">Online Job Fraud is an effort to defraud people that are in need of employment by giving them a false hope/ promise of higher employment with higher wages.</string>
+    <string name="dlcc6">Online Sextortion occurs when someone threatens to distribute private and sensitive material using an electronic medium if he/ she doesn’t provide images of a sexual nature, sexual favours, or money.</string>
+    <string name="dlcc7">Vishing is an attempt where fraudsters try to seek personal information like Customer ID, Net Banking password, ATM PIN, OTP, Card expiry date, CVV etc. through a phone call.</string>
+    <string name="dlcc8">Sexting is an act of sending sexually explicit digital images, videos, text messages, or emails, usually by telephone .</string>
+    <string name="dlcc9">Smishing may be a sort of fraud that uses mobile text messages to lure victims into calling back on a fraudulent telephone number , visiting fraudulent websites or downloading malicious content via phone or web.</string>
+    <string name="dlcc10">SIM Swap Scam occurs when fraudsters manage to get a new SIM card issued against a registered mobile number fraudulently through the mobile service provider. With the assistance of this new SIM card, they get just one occasion Password (OTP) and alerts, required for creating financial transactions through victim\'s checking account . Getting a new SIM card against a registered mobile number fraudulently is known as SIM Swap.</string>
+    <string name="dlcc11">Credit card (or debit card) fraud involves an unauthorized use of another\'s credit or debit card information for the purpose of purchases or withdrawing funds from it.</string>
+    <string name="dlcc13">Phishing is a type of fraud that involves stealing personal information such as Customer ID, IPIN, Credit/Debit Card number, Card expiry date, CVV number, etc. through emails that appear to be from a legitimate source.</string>
+    <string name="dlcc12">Impersonation and fraud is an act of fraudulently or dishonestly making use of the electronic signature, password or the other unique identification feature of the other person.</string>
+    <string name="dlcc14">Spamming occurs when someone receives an unsolicited commercial messages sent via email, SMS, MMS and any other similar electronic messaging media. They may try to persuade recepient to buy a product or service, or visit a website where he can make purchases; or they may attempt to trick him/ her into divulging bank account or credit card details.</string>
+    <string name="dlcc15">Ransomware is a type of computer malware that encrypts the files, storage media on communication devices like desktops, Laptops, Mobile phones etc., holding data/information as a hostage. The victim is asked to pay the demanded ransom to urge his device decrypts.</string>
+    <string name="dlcc16">Computer Virus is a program written to enter to your computer and damage/alter your files/data and replicate themselves. Worms are malicious programs that make copies of themselves again and again on the local drive, network shares, etc. A Trojan horse is not a virus. It is a destructive program that appears as a real application. Unlike viruses, Trojan horses don\'t replicate themselves but they will be even as destructive. Trojans open a backdoor entry to your computer which provides malicious users/programs access to your system, allowing confidential and private information to be theft.</string>
+    <string name="dlcc17">A data breach is an incident in which information is accessed without authorization.</string>
+    <string name="dlcc18">Denial of Services (DoS) attack is an attack intended for denying access to computer resource without permission of the owner or any other person who is in-charge of a computer, computer system or computer network. A Distributed Denial of Service (DDoS) attack is an effort to form a web service unavailable by overwhelming it with traffic from multiple sources.</string>
+    <string name="dlcc19">Website Defacement is an attack intended to change visual appearance of a website and/ or make it dysfunctional. The attacker may post indecent, hostile and obscene images, messages, videos, etc.</string>
+    <string name="dlcc20">Cyber-Squatting is an act of registering, trafficking in, or employing a name with an intent to take advantage of the goodwill of a trademark belonging to somebody else .</string>
+    <string name="dlcc21">Pharming is cyber-attack aiming to redirect a website\'s traffic to another, bogus website.</string>
+    <string name="dlcc22">Cryptojacking is the unauthorized use of computing resources to mine cryptocurrencies.</string>
+    <string name="dlcc23">Online drug trafficking could also be a criminal offense of selling, transporting, or illegally importing unlawful controlled substances, like heroin, cocaine, marijuana, or other illegal drugs using electronic means.</string>
+    <string name="dlcc24">Espionage is the act or practice of obtaining data and information without the permission and knowledge of the owner.</string>
+    <string name="ok">Ok</string>
 </resources>

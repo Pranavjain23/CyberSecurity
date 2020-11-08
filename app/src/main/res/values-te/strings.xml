@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CSAO</string>
-    <string name="welcome">WELCOME</string>
-    <string name="preference_file_name">Cyber Security</string>
-    <string name="aboutus">About Us</string>
-    <string name="appcreator">APP CREATOR TEAM</string>
+    <string name="app_name">సైబర్ భద్రత </string>
+    <string name="welcome">સస్వాగతం </string>
+    <string name="preference_file_name">సైబర్ భద్రత  </string>
+    <string name="aboutus">మా గురించి</string>
+    <string name="appcreator">ఆప్ సృష్టికర్త </string>
 
-
-    <string name="complaint1">Register a cyber complaint</string>
-    <string name="complaint2">The official site to report cyber crime is developed by Ministry of Home Affairs and the link to report is \n <a href="https://cybercrime.gov.in/">https://cybercrime.gov.in/</a> .\n \nThis portal facilitates victims/complainants to report Cyber Crime complaints online with special focus on cyber crimes against women and children.\n\n It is imperative to provide correct and accurate details while filing complaint for prompt action.</string>
+    <string name="complaint1">సైబర్ ఫిర్యాదు నమోదు</string>
+    <string name="complaint2">1. ఈ పోర్టల్లో సైబర్ నేరానికి గురైన బాధితులు ఆన్లైన్లో ఫిర్యాదు చేసే అవకాశం కలిపిస్తుంది.      2. ఈ పోర్టల్ సైబర్ నేరాలపై ముఖ్య దృష్టి సారిస్తుంది. అందునా మహిళలు, చిన్న పిల్లలపై జరిగే నేరాలపై ప్రత్యేక దృష్టి సారిస్తుంది.               3. ఈ పోర్టల్ లో ఫిర్యాదు చేయబడిన వాటి సమాచారం ఆధారంగా చట్టం అమలు చేసే సంస్థలు / పోలీసుల సహకారం తీసుకుంటుంది.        4.   అయితే సత్వర చర్యకోసం ఖచ్చితమైన విస్తృతమైన వివరాలు అందించడం అవసరం.</string>
     <string name="open_drawer">Open Drawer</string>
-    <string name="complaint9">Citizen Login with the Complaint Name and the required field to track the status of your Complaint</string>
-    <string name="complaint8">Report anonymously . Fill in the Complaint/Incident Details and proceed to next steps and do fill all the information correct and carefully
-           </string>
-    <string name="complaint7">Next step is to choose between Report Cyber Crime Related to Women/Child and Report Other Cyber Crime . Choose appropriately </string>
-    <string name="complaint6">Prior to filing a complaint with this portal , you should agree to the Terms and Conditions . Should you have queries prior to filing your complaint, view Frequently Asked Questions FAQ.</string>
-    <string name="complaint4">Procedure</string>
-    <string name="complaint5">Filing a Complaint on National Cyber Crime Reporting Portal ! Click on File a Complaint to proceed to the next step</string>
-    <string name="complaint3">Prior to filing a complaint with this portal, we would request you to read the below information regarding terms and conditions. Should you have queries prior to filing your complaint, view Frequently Asked Questions on the website . Procedure to complete the process is specified below . </string>
+    <string name="complaint9">మీ ఫిర్యాదు స్థితిని తెలుసుకోవడానికి మీ ఫిర్యాదు పేరుతో లాగిన్ చేయండి </string>
+    <string name="complaint8"> మీ వివరాలు గోప్యంగా ఉంచబడతాయి. సంఘటన వివరాలు పూరించండి మరియు తర్వాతి స్టెప్స్ కి వెళ్ళండి. మొత్తం సమాచారం పూరించండి </string>
+    <string name="complaint7">తర్వాతి స్టెప్ లో ఈ సైబర్ నేరం మహిళలు / చిన్న పిల్లలు పైన జరిగిందా సరైన దానిని ఎంచుకోండి </string>
+    <string name="complaint6">ఈ పోర్టల్ కి ఫిర్యాదు దాఖలు చేసే ముందు మీరు నియమ నిబంధనలు అంగీకరించాలి. ఏమైనా సందేహాలుంటే తరచుగా అడిగే ప్రశ్నలను (FAQ) చూడండి </string>
+    <string name="complaint4">విధానము </string>
+    <string name="complaint5">జాతీయ సైబర్ నేర ఫిర్యాదు పోర్టల్ లో ఫిర్యాదు చేయడానికి " ఫిర్యాదు నమోదు చేయండి" పై క్లిక్ చేయండి. </string>
+    <string name="complaint3">ఈ పోర్టల్ కి ఫిర్యాదు దాఖలు ముందు, మేము నిబంధనలను సంబంధించిన సమాచారం చదవడానికి క్రింద మీరు విజ్ఞప్తి. మీరు మీ ఫిర్యాదును ముందు ప్రశ్నలను కలిగి ఉండాలి, తరచుగా అడిగే వెబ్ సైట్ ప్రశ్నలను వీక్షించండి. ప్రక్రియ పూర్తి విధానము క్రింద వివరింపబడినది.</string>
     <string name="close_drawer">Close Drawer</string>
     <string name="info">info</string>
     <string name="dos_and_dont_image">Dos and Dont Image</string>

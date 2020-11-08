@@ -19,12 +19,12 @@
     <string name="info">సమాచారం</string>
     <string name="dos_and_dont_image">చేయదగినవి / చేయకూడనివి   </string>
     <string name="learn_cyber_crime_headings">సైబర్ నేరం గురించి  తెలుసుకోండి</string>
-    <string name="linkFAQ"><a href="https://cybercrime.gov.in/Default.aspx">ముందుకు వెళ్లడానికి ఇక్కడ క్లిక్ చేయండి</string>
-    <string name="getcybersafe"><a href="https://www.getcybersafe.gc.ca/">సైబర్ రక్షణ పొందండి</string>
-    <string name="icert"> <a href="https://www.cert-in.org.in/">ఇండియన్ కంప్యూటర్ ఎమర్జెన్సీ రెస్పాన్స్ టీం</string>
-    <string name="isa"><a href="https://infosecawareness.in/">సమాచార భద్రత అవగాహన </string>
-    <string name="hyderabad"><a href="https://hyderabadpolice.gov.in/">హైదరాబాద్ సిటీ పోలీస్</string>
-    <string name="safetyNetkids"><a href="http://www.safetynetkids.org.uk/personal-safety/online-safety/">సేఫ్టీ నెట్ కిడ్స్</string>
+    <string name="linkFAQ"><a href="https://cybercrime.gov.in/Default.aspx">ముందుకు వెళ్లడానికి ఇక్కడ క్లిక్ చేయండి</a></string>
+    <string name="getcybersafe"><a href="https://www.getcybersafe.gc.ca/">సైబర్ రక్షణ పొందండి</a></string>
+    <string name="icert"> <a href="https://www.cert-in.org.in/">ఇండియన్ కంప్యూటర్ ఎమర్జెన్సీ రెస్పాన్స్ టీం</a></string>
+    <string name="isa"><a href="https://infosecawareness.in/">సమాచార భద్రత అవగాహన </a></string>
+    <string name="hyderabad"><a href="https://hyderabadpolice.gov.in/">హైదరాబాద్ సిటీ పోలీస్</a></string>
+    <string name="safetyNetkids"><a href="http://www.safetynetkids.org.uk/personal-safety/online-safety/">సేఫ్టీ నెట్ కిడ్స్</a></string>
     <string name="do_string">చేయదగినవి </string>
     <string name="dont_string">చేయకూడనివి </string>
     <string name="welcome_users">స్వాగతం </string>

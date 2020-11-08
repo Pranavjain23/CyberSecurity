@@ -1,18 +1,15 @@
 package com.csao.cybersecurity.fragment
 
 import android.content.Context
-import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.GridLayoutManager
+import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.csao.cybersecurity.R
-import com.csao.cybersecurity.activity.MainActivity
 import com.csao.cybersecurity.adapter.HomeRecyclerAdapter
 import com.csao.cybersecurity.model.Home
-import java.util.*
 
 
 class HomeFragment : Fragment() {
@@ -40,12 +37,12 @@ class HomeFragment : Fragment() {
         val view= inflater.inflate(R.layout.fragment_home, container, false)
 
         val homeInfoList = arrayListOf<Home>(
-            Home(getString(R.string.security_check),R.drawable.securitycheck),
-            Home(getString(R.string.lcc),R.drawable.learncybercrime),
-            Home(getString(R.string.cybercomplaint),R.drawable.cybercomplaint),
-            Home(getString(R.string.preventivetips),R.drawable.preventivetips),
-            Home(getString(R.string.helpline_number),R.drawable.helplinenumber),
-            Home(getString(R.string.vandw),R.drawable.videosandwebinar)
+            Home(getString(R.string.security_check), R.drawable.securitycheck),
+            Home(getString(R.string.lcc), R.drawable.learncybercrime),
+            Home(getString(R.string.cybercomplaint), R.drawable.cybercomplaint),
+            Home(getString(R.string.preventivetips), R.drawable.preventivetips),
+            Home(getString(R.string.helpline_number), R.drawable.helplinenumber),
+            Home(getString(R.string.vandw), R.drawable.videosandwebinar)
         )
 
         setHasOptionsMenu(true)
@@ -59,6 +56,24 @@ class HomeFragment : Fragment() {
         recyclerHome.layoutManager = layoutManager
 
         return view
+    }
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater?.inflate(R.menu.menu_home, menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id = item?.itemId
+        if(id == R.id.action_lang){
+            val someFragment: Fragment = Language()
+            val transaction: FragmentTransaction = fragmentManager!!.beginTransaction()
+            transaction.replace(
+                R.id.frame,
+                someFragment
+            )
+            transaction.commit()
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 
 }

@@ -6,7 +6,9 @@
  </string>
     <string name="aboutus">સાયબર સુરક્ષા</string>
     <string name="appcreator">એપ્લિકેશન નિર્માતા ટીમ </string>
-
+    <string name="app_creator_team">એપ્લિકેશન નિર્માતા ટીમ</string>
+    <string name="cyber_complaint_heading">સાયબર ફરિયાદ</string>
+    <string name="securitycheck_heading">સુરક્ષા તપાસ</string>
     <string name="complaint1">સાયબર ફરિયાદ નોંધાવો </string>
     <string name="complaint2">1. આ પોર્ટલ પીડિતો / ફરિયાદોની  સાયબર ક્રાઇમની ફરિયાદો ઓનલાઇન નોંધાવવા માટે સુવિધા આપે છે. 2. આ પોર્ટલ ફક્ત મહિલાઓ અને બાળકો વિરુદ્ધના સાયબર ગુનાઓ પર વિશેષ ધ્યાન કેન્દ્રિત કરીને સાયબર ગુનાઓ સંબંધિત ફરિયાદોને પૂરી કરે છે. 3. કાયદા અમલીકરણ એજન્સીઓ / પોલીસ દ્વારા આ પોર્ટલ પર નોંધાયેલી ફરિયાદો અંગેની ફરિયાદમાં ઉપલબ્ધ માહિતીના આધારે કાર્યવાહી કરવામાં આવે છે. 4. તાત્કાલિક કાર્યવાહી માટે ફરિયાદ નોંધાવતી વખતે સાચી અને સચોટ વિગતો આપવી હિતાવહ છે.
 </string>
@@ -50,7 +52,7 @@
                https://www.cyberpeace.org/
     </string>
     <string name="ciet">
-               https://ciet.nic.in/
+             <a href="https://ciet.nic.in/"> https://ciet.nic.in</a>
     </string>
 
 
@@ -115,6 +117,12 @@
 </string>
     <string name="do7">ખાતરી કરો કે તમારા આઇએસપી અને ઇન્ટરનેટ રિલે ચાર્ટ (આઇઆરસી) નેટવર્ક પાસે સ્વીકાર્ય ઉપયોગ નીતિ છે જે સાયબર-સ્ટોકિંગને પ્રતિબંધિત કરે છે.</string>
     <string name="do8">        હંમેશાં ભલામણ કરેલ અપડેટ્સ ઇન્સ્ટોલ કરો અને અસલ એન્ટીવાયરસ અને એન્ટિસ્પાયવેર પ્રોગ્રામ્સ ઇન્સ્ટોલ કરો</string>
+    <string name="do9">અનન્ય 15 અંકનો IMEI નંબર રેકોર્ડ કરો</string>
+    <string name="do10">તમારા મોબાઇલ ફોનના  એક્સેસને પ્રતિબંધિત કરવા માટે પાસકોડ / સુરક્ષા પેટર્ન દ્વારા આપમેળે ફોનને લોક કરવા અથવા કીપેડ લોક કરવા  માટે ઓટો લોકનો ઉપયોગ કરો.</string>
+    <string name="do11">ખોવાયેલા અથવા ચોરાયેલા ઉપકરણોને તાત્કાલિક નજીકના પોલીસ સ્ટેશન અને સંબંધિત સેવા પ્રદાતાને જાણ કરો</string>
+    <string name="dont7">તમારા મોબાઇલ ડિવાઇસને ક્યારેય છૂટો પડ્યો મુકસો નહીં.</string>
+    <string name="dont8">ક્યારેય તમારા ડિવાઇસ માં યુઝર નેમ/પાસસવર્ડ સેવ રાખસો નહીં. </string>
+    <string name="dont9">અજાણ્યા નેટવર્ક અથવા અવિશ્વસનીય નેટવર્કથી ક્યારેય કનેક્ટ થશો નહીં.</string>
     <string name="dont1">હાનિકારક સંચાર માહિતી (ઇમેઇલ્સ, ચેટ લોગ્સ , પોસ્ટ્સ વગેરે) ડીલિટ ન કરો . આ વ્યક્તિની ઓળખ વિશેની મહત્વપૂર્ણ માહિતી પ્રદાન કરવામાં તે મદદ કરી શકે છે</string>
     <string name="dont2">અજાણી વ્યક્તિ તરફથી આવેલ ઇ-મેલ ખોલવા નહીં, વિષય લાઇન અથવા જોડાણ લલચામણીભર્યા હોઈ શકે છે તો તે ધ્યાનમાં લેવુંં. </string>
     <string name="dont3">તમારો પાસવર્ડ કોઈને ન આપો. દૂષિત વ્યક્તિ તમારી અને તમારી પ્રતિષ્ઠાને ઘણું નુકસાન પહોંચાડી શકે છે. તે તમારા ઘરને કોઈ અજાણી વ્યક્તિ માટે ખુલ્લું મૂકીને ચાલવા જેવું છે..</string>
@@ -127,6 +135,7 @@
     <string name="nishadua_desig1">માર્ગદર્શક અને કોચ ઇ-લર્નિંગ મોડલ્સ, સાયબર સલામતી અને સુખાકારી</string>
     <string name="nishadua_email">nishadua@yahoo.com</string>
     <string name="security_check">સુરક્ષા તપાસ</string>
+
     <string name="lcc">સાયબર ક્રાઇમ વિશે જાણો</string>
     <string name="cybercomplaint">સાયબર ફરિયાદ</string>
     <string name="preventivetips">નિવારક ટિપ્સ </string>
@@ -213,6 +222,17 @@
     <string name="do_s_and_don_ts">શું કરવું અને શું ના કરવુંં</string>
     <string name="important_resources">મહત્વપૂર્ણ સ્ત્રોતોની વિગત</string>
     <string name="experts_panel">નિષ્ણાંત પેનલ. </string>
+    <string name="credits">ક્રેડિટ્સ</string>
+    <string name="about_app">એપ્લિકેશન વિશે</string>
+    <string name="communicate">વાતચીત</string>
+    <string name="share">Share</string>
+    <string name="language">ભાષા</string>
+    <string name="languagetitle">ભાષા પસંદ કરો</string>
+    <string name="languagesidebar">ભાષા</string>
+
+    <string name="msg1" >○ સરસ, તમારા પાસવર્ડ્સને વારંવાર બદલતા રહો!</string>
+    <string name="msg11">○ તમારે દર મહિને એકવાર ઓછામાં ઓછા તમારા પાસવર્ડ્સ બદલવા જોઈએ.</string>
+    <string name="msg2">યોગ્ય પ્રથા છે !</string>
     <string name="msg22"> ટેક્સ્ટ સંદેશાઓ અથવા તમને પ્રાપ્ત થયેલા મેલથી તમારી બેંક સેવાઓનો ક્યારેય  ઉપયોગ ન કરો કારણ કે તે છેતરપિંડી હોઈ શકે છે</string>
     <string name="msg3">○ સોશ્યલ મીડિયા એકાઉન્ટમાં લોગ ઇન કરવા માટે તમારા ફોનને મફત, અસુરક્ષિત Wi-Fi થી કનેક્ટ કરવાનું પણ ટાળો</string>
     <string name="msg33">○ તમારા ફોનને ખરીદી અથવા બેંકિંગ માટે મફત, અસુરક્ષિત Wi-Fi થી કનેક્ટ કરવાનું ટાળવું જોઈએ</string>
@@ -250,6 +270,33 @@
     <string name="dlcc24">જાસૂસી એ માલિકની પરવાનગી અને મંજૂરી વિના ડેટા અને માહિતી મેળવવા માટેની ક્રિયા અથવા પ્રથા છે.</string>
     <string name="submit">Submit</string>
     <string name="ok">બરાબર</string>
+    <string name="videoandwebinar_heading">વેબીનાર અને વિડીયો સીરિઝ </string>
+    <string name="check_your_awareness">તમારી જાગૃતતા ની ચકાસણી</string>
+    <string name="question_1">પ્રશ્ન 1</string>
+    <string name="q1">શું તમે વારંવાર તમારો પાસવર્ડ બદલો છો?</string>
+    <string name="yes">હા</string>
+    <string name="no">ના </string>
+    <string name="question_2">પ્રશ્ન 2</string>
+    <string name="q2">તમે બેંકની સેવાઓનો ઉપયોગ કેવી રીતે કરશો?</string>
+    <string name="from_the_mails">ઈ-મેઈલ દ્વારા</string>
+    <string name="from_the_text_messages">ટેક્સ્ટ સંંદેશાઓ દ્વારા</string>
+    <string name="from_bank_s_official_website_or_app">બેંક ની સત્તાવાર વેબસાઇટ કે એપ્સ દ્વારા. </string>
+    <string name="question_3">પ્રશ્ન 3</string>
+    <string name="q3">શું તમે તમારા ફોનને ખરીદી અથવા બેંકિંગ માટે મફત, અસુરક્ષિત Wi-Fi થી કનેક્ટ કરો છો?</string>
+    <string name="question_4">પ્રશ્ન 4</string>
+    <string name="q4">શું તમે ઈમેલમાં આવતા સોફ્ટવેર ને ઇન્સ્ટોલ કરો છો?</string>
+    <string name="question_5">પ્રશ્ન 5</string>
+    <string name="q5">શું તમે કોઈ કોલર અસલી લાગે તો તમારી વ્યક્તિગત / બેંક વિગતો શેર કરો છો?</string>
+    <string name="video">અમારા નિષ્ણાંતો પાસેથી સાયબર સુરક્ષા વિશે વધુ જાણો. અમારી વિશિષ્ટ પ્લેલિસ્ટમાં સીધા જવા માટે નીચે ક્લિક કરો</string>
+    <string name="contributor">ભાષાનાં યોગદાનકર્તા</string>
+    <string name="aboutApp1">સીએસએઓ એ યુગો હેઠળથી ભારત સરકારે શરૂ કરેલી ડિજિટલ ઇન્ડિયા ઇનિશિયેટિવ  જે નાગરિકોને સાયબર સુરક્ષિત બનાવવાની એક પહેલ છે. અમારું મિશન દરેક વ્યક્તિને તેમની આસપાસ થતી સાયબર છેતરપિંડીઓ વિશે જાગૃત બનાવવા, માર્ગદર્શન આપવાનું અને શિક્ષિત કરવાનું છે અને નિષ્ણાંત પેનલના પ્રખ્યાત સાયબર નિષ્ણાતોની સલાહનો ભાગ પૂરું પાડવાનું  છે.</string>
+    <string name="disclaimer">અસ્વીકરણ: આ એપ્લિકેશન સાયબર સુરક્ષા વિશેની માહિતી પ્રદાન કરવા માટે છે અને નિષ્ણાંત અને અંતિમ વપરાશકર્તા વચ્ચેના કોઈપણ સંવાદ માટે અમે જવાબદાર નથી.</string>
+    <string name="idea_founder_desig">આઈડિયા સ્થાપક</string>
+    <string name="chandniag_desig">માર્ગદર્શક અને કોચ, સાયબર સુરક્ષા &amp; વેલનેસ</string>
+    <string name="lang">ભાષા બદલો</string>
+    <string name="sometimes">ક્યારેક</string>
+
+    <string name="chandni_agg_intro">Chandni Agarwal is a dynamic &amp;amp; visionary educationist with over 20 years experience of teaching Computer Science. \nShe is a National ICT Awardee , Cyber Security Awareness Coach , MIEE , MIEFellow, Adobe Creative Educator , Wakelet Educator Leader &amp; ambassador. She had also represented India at USA as Student Mentor and Paris as Educator and brought laurels for the country. She has also been a resource person for NCERT , SCERT &amp;NIOS.\nThis ICT ambassador through her undiluted devotion , determination and focus has become the torch bearer of her initiative CSAO – Cyber Security Awareness via Cyber Security Guide Android App.\nShe is creating an ICT literate community of learners which can deploy, utilize and contribute to a constantly evolving digital nation.</string>
+
 
 </resources>
-

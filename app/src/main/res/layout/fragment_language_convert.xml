@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:background="@android:color/white"
-                    android:text="4. Ms. Krupali Sanghvi \n\n National ICT Awardee(CBSE) \n  Gujarat"
+                    android:text="4. Ms. Krupali Sanghvi \n\n National ICT Awardee(CBSE) \n Gujarat"
                     android:padding="3sp"
                     android:textColor="@color/colorPrimaryDark"/>
 

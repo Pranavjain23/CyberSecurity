@@ -18,7 +18,7 @@ class LanguageConvertFragment : Fragment() {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_language_convert, container, false)
 
-        getActionBar()?.setTitle("Language Convertors");
+        getActionBar()?.setTitle("Language Contributors");
 
         return view
     }

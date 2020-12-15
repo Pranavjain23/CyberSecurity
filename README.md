@@ -1,6 +1,8 @@
 # CyberSecurity
 CYBERSECURITY APP
 
+PlayStore Application Link
+https://play.google.com/store/apps/details?id=com.csao.cybersecurity
 
 As the name suggests, Cyber Security Guide is your true friend in the sense it provides useful tips, necessary links, a platform to lodge your complaint, and top of all multi-lingual support for better understanding. It is available in four languages - English. Gujarati, Hindi, and Tamil.
 During this time when most of the activities are online, it becomes a necessity to become aware of Cyber Security. 

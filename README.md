@@ -14,7 +14,7 @@ The app has the following features :
 • Helpline numbers of different Cyber cells all over the nation, awareness tips by experts, and a quiz to test your knowledge is also provided.
 • This app also provides you with cybersecurity video feeds and webinars. 
 • Also, it gives the facility to interact with experts about your Cyber queries.
-if you are looking for a one-stop solution then Download it now!!
+if you are looking for a one-stop solution then Download it now!!!
 
 ## Demo Images
 ### AppImages
